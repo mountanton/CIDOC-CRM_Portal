@@ -1,0 +1,1118 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://ldf.fi/ww1lod/sparql> a void:Dataset;
+    dcterms:title "WW1LOD";
+    dcterms:description "Finnish World War 1";
+    void:entities "11634";
+    void:properties "187";
+    void:classes "86";
+    void-crm:triplesWithCIDOCproperty "12403";
+    void-crm:triplesWithCIDOCpropertyPercentage "19.43251966283333";
+    void-crm:triplesWithCIDOCinstance "26223";
+    void-crm:triplesWithCIDOCinstancePercentage  "41.085137718171275";
+    void:triples "63826";
+	void-crm:propertiesCIDOC "17";
+    void-crm:classesCIDOC "14";
+
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of>;
+        void:triples "457";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of>;
+        void:triples "899";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broadMatch>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isVersionOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/contributor>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/vann/preferredNamespacePrefix>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/valid>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#endedAtTime>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P17i_motivated>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctIRIReferenceSubjects>;
+        void:triples "111";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#objectPartition>;
+        void:triples "830";
+    ];
+   void:propertyPartition [ 
+        void:property <http://open.vocab.org/terms/discussionList>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/title>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "2134";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#historyNote>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://vocab.sindice.net/size>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ww1lod/schema#combatRelated>;
+        void:triples "123";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#propertyClasses>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/identifier>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#allValuesFrom>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasGeneratedBy>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "772";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:triples "1247";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch>;
+        void:triples "1248";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#propertyClassPartition>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctBlankNodeSubjects>;
+        void:triples "106";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#example>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctRDFNodes>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/memberOf>;
+        void:triples "26";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "65";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/cube#dimension>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#defaultDatasetDescription>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/date>;
+        void:triples "49";
+    ];
+   void:propertyPartition [ 
+        void:property <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_P_Related_Article>;
+        void:triples "305";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/description>;
+        void:triples "351";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+        void:triples "89";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#objectClasses>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#sex>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#subOrganizationOf>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#literalLengthPartition>;
+        void:triples "144";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctLiterals>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "654";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#triples>;
+        void:triples "1400";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#distinctSubjects>;
+        void:triples "101";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#inputFormat>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#subjectClasses>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#exampleResource>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "467";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "69";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "4647";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#title>;
+        void:triples "231";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriLookupEndpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/cube#dataSet>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#onProperty>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#namespace>;
+        void:triples "185";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#minLength>;
+        void:triples "158";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#hasSubOrganization>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#subjectsTarget>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end>;
+        void:triples "1761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/sioc/ns#ip_address>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#datatypePartition>;
+        void:triples "28";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within>;
+        void:triples "233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#subject>;
+        void:triples "417";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ww1lod/schema#humanShields>;
+        void:triples "126";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#objectClassPartition>;
+        void:triples "66";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#averageLiteralLength>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ww1lod/schema#panic>;
+        void:triples "125";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctBlankNodes>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#class>;
+        void:triples "150";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#properties>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+        void:triples "529";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#datatype>;
+        void:triples "28";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#hasKey>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:triples "4715";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasAssociatedWith>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "1371";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/issued>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/cube#structure>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#holds>;
+        void:triples "103";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#graph>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#objectsTarget>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/cube#measure>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/vann/preferredNamespaceUri>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "11829";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/cube#component>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+        void:triples "1634";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/birthDate>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "1663";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#propertyChainAxiom>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#object>;
+        void:triples "829";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/hasPart>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refArea>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#differentFrom>;
+        void:triples "292";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ww1lod/schema#destroyedBuildings>;
+        void:triples "120";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#related>;
+        void:triples "493";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#name>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#classPartition>;
+        void:triples "69";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#changeNote>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#datatypes>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/colleague>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#iriLengthPartition>;
+        void:triples "58";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#languages>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/page>;
+        void:triples "328";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P10i_contains>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#property>;
+        void:triples "139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriSpace>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.georss.org/georss/polygon>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#propertyPartition>;
+        void:triples "139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#subset>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#disjointWith>;
+        void:triples "21";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "547";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#distinctObjects>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#unionOf>;
+        void:triples "216";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status>;
+        void:triples "75";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/name>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctIRIReferences>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_P_Related_Image>;
+        void:triples "146";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#averageIRILength>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#languagePartition>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/hasFormat>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/topic>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/vann/example>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#linkPredicate>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#maxLength>;
+        void:triples "156";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+        void:triples "529";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctIRIReferenceObjects>;
+        void:triples "69";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#headOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "9516";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#startedAtTime>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#length>;
+        void:triples "44";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#entities>;
+        void:triples "606";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/mbox>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "358";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ww1lod/schema#killings>;
+        void:triples "126";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "1343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/replaces>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#objectNamespacePartition>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "244";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/creator>;
+        void:triples "49";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+        void:triples "1634";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#defaultEntailmentRegime>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#classes>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#sparqlEndpoint>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://vocab.sindice.net/date>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>;
+        void:triples "1761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#distinctBlankNodeObjects>;
+        void:triples "101";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#population>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#dataDump>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#propertyNamespacePartition>;
+        void:triples "61";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#subjectPartition>;
+        void:triples "417";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ww1lod/schema#deportations>;
+        void:triples "126";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#memberOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#subjectNamespacePartition>;
+        void:triples "35";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#namedGraph>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#vocabulary>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by>;
+        void:triples "43";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#commenet>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#intersectionOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/deathDate>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/gender>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#language>;
+        void:triples "38";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "49";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#AtrocityIncident> ;
+        void:triples "129";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Encyclopedic_Entry_Spaces> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#River> ;
+        void:triples "16";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Forrest> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Encyclopedic_Entry_Organizations> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Cape> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Survey_Article_Regional> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Theme> ;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://open.vocab.org/terms/SchemaExample> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#DatasetDescription> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Canal> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Country> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "82";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Image> ;
+        void:triples "143";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Hill> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/linked-data/cube#DataStructureDefinition> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#EventType> ;
+        void:triples "36";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
+        void:triples "1830";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Encyclopedic_Entry_Objects> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/linked-data/cube#Observation> ;
+        void:triples "90";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Brigade> ;
+        void:triples "216";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "129";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#FormalOrganization> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Batallion> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> ;
+        void:triples "49";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Encyclopedic_Entry_Concepts_Practices_and_Policies> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Organization> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Ocean> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Water> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#OrganizationalUnit> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#County> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Village> ;
+        void:triples "119";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Encyclopedic_Entry_Persons> ;
+        void:triples "17";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Survey_Article_Thematic> ;
+        void:triples "10";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Regiment> ;
+        void:triples "126";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Event> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Salient> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> ;
+        void:triples "12";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Army> ;
+        void:triples "13";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "1392";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E70_Thing> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#Post> ;
+        void:triples "69";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Cove> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Lake> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Ridge> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Graph> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        void:triples "161";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "705";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:triples "35";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Division> ;
+        void:triples "93";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event> ;
+        void:triples "4634";
+    ];
+   void:classPartition  [ 
+        void:class <file:///srv/tomcat-home/ssaha/> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "268";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> ;
+        void:triples "23";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Bay> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Valley> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Keyword> ;
+        void:triples "21";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#Organization> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#ArmyCorps> ;
+        void:triples "44";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Linkset> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Encyclopedic_Entry_Events> ;
+        void:triples "26";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#Municipality> ;
+        void:triples "1049";
+    ];
+   void:classPartition  [ 
+        void:class <http://encyclopedia.1914-1918-online.net/lod/schema#E1418_Regional_Thematic_Article> ;
+        void:triples "12";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/linked-data/cube#DataSet> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/ww1lod/schema#MilitaryOrganization> ;
+        void:triples "3";
+    ];
+ .

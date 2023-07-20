@@ -1,0 +1,238 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://www.szepmuveszeti.hu> a void:Dataset;
+    dcterms:title "Szepmuveszeti";
+    dcterms:description "Szepmuveszeti Museum Hungary";
+    void:entities "76068";
+    void:properties "26";
+    void:classes "17";
+    void-crm:triplesWithCIDOCproperty "228179";
+    void-crm:triplesWithCIDOCpropertyPercentage "68.74414400843564";
+    void-crm:triplesWithCIDOCinstance "331925";
+    void-crm:triplesWithCIDOCinstancePercentage  "100.0";
+    void:triples "331925";
+	void-crm:propertiesCIDOC "22";
+    void-crm:classesCIDOC "17";
+
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at>;
+        void:isErlangen "yes";
+        void:triples "4013";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+        void:isErlangen "yes";
+        void:triples "4409";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89i_contains>;
+        void:isErlangen "yes";
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of>;
+        void:isErlangen "yes";
+        void:triples "1309";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "1799";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:isErlangen "yes";
+        void:triples "4013";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "27676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location>;
+        void:isErlangen "yes";
+        void:triples "4013";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of>;
+        void:isErlangen "yes";
+        void:triples "10217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P149_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "5110";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>;
+        void:isErlangen "yes";
+        void:triples "9121";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "76068";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "8638";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:isErlangen "yes";
+        void:triples "10308";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to>;
+        void:isErlangen "yes";
+        void:triples "13134";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by>;
+        void:isErlangen "yes";
+        void:triples "9121";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+        void:isErlangen "yes";
+        void:triples "8026";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "34370";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+        void:isErlangen "yes";
+        void:triples "10308";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:isErlangen "yes";
+        void:triples "12121";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:isErlangen "yes";
+        void:triples "10308";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "63821";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper>;
+        void:isErlangen "yes";
+        void:triples "4013";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+        void:isErlangen "yes";
+        void:triples "8026";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group>;
+        void:isErlangen "yes";
+        void:triples "55";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit>;
+        void:isErlangen "yes";
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E30_Right>;
+        void:isErlangen "yes";
+        void:triples "9122";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+        void:isErlangen "yes";
+        void:triples "4013";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation>;
+        void:isErlangen "yes";
+        void:triples "5110";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation>;
+        void:isErlangen "yes";
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>;
+        void:isErlangen "yes";
+        void:triples "4013";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item>;
+        void:isErlangen "yes";
+        void:triples "8395";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+        void:isErlangen "yes";
+        void:triples "10308";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+        void:isErlangen "yes";
+        void:triples "10982";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+        void:isErlangen "yes";
+        void:triples "1598";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "1743";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation>;
+        void:isErlangen "yes";
+        void:triples "7581";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+        void:isErlangen "yes";
+        void:triples "5110";
+    ];
+
+ .

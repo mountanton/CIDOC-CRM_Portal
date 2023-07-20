@@ -1,0 +1,411 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://github.com/jpadfield/sshoc_raphael_modelling> a void:Dataset;
+    dcterms:title "SSHOC Raphael";
+    dcterms:description "Raphael Research Resource project";
+    void:entities "66100";
+    void:properties "65";
+    void:classes "31";
+    void-crm:triplesWithCIDOCproperty "277716";
+    void-crm:triplesWithCIDOCpropertyPercentage "66.85652794595934";
+    void-crm:triplesWithCIDOCinstance "207953";
+    void-crm:triplesWithCIDOCinstancePercentage  "50.06198978793474";
+    void:triples "415391";
+	void-crm:propertiesCIDOC "60";
+    void-crm:classesCIDOC "31";
+   
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P149_is_identified_by>;
+        void:triples "8177";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through>;
+        void:triples "26";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+        void:triples "6483";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:triples "4596";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>;
+        void:triples "373";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmdig/L56_has_pixel_width>;
+        void:triples "4074";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P165_incorporates>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P59_has_section>;
+        void:triples "126";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmsci/O5_removed>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmsci/O4_sampled_at>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmdig/L57_has_pixel_height>;
+        void:triples "4072";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location>;
+        void:triples "56";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P148_has_component>;
+        void:triples "373";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+        void:triples "17013";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of>;
+        void:triples "714";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time_span>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:triples "432";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "131371";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70_is_documented_in>;
+        void:triples "3841";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "70669";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P62_depicts>;
+        void:triples "14484";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmdig/L21_used_as_derivation_source>;
+        void:triples "8148";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmsci/O18i_was_altered_by>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:triples "14480";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type>;
+        void:triples "231";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmdig/L23_used_software_or_firmware>;
+        void:triples "8148";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:triples "13823";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
+        void:triples "542";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1i_is_identified_by>;
+        void:triples "4074";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P156_occupies>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P109_has_current_or_former_curator>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "5751";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:triples "349";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:triples "54";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
+        void:triples "863";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmdig/L22_created_derivative>;
+        void:triples "8148";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "28";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmsci/O25i_is_contained_in>;
+        void:triples "126";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+        void:triples "4336";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P138_represents>;
+        void:triples "4627";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:triples "8235";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "182";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:triples "981";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>;
+        void:triples "14505";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "27610";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/crmsci/O3_sampled_from>;
+        void:triples "126";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item>;
+        void:triples "12222";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within>;
+        void:triples "55";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "108";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:triples "63";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "310";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P50i_is_current_keeper_of>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P31_has_modified>;
+        void:triples "23";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+        void:triples "9235";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time_span> ;
+        void:triples "29";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event> ;
+        void:triples "58";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        void:triples "108";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmdig/D9_Data_Object> ;
+        void:triples "8172";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmsci/S2_Sample_Taking> ;
+        void:triples "155";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> ;
+        void:triples "24";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> ;
+        void:triples "4074";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition> ;
+        void:triples "26";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmsci/S13_Sample> ;
+        void:triples "155";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+        void:triples "600";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmdig/D14_Software> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmsci/S18_Alteration> ;
+        void:triples "155";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+        void:triples "12315";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        void:triples "50";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
+        void:triples "10171";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E11_Modification> ;
+        void:triples "23";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E56_Language> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmdig/D3_Formal_Derivation> ;
+        void:triples "8148";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/crmdig/D1_Digital_Object> ;
+        void:triples "6710";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+        void:triples "17013";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+        void:triples "744";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        void:triples "22";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human_Made_Thing> ;
+        void:triples "521";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement> ;
+        void:triples "542";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "190";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> ;
+        void:triples "612";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production> ;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        void:triples "1";
+    ];
+
+ .

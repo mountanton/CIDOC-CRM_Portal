@@ -1,0 +1,1626 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://ldf.fi/warsa/sparql> a void:Dataset;
+    dcterms:title "War Sampo";
+    dcterms:description "Finnish World War II";
+    void:entities "1797027";
+    void:properties "310";
+    void:classes "90";
+    void-crm:triplesWithCIDOCproperty "3321716";
+    void-crm:triplesWithCIDOCpropertyPercentage "23.192414915240605";
+    void-crm:triplesWithCIDOCinstance "3922216";
+    void-crm:triplesWithCIDOCinstancePercentage  "27.38514095100103";
+    void:triples "14322424";
+	void-crm:propertiesCIDOC "24";
+    void-crm:classesCIDOC "3";
+
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#differentFrom>;
+        void:triples "1024";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_domicile>;
+        void:triples "3908";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/photographs/size>;
+        void:triples "496211";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "123";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "52";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/photograph>;
+        void:triples "603";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/hasPlace>;
+        void:triples "1953";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ldf/starRating>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/event>;
+        void:triples "2828";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/architect>;
+        void:triples "238";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "908600";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_capture_literal>;
+        void:triples "3673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/time_of_operation>;
+        void:triples "67";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "1783";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/place_of_capture_literal>;
+        void:triples "2145";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+        void:triples "4055";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/phone>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/level>;
+        void:triples "130";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/gender>;
+        void:triples "94676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+        void:triples "166214";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasEvent>;
+        void:triples "27";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hiscam>;
+        void:triples "361";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_of_capture>;
+        void:triples "4472";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "116";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/unit>;
+        void:triples "3861";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/place_of_death>;
+        void:triples "776";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_going_mia>;
+        void:triples "4117";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/place_of_burial_literal>;
+        void:triples "502";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/number_of_children>;
+        void:triples "89730";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/place_string>;
+        void:triples "233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/additional_information>;
+        void:triples "3720";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/date_of_birth>;
+        void:triples "98505";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>;
+        void:triples "496211";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#memberList>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/hipla/within>;
+        void:triples "625";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/graveyard_number>;
+        void:triples "10300";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_of_going_mia>;
+        void:triples "1622";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasConflict>;
+        void:triples "15959";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>;
+        void:triples "16845";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/events/enemy_aircraft>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisclass5>;
+        void:triples "2452";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:triples "340393";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/buried_in>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/related_period>;
+        void:triples "113023";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/occupation_literal>;
+        void:triples "86069";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/cause_of_death>;
+        void:triples "716";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/identifier>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/genicom>;
+        void:triples "9355";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_burial>;
+        void:triples "94432";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/given_names>;
+        void:triples "98680";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "279079";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ldf/dataDocumentation>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_of_return>;
+        void:triples "2748";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/hadCommander>;
+        void:triples "723";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_wounding>;
+        void:triples "7673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/radio_report>;
+        void:triples "866";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "89363";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/issued>;
+        void:triples "377";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriSpace>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/preferred_municipality>;
+        void:triples "632";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/knight>;
+        void:triples "191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#topConceptOf>;
+        void:triples "41";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/placed_at>;
+        void:triples "1485";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_residence>;
+        void:triples "4006";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+        void:triples "33687";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/marital_status>;
+        void:triples "3643";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+        void:triples "98872";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/place>;
+        void:triples "3854";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_of_death>;
+        void:triples "4166";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/personal_information_removed>;
+        void:triples "191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/hide_documents>;
+        void:triples "2930";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisco_code>;
+        void:triples "2448";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/unit_literal>;
+        void:triples "4109";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/events/time_end>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/date>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P143_joined>;
+        void:triples "102681";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept>;
+        void:triples "3221";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/rank>;
+        void:triples "4138";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#vocabulary>;
+        void:triples "86";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/additional_information>;
+        void:triples "2539";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/photographs/photographer_string>;
+        void:triples "132845";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/memorial_sculptor>;
+        void:triples "531";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/hadUnit>;
+        void:triples "769";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#hiddenLabel>;
+        void:triples "183895";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P141_assigned>;
+        void:triples "6086";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/captivity>;
+        void:triples "10983";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/bioc/has_occupation>;
+        void:triples "182067";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/description_of_capture>;
+        void:triples "6594";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/family_name>;
+        void:triples "98876";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/original_name>;
+        void:triples "4009";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrower>;
+        void:triples "441";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/hasTime>;
+        void:triples "163";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/recording>;
+        void:triples "27";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+        void:triples "125456";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/person_document>;
+        void:triples "4620";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/photographs/theme>;
+        void:triples "102704";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/mentionsGeneral>;
+        void:triples "3381";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/place_of_death_literal>;
+        void:triples "76693";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/spatial>;
+        void:triples "843";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/enemy_aircraft>;
+        void:triples "233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/current_municipality>;
+        void:triples "615";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/camp_information>;
+        void:triples "125";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isPartOf>;
+        void:triples "171";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/memoir>;
+        void:triples "687";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/rank>;
+        void:triples "93553";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "23";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/rightsHolder>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/buried_in>;
+        void:triples "84310";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_residence_literal>;
+        void:triples "4118";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#exampleResource>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasUnitCategory>;
+        void:triples "4519";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/flyer>;
+        void:triples "646";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/number>;
+        void:triples "61";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/nationality>;
+        void:triples "94676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/mentionsUnit>;
+        void:triples "74";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_begin>;
+        void:triples "5926";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "1555";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/citizenship>;
+        void:triples "94676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/memorial_unveiling_date>;
+        void:triples "513";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/location_literal>;
+        void:triples "10983";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "2666083";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/unit>;
+        void:triples "3357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/place_of_burial_number>;
+        void:triples "94606";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/unit_code>;
+        void:triples "45510";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#dataDump>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/firstName>;
+        void:triples "102155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "31111";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasRank>;
+        void:triples "105870";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasUnit>;
+        void:triples "574";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/marital_status>;
+        void:triples "94676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriLookupEndPoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "38";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/address>;
+        void:triples "614";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/propaganda_magazine>;
+        void:triples "211";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#name>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisco_relation>;
+        void:triples "208";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/location>;
+        void:triples "9078";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_birth>;
+        void:triples "81623";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end>;
+        void:triples "236806";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/familyName>;
+        void:triples "102563";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/time_end>;
+        void:triples "233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P97_from_father>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#same>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_death>;
+        void:triples "41679";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/perishing_category>;
+        void:triples "94676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/mother_tongue>;
+        void:triples "98876";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_of_declaration_of_death>;
+        void:triples "263";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/photographs/is_color>;
+        void:triples "163783";
+    ];
+   void:propertyPartition [ 
+        void:property <http://prismstandard.org/namespaces/basic/3.0/url>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "163783";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/sotilaan_aani>;
+        void:triples "2060";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/rights>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/hasFormat>;
+        void:triples "29728";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/hasUnitCategory>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/mentionsPerson>;
+        void:triples "3963";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>;
+        void:triples "16845";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/events/place_string>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/municipality_of_birth_literal>;
+        void:triples "4059";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/propaganda_magazine_link>;
+        void:triples "188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P138_represents>;
+        void:triples "521904";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/bioc/has_family_relation>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broadMatch>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/place_of_wounding>;
+        void:triples "11821";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#sparqlEndpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#member>;
+        void:triples "607";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+        void:triples "28";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "1803600";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/occupation_literal>;
+        void:triples "5436";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/photographs/place_String>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#disjointWith>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>;
+        void:triples "16845";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_residence>;
+        void:triples "88176";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_death>;
+        void:triples "2192";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P144_joined_with>;
+        void:triples "103210";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/mentionsPlace>;
+        void:triples "593";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/issue>;
+        void:triples "3357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#example>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/former_municipality>;
+        void:triples "191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/bibliographicCitation>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P99_dissolved>;
+        void:triples "7711";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "120966";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/order>;
+        void:triples "10983";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#note>;
+        void:triples "260";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107_1_kind_of_member>;
+        void:triples "849";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/page>;
+        void:triples "3429";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+        void:triples "28";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/photographs/place_string>;
+        void:triples "136296";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/current_municipality>;
+        void:triples "558";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/covernumber>;
+        void:triples "11470";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/hasCommander>;
+        void:triples "299";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/title>;
+        void:triples "3357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/number_of_graves>;
+        void:triples "581";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/winter_war_collection>;
+        void:triples "78";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/rank_literal>;
+        void:triples "4373";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisco_product>;
+        void:triples "32";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdf.muninn-project.org/ontologies/organization#equalTo>;
+        void:triples "106";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/order>;
+        void:triples "1168";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/ammo/coo1980/socioeconomic_status>;
+        void:triples "419";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#relatedMatch>;
+        void:triples "2880";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.opengis.net/ont/geosparql#sfWithin>;
+        void:triples "30906";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_domicile_literal>;
+        void:triples "3996";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.georss.org/georss/point>;
+        void:triples "513";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasTitle>;
+        void:triples "656";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisco_status>;
+        void:triples "650";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life>;
+        void:triples "99612";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#preflabel>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdf.muninn-project.org/ontologies/organization#rankSeniorTo>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/confiscated_possession>;
+        void:triples "197";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/covernumber>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/cemetery_id>;
+        void:triples "615";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/mbox>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/date_of_death>;
+        void:triples "94514";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/documented_in_video>;
+        void:triples "548";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/camera_club>;
+        void:triples "612";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/camp_photographs>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/sotilaan_aani_magazine>;
+        void:triples "3964";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/soviet_card_files>;
+        void:triples "5707";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/comment>;
+        void:triples "62";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/date_of_going_mia>;
+        void:triples "6016";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/events/aircraft>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/events/time_start>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#related>;
+        void:triples "584";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/date_end>;
+        void:triples "5926";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#graph>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/author>;
+        void:triples "3358";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/unit_literal>;
+        void:triples "93378";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrowMatch>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisclass7>;
+        void:triples "2452";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#defaultDataset>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/place_of_capture_battle_literal>;
+        void:triples "1806";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/bioc/inheres_in>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/narc-menehtyneet1939-45/menehtymisluokka>;
+        void:triples "604";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/page>;
+        void:triples "3357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:triples "22918";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/mentionsWar>;
+        void:triples "1193";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/number_of_children>;
+        void:triples "3403";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/coordinates>;
+        void:triples "166";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassof>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/upper>;
+        void:triples "300";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/rank_literal>;
+        void:triples "93553";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/contentUrl>;
+        void:triples "498906";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/pilot>;
+        void:triples "233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/hipla/topology>;
+        void:triples "625";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "1535";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/unit>;
+        void:triples "88189";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/givenName>;
+        void:triples "94459";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/captivity_location>;
+        void:triples "120";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/polygon>;
+        void:triples "488";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "93";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/places/municipalities/narc_map_id>;
+        void:triples "625";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/aircraft>;
+        void:triples "231";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ldf/dataVisualization>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/municipality_of_birth>;
+        void:triples "3915";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/place_of_going_mia_literal>;
+        void:triples "5339";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/genitree>;
+        void:triples "9355";
+    ];
+   void:propertyPartition [ 
+        void:property <http://prismstandard.org/namespaces/basic/3.0/doi>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/place_of_going_mia_literal>;
+        void:triples "1519";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/comment>;
+        void:triples "416";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#namedGraph>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabal>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_capture>;
+        void:triples "3082";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/events/time_start>;
+        void:triples "233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P95_has_formed>;
+        void:triples "17365";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/municipality_of_domicile>;
+        void:triples "92626";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/hospital_type>;
+        void:triples "78";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/actors/hasType>;
+        void:triples "855";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/camp_id>;
+        void:triples "150";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "43";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/cemetery_type>;
+        void:triples "615";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/coo1980_code>;
+        void:triples "2310";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/events/pilot>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/finnish_return_interrogation_file>;
+        void:triples "730";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/karelian_archive_documents>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/date_of_foundation>;
+        void:triples "246";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ammo/hisclass12>;
+        void:triples "2453";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/volume>;
+        void:triples "3357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch>;
+        void:triples "33";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/hasUpperUnit>;
+        void:triples "78";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/municipality_of_death_literal>;
+        void:triples "2595";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>;
+        void:triples "236806";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/casualties/wartime_municipality>;
+        void:triples "577";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/places/cemeteries/memorial>;
+        void:triples "302";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/articles/arms_of_service>;
+        void:triples "3357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+        void:triples "33687";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/foundation>;
+        void:triples "895";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#defaultEntailmentRegime>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of>;
+        void:triples "99077";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "104";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/warsa/actors/number>;
+        void:triples "87";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/date_of_wounding>;
+        void:triples "13533";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "224825";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/bibliographiccitation>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/warsa/prisoners/karaganda_card_file>;
+        void:triples "222";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+        void:triples "161568";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.yso.fi/onto/suo/valtio> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/UnitJoining> ;
+        void:triples "9422";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.yso.fi/onto/suo/kunta> ;
+        void:triples "627";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Nationality> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PrisonerRecord> ;
+        void:triples "4200";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/WarDiary> ;
+        void:triples "26387";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Cemetery> ;
+        void:triples "672";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Graph> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Conflict> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/MotherTongue> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/casualties/Municipality> ;
+        void:triples "632";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/ammo/Concept> ;
+        void:triples "2447";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Bombardment> ;
+        void:triples "78";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Event> ;
+        void:triples "154";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/SotilaanAani> ;
+        void:triples "340";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Article> ;
+        void:triples "3357";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Hypsographic_feature> ;
+        void:triples "10869";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "14";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+        void:triples "16845";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PerishingCategory> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/ammo/Degree> ;
+        void:triples "40";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Person> ;
+        void:triples "102612";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "17";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/DeathRecord> ;
+        void:triples "94676";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Town> ;
+        void:triples "50";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Death> ;
+        void:triples "99074";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "86";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/bioc/Brother> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/ammo/Military_rank> ;
+        void:triples "66";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/photographs/Size> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Capture> ;
+        void:triples "4202";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
+        void:triples "236806";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Symbol> ;
+        void:triples "29";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Dissolution> ;
+        void:triples "7701";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Man-made_feature> ;
+        void:triples "14363";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PersonDocument> ;
+        void:triples "2314";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PersonJoining> ;
+        void:triples "93216";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E4_Period> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/BibliographicResource> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/hipla/Place> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/ammo/Title> ;
+        void:triples "68";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Body_of_water> ;
+        void:triples "5554";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Property> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#OrderedCollection> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/MilitaryUnit> ;
+        void:triples "15712";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:triples "88";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/prisoners/Captivity> ;
+        void:triples "10983";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PowHospital> ;
+        void:triples "85";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Wounding> ;
+        void:triples "7842";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/ammo/Occupation> ;
+        void:triples "2258";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/MedalAwarding> ;
+        void:triples "6086";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/MaritalStatus> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/MilitaryActivity> ;
+        void:triples "567";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Photography> ;
+        void:triples "116857";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Battle> ;
+        void:triples "938";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Gender> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "62";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/UnitNaming> ;
+        void:triples "3250";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Source> ;
+        void:triples "2546";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.yso.fi/onto/suo/laani> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/hipla/Topology> ;
+        void:triples "625";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/UnitCategory> ;
+        void:triples "182";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Group> ;
+        void:triples "203";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/ammo/Role> ;
+        void:triples "17";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "7090";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Collection> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Rank> ;
+        void:triples "206";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Video> ;
+        void:triples "27";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Disappearing> ;
+        void:triples "5292";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Citizenship> ;
+        void:triples "10";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Village> ;
+        void:triples "1551";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Promotion> ;
+        void:triples "105652";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Birth> ;
+        void:triples "99612";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+        void:triples "14";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/TroopMovement> ;
+        void:triples "684";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PoliticalActivity> ;
+        void:triples "231";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Photograph> ;
+        void:triples "166214";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+        void:triples "496211";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Medal> ;
+        void:triples "200";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "84";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/PowCamp> ;
+        void:triples "120";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/warsa/Formation> ;
+        void:triples "13489";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:triples "1586";
+    ];
+ .
