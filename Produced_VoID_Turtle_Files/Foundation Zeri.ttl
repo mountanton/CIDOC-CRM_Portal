@@ -1,0 +1,943 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://data.fondazionezeri.unibo.it/> a void:Dataset;
+    dcterms:title "Foundation Zeri";
+    dcterms:description "Italian artworks of Modern Art (15th-16th centuries) Fondazione Zeri - University of Bologna";
+    void:entities "1623866";
+    void:properties "124";
+    void:classes "105";
+    void-crm:triplesWithCIDOCproperty "2509464";
+    void-crm:triplesWithCIDOCpropertyPercentage "21.217347897461288";
+    void-crm:triplesWithCIDOCinstance "6870021";
+    void-crm:triplesWithCIDOCinstancePercentage  "58.085561546156825";
+	void-crm:propertiesCIDOC "55";
+    void-crm:classesCIDOC "36";
+    void:triples "11827416";
+
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/coverage>;
+        void:triples "6028";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate>;
+        void:triples "5398";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P34i_was_assessed_by>;
+        void:triples "2368";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#creatorOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/oaentry/describes>;
+        void:triples "57183";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner>;
+        void:triples "31137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+        void:triples "76907";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://prismstandard.org/namespaces/basic/2.0/volume>;
+        void:triples "1528";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by>;
+        void:triples "3780";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#realization>;
+        void:triples "184048";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#part>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/oaentry/isDescribedBy>;
+        void:triples "19061";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#relatedMatch>;
+        void:triples "213";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:triples "31138";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>;
+        void:triples "2671";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point>;
+        void:triples "1469";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#exemplar>;
+        void:triples "65022";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P80_end_is_qualified_by>;
+        void:triples "2578";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P26i_was_destination_of>;
+        void:triples "14595";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:triples "83056";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/pro/withRole>;
+        void:triples "272862";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/fabio/embodiment>;
+        void:triples "3726";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper>;
+        void:triples "50924";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/name>;
+        void:triples "935";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "204577";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "3305175";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#partOf>;
+        void:triples "16338";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasGeneratedBy>;
+        void:triples "144909";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by>;
+        void:triples "4032";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by>;
+        void:triples "223476";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#sparqlEndpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#subject>;
+        void:triples "38957";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P86_falls_within>;
+        void:triples "5925";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/fabio/hasManifestation>;
+        void:triples "19061";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#embodiment>;
+        void:triples "50229";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:triples "3544";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "327750";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.essepuntato.it/2012/04/tvc/withValue>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#complementOf>;
+        void:triples "641";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate>;
+        void:triples "5308";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+        void:triples "5567";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of>;
+        void:triples "6630";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through>;
+        void:triples "31137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#revisionOf>;
+        void:triples "95827";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:triples "1720";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:triples "3544";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "286572";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso>;
+        void:triples "1181";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/cito/agreesWith>;
+        void:triples "9632";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+        void:triples "10811";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:triples "79176";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#responsibleEntityOf>;
+        void:triples "31137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension>;
+        void:triples "84616";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at>;
+        void:triples "301";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts>;
+        void:triples "31137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#feature>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:triples "7701";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/cito/disagreesWith>;
+        void:triples "6624";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.essepuntato.it/2012/04/tvc/hasValue>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://prismstandard.org/namespaces/basic/2.0/pageRange>;
+        void:triples "5177";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location>;
+        void:triples "42914";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within>;
+        void:triples "805";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/identifier>;
+        void:triples "1720";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/pro/holdsRoleInTime>;
+        void:triples "74731";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "743296";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P35_has_identified>;
+        void:triples "2368";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "10633";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/cito/citesAsEvidence>;
+        void:triples "73070";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/pro/isHeldBy>;
+        void:triples "229293";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P27_moved_from>;
+        void:triples "14595";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/hico/isExtractedFrom>;
+        void:triples "144561";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/oaentry/hasConceived>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasAssociatedWith>;
+        void:triples "144561";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of>;
+        void:triples "63325";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#relatedEndeavour>;
+        void:triples "75780";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/fabio/hasPortrayal>;
+        void:triples "52665";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "1897432";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
+        void:triples "50198";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P25_moved>;
+        void:triples "14595";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P29i_received_custody_through>;
+        void:triples "9498";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by>;
+        void:triples "133161";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P8_took_place_at>;
+        void:triples "6081";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#subjectOf>;
+        void:triples "8787";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/oaentry/hasFormerWork>;
+        void:triples "1877";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/cito/obtainsSupportFrom>;
+        void:triples "6577";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/pro/isRelatedToRoleInTime>;
+        void:triples "293977";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of>;
+        void:triples "8766";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P79_beginning_is_qualified_by>;
+        void:triples "2658";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature>;
+        void:triples "31137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:triples "157113";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/pro/relatesToEntity>;
+        void:triples "34757";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/frbr/core#realizationOf>;
+        void:triples "35076";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/fabio/hasSubjectTerm>;
+        void:triples "66723";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of>;
+        void:triples "31137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/cito/citesForInformation>;
+        void:triples "2210";
+    ];
+   void:propertyPartition [ 
+        void:property <http://prismstandard.org/namespaces/basic/2.0/edition>;
+        void:triples "100";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "6378";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.essepuntato.it/2014/03/fentry/describes>;
+        void:triples "185333";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/date>;
+        void:triples "984";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
+        void:triples "19061";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:triples "41503";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/oaentry/isFormerWorkOf>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "55";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:triples "31135";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/hico/hasInterpretationType>;
+        void:triples "258338";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/cito/citesAsAuthority>;
+        void:triples "904";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/pro/relatesTo>;
+        void:triples "124543";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by>;
+        void:triples "8766";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time_span>;
+        void:triples "104564";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/depiction>;
+        void:triples "156365";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by>;
+        void:triples "50198";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P109i_is_current_or_former_curator_of>;
+        void:triples "111";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "564";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+        void:triples "50196";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/emmedi/oaentry/isConceivedByMeansOf>;
+        void:triples "1877";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.essepuntato.it/2012/04/tvc/atTime>;
+        void:triples "131794";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P37_assigned>;
+        void:triples "223367";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E57_Material> ;
+        void:triples "103";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> ;
+        void:triples "10385";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ReportDocument> ;
+        void:triples "161";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E9_Move> ;
+        void:triples "14595";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/vocab/frbr/core#Expression> ;
+        void:triples "31105";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Manuscript> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/TechnicalReport> ;
+        void:triples "160";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Article> ;
+        void:triples "1483";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/StillImage> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+        void:triples "83053";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/PrintObject> ;
+        void:triples "7986";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/PartialCopy> ;
+        void:triples "147";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ReferenceWork> ;
+        void:triples "203";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Derivation> ;
+        void:triples "232";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/SubjectTerm> ;
+        void:triples "20511";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> ;
+        void:triples "2501";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object> ;
+        void:triples "51218";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody> ;
+        void:triples "9498";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/hico/InterpretationCriterion> ;
+        void:triples "51";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.essepuntato.it/2014/03/fentry/FEntry> ;
+        void:triples "31137";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        void:triples "55";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        void:triples "6450";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
+        void:triples "8415";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Thesis> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/hico/InterpretationType> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/BookSeries> ;
+        void:triples "139";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+        void:triples "3657";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        void:triples "830";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement> ;
+        void:triples "50198";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Collection> ;
+        void:triples "111";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event> ;
+        void:triples "1500";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/ReplicaWithVariants> ;
+        void:triples "24";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier> ;
+        void:triples "19061";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/DustJacket> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/pro/Role> ;
+        void:triples "14";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Report> ;
+        void:triples "13";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ResearchPaper> ;
+        void:triples "1433";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/InstructionalWork> ;
+        void:triples "25";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/pro/RoleInTime> ;
+        void:triples "272862";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/BookSet> ;
+        void:triples "62";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/WorkingPaper> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Newspaper> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Bookset> ;
+        void:triples "10";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/OAEntry> ;
+        void:triples "19061";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Letter> ;
+        void:triples "130";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
+        void:triples "19671";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E1_Entity> ;
+        void:triples "7038";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> ;
+        void:triples "8736";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production> ;
+        void:triples "50196";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> ;
+        void:triples "109672";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Catalog> ;
+        void:triples "1914";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Periodical> ;
+        void:triples "267";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/hico/InterpretationAct> ;
+        void:triples "144561";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Announcement> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment> ;
+        void:triples "115169";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        void:triples "3757";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+        void:triples "31137";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment> ;
+        void:triples "2368";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ItemCollection> ;
+        void:triples "1052";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.essepuntato.it/2014/03/fentry/Shot> ;
+        void:triples "31154";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/PeriodicalVolume> ;
+        void:triples "1220";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Essay> ;
+        void:triples "151";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ExpressionCollection> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Sketch> ;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Model> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/MetadataDocument> ;
+        void:triples "146088";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/WorkCollection> ;
+        void:triples "2804";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+        void:triples "163774";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> ;
+        void:triples "113";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ArtisticWork> ;
+        void:triples "20082";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        void:triples "4013";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/AnalogItem> ;
+        void:triples "66441";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Excerpt> ;
+        void:triples "3800";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Biography> ;
+        void:triples "53";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.essepuntato.it/2012/04/tvc/ValueInTime> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Review> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Expression> ;
+        void:triples "136";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/CopyOrDerivation> ;
+        void:triples "21";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/SpecularCopy> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "12821";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.essepuntato.it/2014/03/fentry/Photograph> ;
+        void:triples "31154";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment> ;
+        void:triples "77997";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/AnalogManifestation> ;
+        void:triples "66281";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Series> ;
+        void:triples "12";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+        void:triples "135";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Work> ;
+        void:triples "2161";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+        void:triples "110983";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Chapter> ;
+        void:triples "138";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Replica> ;
+        void:triples "62";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Cartoon> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/CopyWithVariants> ;
+        void:triples "235";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Drawing> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ConferenceProceedings> ;
+        void:triples "31";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Copy> ;
+        void:triples "1146";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/Book> ;
+        void:triples "2891";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:triples "3558";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> ;
+        void:triples "1284";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E45_Address> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State> ;
+        void:triples "2368";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/fabio/ReferenceEntry> ;
+        void:triples "98";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/emmedi/oaentry/Underdrawing> ;
+        void:triples "5";
+    ];
+   
+ .

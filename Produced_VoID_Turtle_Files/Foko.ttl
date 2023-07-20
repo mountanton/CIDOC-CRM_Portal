@@ -1,0 +1,1676 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://foko-project.eu/api> a void:Dataset;
+    dcterms:title "Foko";
+    dcterms:description "Foko Project";
+    void:entities "888835";
+    void:properties "201";
+    void:classes "177";
+    void-crm:triplesWithCIDOCproperty "1142576";
+    void-crm:triplesWithCIDOCpropertyPercentage "11.675484605";
+    void-crm:triplesWithCIDOCinstance "485326";
+    void-crm:triplesWithCIDOCinstancePercentage  "4.959334207";
+    void-crm:propertiesCIDOC "109";
+    void-crm:classesCIDOC "28";
+    void:triples "9786112";
+	
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/elements/1.1/description>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/xhtml/vocab#license>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#imports>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#unionOf>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/family_name>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/givenname>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/maker>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/mbox>;
+ 		void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during>;
+ 		void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P117i_includes>;
+ 		void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+ 		void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+ 		void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#description>;
+ 		void:triples "3";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/has_place>;
+ 		void:triples "4";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#broaderInstantial>;
+ 		void:triples "4";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>;
+ 		void:triples "5";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>;
+ 		void:triples "5";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>;
+ 		void:triples "5";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#disjointWith>;
+ 		void:triples "5";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P20_had_specific_purpose>;
+ 		void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P20i_was_purpose_of>;
+ 		void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#cardinality>;
+ 		void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#related>;
+ 		void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/familyName>;
+ 		void:triples "9";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/givenName>;
+ 		void:triples "9";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#modified>;
+ 		void:triples "10";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#maxCardinality>;
+ 		void:triples "10";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/name>;
+ 		void:triples "10";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#text>;
+ 		void:triples "11";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#minCardinality>;
+ 		void:triples "11";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#hasAnnotation>;
+ 		void:triples "12";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#relatedSource>;
+ 		void:triples "19";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#title>;
+ 		void:triples "30";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P44_has_condition>;
+ 		void:triples "36";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of>;
+ 		void:triples "36";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#someValuesFrom>;
+ 		void:triples "49";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#created>;
+ 		void:triples "52";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#position>;
+ 		void:triples "68";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#onProperty>;
+ 		void:triples "77";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>;
+ 		void:triples "84";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of>;
+ 		void:triples "84";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P152_has_parent>;
+ 		void:triples "88";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P152i_is_parent_of>;
+ 		void:triples "88";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#termDisplay>;
+ 		void:triples "105";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#estEnd>;
+ 		void:triples "108";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/is_somehow_connected_to>;
+ 		void:triples "161";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P58_has_section_definition>;
+ 		void:triples "162";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P58i_defines_section>;
+ 		void:triples "162";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+ 		void:triples "169";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of>;
+ 		void:triples "169";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+ 		void:triples "176";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#publishedBy>;
+ 		void:triples "255";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+ 		void:triples "265";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#bibliographicSource>;
+ 		void:triples "270";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#synonym>;
+ 		void:triples "272";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+ 		void:triples "280";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+ 		void:triples "287";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P62_depicts>;
+ 		void:triples "362";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P62i_is_depicted_by>;
+ 		void:triples "362";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/is_equipment_of>;
+ 		void:triples "378";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+ 		void:triples "383";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#historicFlag>;
+ 		void:triples "444";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/is_part_of>;
+ 		void:triples "481";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/inverse_is_somehow_connected_to>;
+ 		void:triples "735";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point>;
+ 		void:triples "1023";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P76i_provides_access_to>;
+ 		void:triples "1023";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+ 		void:triples "1111";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P89i_contains>;
+ 		void:triples "1111";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within>;
+ 		void:triples "1155";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P10i_contains>;
+ 		void:triples "1155";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence>;
+ 		void:triples "1219";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by>;
+ 		void:triples "1219";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#broaderPartitive>;
+ 		void:triples "1282";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P13_destroyed>;
+ 		void:triples "1333";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P13i_was_destroyed_by>;
+ 		void:triples "1333";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#remarks>;
+ 		void:triples "1434";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#contributor>;
+ 		void:triples "1476";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+ 		void:triples "1490";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of>;
+ 		void:triples "1490";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/was_commissioned_by>;
+ 		void:triples "1530";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life>;
+ 		void:triples "1719";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+ 		void:triples "1719";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/was_donated_by>;
+ 		void:triples "1725";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/P75i_is_represented_by>;
+ 		void:triples "1809";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+ 		void:triples "1868";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P103_was_intended_for>;
+ 		void:triples "1910";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P103i_was_intention_of>;
+ 		void:triples "1910";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner>;
+ 		void:triples "2171";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P51i_is_former_or_current_owner_of>;
+ 		void:triples "2171";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of>;
+ 		void:triples "2177";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+ 		void:triples "2177";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+ 		void:triples "2223";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by>;
+ 		void:triples "2223";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#estStart>;
+ 		void:triples "2435";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P42_assigned>;
+ 		void:triples "2517";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P42i_was_assigned_by>;
+ 		void:triples "2517";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P19_was_intended_use_of>;
+ 		void:triples "2628";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for>;
+ 		void:triples "2628";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/has_house_no>;
+ 		void:triples "2646";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+ 		void:triples "2722";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/has_street>;
+ 		void:triples "2893";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P75_possesses>;
+ 		void:triples "2897";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by>;
+ 		void:triples "2897";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/has_ZIP>;
+ 		void:triples "3004";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#termFlag>;
+ 		void:triples "3416";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location>;
+ 		void:triples "3419";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P53i_is_former_or_current_location_of>;
+ 		void:triples "3419";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
+ 		void:triples "3494";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P32i_was_technique_of>;
+ 		void:triples "3494";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+ 		void:triples "3546";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in>;
+ 		void:triples "3546";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#closeMatch>;
+ 		void:triples "3791";
+    ];
+	void:propertyPartition  [
+		void:property <http://id.gnm.de/ont/foko/has_country>;
+ 		void:triples "4270";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of>;
+ 		void:triples "4381";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on>;
+ 		void:triples "4381";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#broaderNonPreferred>;
+ 		void:triples "4519";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension>;
+ 		void:triples "4832";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P40i_was_observed_in>;
+ 		void:triples "4832";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+ 		void:triples "5000";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+ 		void:triples "5022";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P91i_is_unit_of>;
+ 		void:triples "5022";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
+ 		void:triples "5152";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by>;
+ 		void:triples "5152";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P31_has_modified>;
+ 		void:triples "6051";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by>;
+ 		void:triples "6051";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#prefLabelLoC>;
+ 		void:triples "6830";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P71_lists>;
+ 		void:triples "7185";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in>;
+ 		void:triples "7185";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P149_is_identified_by>;
+ 		void:triples "7341";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P149i_identifies>;
+ 		void:triples "7341";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of>;
+ 		void:triples "7433";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at>;
+ 		void:triples "7433";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to>;
+ 		void:triples "7440";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to>;
+ 		void:triples "7440";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper>;
+ 		void:triples "7664";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P49i_is_former_or_current_keeper_of>;
+ 		void:triples "7664";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#termKind>;
+ 		void:triples "7879";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+ 		void:triples "7889";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+ 		void:triples "7889";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>;
+ 		void:triples "8431";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of>;
+ 		void:triples "8431";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+ 		void:triples "10677";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+ 		void:triples "10677";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique>;
+ 		void:triples "12396";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by>;
+ 		void:triples "12396";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+ 		void:triples "12648";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P131i_identifies>;
+ 		void:triples "12648";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P138_represents>;
+ 		void:triples "13120";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>;
+ 		void:triples "13120";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+ 		void:triples "13952";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by>;
+ 		void:triples "13952";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+ 		void:triples "14020";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P7i_witnessed>;
+ 		void:triples "14020";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+ 		void:triples "14452";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P102i_is_title_of>;
+ 		void:triples "14452";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+ 		void:triples "14837";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of>;
+ 		void:triples "14837";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+ 		void:triples "14893";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+ 		void:triples "14893";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+ 		void:triples "14997";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P14i_performed>;
+ 		void:triples "14997";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item>;
+ 		void:triples "15640";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by>;
+ 		void:triples "15640";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by>;
+ 		void:triples "19034";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P87i_identifies>;
+ 		void:triples "19034";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+ 		void:triples "32195";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P1i_identifies>;
+ 		void:triples "32195";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+ 		void:triples "33561";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of>;
+ 		void:triples "33561";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>;
+ 		void:triples "35419";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#notation>;
+ 		void:triples "40150";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+ 		void:triples "43370";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P72i_is_language_of>;
+ 		void:triples "43370";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#broaderPreferred>;
+ 		void:triples "56824";
+    ];
+	void:propertyPartition  [
+		void:property <http://creativecommons.org/ns#license>;
+ 		void:triples "56832";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/license>;
+ 		void:triples "56832";
+    ];
+	void:propertyPartition  [
+		void:property <http://rdfs.org/ns/void#inDataset>;
+ 		void:triples "56832";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#parentString>;
+ 		void:triples "56832";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#parentStringAbbrev>;
+ 		void:triples "56832";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#prefLabelGVP>;
+ 		void:triples "56832";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#broaderGeneric>;
+ 		void:triples "60057";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#qualifier>;
+ 		void:triples "62037";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+ 		void:triples "94054";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of>;
+ 		void:triples "94054";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+ 		void:triples "98090";
+    ];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+ 		void:triples "122939";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+ 		void:triples "199688";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#broader>;
+ 		void:triples "216637";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2008/05/skos-xl#altLabel>;
+ 		void:triples "227250";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#termPOS>;
+ 		void:triples "246864";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#narrower>;
+ 		void:triples "252266";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2008/05/skos-xl#prefLabel>;
+ 		void:triples "255941";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/language>;
+ 		void:triples "482841";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#termType>;
+ 		void:triples "483149";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#term>;
+ 		void:triples "483191";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2008/05/skos-xl#literalForm>;
+ 		void:triples "483191";
+    ];
+	void:propertyPartition  [
+		void:property <http://vocab.getty.edu/ontology#displayOrder>;
+ 		void:triples "539896";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/elements/1.1/identifier>;
+ 		void:triples "540023";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+ 		void:triples "891337";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/elements/1.1/subject>;
+ 		void:triples "2622548";
+    ];
+		void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/Authority_File_ID_Identifier>;
+		void:isErlangen "yes";
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+		void:isErlangen "yes";
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Data_Set>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Editing_Technique>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Exhibition>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Expression_Classification>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Former_Inventory_Number>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Photo_Campaign>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Mark>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Mark_Appellation>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Photo>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Text>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Text_Appellation>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#FunctionalProperty>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#InverseFunctionalProperty>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://xmlns.com/foaf/0.1/Person>;
+ 		void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Collection_Name>;
+ 		void:triples "2";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#Ontology>;
+ 		void:triples "2";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Exposure_Technique>;
+ 		void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Protective_Right>;
+ 		void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Protective_Right_Appellation>;
+ 		void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Iconographic_Type>;
+ 		void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Licence>;
+ 		void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Licence_Appellation>;
+ 		void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Rightrepresentative>;
+ 		void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Rightrepresentative_Appellation>;
+ 		void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Editing_Technique_Appellation>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/History_and_Description>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Local_ID_Photo>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Manifestation_Classification>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Object_Inventory_Number>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Page_Number>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Photo_Appellation>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#SymmetricProperty>;
+ 		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation>;
+		void:isErlangen "yes";
+ 		void:triples "7";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Dating>;
+ 		void:triples "7";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Dating_Appellation>;
+ 		void:triples "7";
+    ];
+	void:classPartition  [
+		void:class <http://vocab.getty.edu/ontology#Facet>;
+ 		void:triples "8";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Exposure_Technique_Appellation>;
+ 		void:triples "9";
+    ];
+	void:classPartition  [
+		void:class <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#Person>;
+ 		void:triples "9";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Expression_Classification_Appellation>;
+ 		void:triples "10";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Institution_Role>;
+ 		void:triples "10";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Mixed_Lot>;
+ 		void:triples "10";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Rightholder>;
+ 		void:triples "10";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Rightholder_Appellation>;
+ 		void:triples "10";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Production_Technique>;
+ 		void:triples "11";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Workshop_Role>;
+ 		void:triples "12";
+    ];
+	void:classPartition  [
+		void:class <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#Discussion>;
+ 		void:triples "12";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/General_Type>;
+ 		void:triples "13";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+ 		void:triples "13";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+		void:isErlangen "yes";
+ 		void:triples "14";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Dimension_Type>;
+ 		void:triples "14";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Dimension_Type_Appellation>;
+ 		void:triples "14";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Inscription>;
+ 		void:triples "18";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Type_of_Inscription_Appellation>;
+ 		void:triples "18";
+    ];
+	void:classPartition  [
+		void:class <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#Journal>;
+ 		void:triples "19";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Manifestation_Classification_Appellation>;
+ 		void:triples "21";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Mixed_Lot_Name>;
+ 		void:triples "23";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Role>;
+ 		void:triples "24";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event>;
+		void:isErlangen "yes";
+ 		void:triples "27";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Style_Feature>;
+ 		void:triples "35";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Style_Feature_Appellation>;
+ 		void:triples "35";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#TransitiveProperty>;
+ 		void:triples "35";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+		void:isErlangen "yes";
+ 		void:triples "36";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Material>;
+ 		void:triples "42";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+		void:isErlangen "yes";
+ 		void:triples "46";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Technique_Appellation>;
+ 		void:triples "49";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature_Type>;
+ 		void:triples "50";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature_Type_Appellation>;
+ 		void:triples "50";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Workshop>;
+ 		void:triples "70";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Institution_Role_Event>;
+ 		void:triples "74";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#Restriction>;
+ 		void:triples "77";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Language_ID>;
+ 		void:triples "82";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Historical_Event>;
+ 		void:triples "93";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Iconographic_Type_Appellation>;
+ 		void:triples "104";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Inscription_Place>;
+ 		void:triples "112";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Section_Definition_Inscription>;
+ 		void:triples "112";
+    ];
+	void:classPartition  [
+		void:class <http://vocab.getty.edu/ontology#Hierarchy>;
+ 		void:triples "119";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E34_Inscription>;
+		void:isErlangen "yes";
+ 		void:triples "124";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Workshop_Name>;
+ 		void:triples "143";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Colour>;
+ 		void:triples "148";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Colour_Appellation>;
+ 		void:triples "148";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Object_Classification>;
+ 		void:triples "162";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Section_Definition_Mark>;
+ 		void:triples "162";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object>;
+		void:isErlangen "yes";
+ 		void:triples "163";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Material_Name>;
+ 		void:triples "180";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Current_Use>;
+ 		void:triples "184";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Additional_Sources>;
+ 		void:triples "191";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Administrator>;
+ 		void:triples "193";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Administrator_Appellation>;
+ 		void:triples "193";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E38_Image>;
+		void:isErlangen "yes";
+ 		void:triples "211";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E37_Mark>;
+		void:isErlangen "yes";
+ 		void:triples "230";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Source_of_Dating>;
+ 		void:triples "246";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#Class>;
+ 		void:triples "250";
+    ];
+	void:classPartition  [
+		void:class <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#LiteratureItem>;
+ 		void:triples "270";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#ObjectProperty>;
+ 		void:triples "296";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Former_Use>;
+ 		void:triples "297";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Transcription>;
+ 		void:triples "301";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Consecration>;
+ 		void:triples "322";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Reconstruction>;
+ 		void:triples "371";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature>;
+		void:isErlangen "yes";
+ 		void:triples "373";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature_ID>;
+ 		void:triples "380";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/General_Type_Appellation>;
+ 		void:triples "414";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Production_Place_Name>;
+ 		void:triples "426";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Acquisition_ID>;
+ 		void:triples "544";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+		void:isErlangen "yes";
+ 		void:triples "555";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Person_Role>;
+ 		void:triples "707";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Object_Classification_Appellation>;
+ 		void:triples "751";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Role_Appellation>;
+ 		void:triples "753";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Publisher>;
+ 		void:triples "772";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit>;
+		void:isErlangen "yes";
+ 		void:triples "851";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Former_Object_Name>;
+ 		void:triples "903";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Alternative_Object_Name>;
+ 		void:triples "1029";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Current_Use_Appellation>;
+ 		void:triples "1218";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Institution>;
+ 		void:triples "1220";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Person_Role_Event>;
+ 		void:triples "1258";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E6_Destruction>;
+		void:isErlangen "yes";
+ 		void:triples "1360";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Place>;
+ 		void:triples "1372";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Object_Location_Name>;
+ 		void:triples "1396";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Authority_File>;
+ 		void:triples "1405";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+		void:isErlangen "yes";
+ 		void:triples "1418";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Authority_File_Appellation>;
+ 		void:triples "1420";
+    ];
+	void:classPartition  [
+		void:class <http://www.umwd.dolnyslask.pl/ontologies/2014/03/midas#ThesaurusConcept>;
+ 		void:triples "1476";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Former_Use_Appellation>;
+ 		void:triples "1520";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Occupation>;
+ 		void:triples "1708";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+		void:isErlangen "yes";
+ 		void:triples "1751";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Donation>;
+ 		void:triples "1754";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Institution_Name>;
+ 		void:triples "1762";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Occupation_Appellation>;
+ 		void:triples "1763";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#NamedIndividual>;
+ 		void:triples "1786";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Dating_Event>;
+ 		void:triples "1800";
+    ];
+	void:classPartition  [
+		void:class <http://vocab.getty.edu/ontology#GuideTerm>;
+ 		void:triples "1825";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Object>;
+ 		void:triples "1891";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature>;
+		void:isErlangen "yes";
+ 		void:triples "1992";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature>;
+ 		void:triples "2083";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Expression_Protective_Right>;
+ 		void:triples "2097";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Object_Name>;
+ 		void:triples "2178";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+		void:isErlangen "yes";
+ 		void:triples "2190";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+		void:isErlangen "yes";
+ 		void:triples "2213";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Use_Assignment>;
+ 		void:triples "2592";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature_Short_Title>;
+ 		void:triples "2601";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Restoration>;
+ 		void:triples "2658";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Manifestation_Protective_Right>;
+ 		void:triples "2792";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Alteration>;
+ 		void:triples "2862";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature_Title>;
+ 		void:triples "3029";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Geocoordinates>;
+ 		void:triples "3384";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Location>;
+ 		void:triples "3418";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Photo_Connection>;
+ 		void:triples "3463";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Alternative_Person_Name>;
+ 		void:triples "4232";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Place_Name>;
+ 		void:triples "4261";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Person>;
+ 		void:triples "4272";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Perspective>;
+ 		void:triples "4433";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Person_Name>;
+ 		void:triples "4713";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
+		void:isErlangen "yes";
+ 		void:triples "5230";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+		void:isErlangen "yes";
+ 		void:triples "5230";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/View>;
+ 		void:triples "5263";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Photo_Content>;
+ 		void:triples "5931";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Photocontent_Description>;
+ 		void:triples "5931";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Expression-ID>;
+ 		void:triples "6225";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Collection>;
+ 		void:triples "6349";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+		void:isErlangen "yes";
+ 		void:triples "7171";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Authority_File_ID>;
+ 		void:triples "7231";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E51_Contact_Point>;
+		void:isErlangen "yes";
+ 		void:triples "7554";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Expression_Creation>;
+ 		void:triples "8181";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Literature_Spot>;
+ 		void:triples "8519";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Photo>;
+ 		void:triples "8753";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Inventory_Number>;
+ 		void:triples "9692";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E45_Address>;
+		void:isErlangen "yes";
+ 		void:triples "11103";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+		void:isErlangen "yes";
+ 		void:triples "11798";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Expression>;
+ 		void:triples "13050";
+    ];
+	void:classPartition  [
+		void:class <http://id.gnm.de/ont/foko/Technique>;
+ 		void:triples "14217";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+		void:isErlangen "yes";
+ 		void:triples "23333";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+		void:isErlangen "yes";
+ 		void:triples "35249";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2004/02/skos/core#Concept>;
+ 		void:triples "39782";
+    ];
+	void:classPartition  [
+		void:class <http://vocab.getty.edu/ontology#Concept>;
+ 		void:triples "54880";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2008/05/skos-xl#Label>;
+ 		void:triples "483191";
+    ];
+
+ .
