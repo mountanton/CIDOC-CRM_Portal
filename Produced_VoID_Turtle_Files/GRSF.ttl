@@ -1,0 +1,1135 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://isl.ics.forth.gr/grsf/sparql> a void:Dataset;
+    dcterms:title "GRSF";
+    dcterms:description "Continuous maintenance of the Global Record of Stocks and Fisheries";
+    void:entities "1184990";
+    void:properties "206";
+    void:classes "71";
+    void-crm:triplesWithCIDOCproperty "3794296";
+    void-crm:triplesWithCIDOCpropertyPercentage "53.988298515209955";
+    void-crm:triplesWithCIDOCinstance "5754455";
+    void-crm:triplesWithCIDOCinstancePercentage  "81.87901901494835";
+    void:triples "7027997";
+	void-crm:propertiesCIDOC "78";
+    void-crm:classesCIDOC "31";
+
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O15_occupied_parent>;
+        void:triples "18442";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1>;
+        void:triples "66";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#inheritFrom>;
+        void:triples "99";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies>;
+        void:triples "30546";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_scientific_advice>;
+        void:triples "823";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_source_record>;
+        void:triples "19645";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "21";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_bounding_box>;
+        void:triples "1410";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFText>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_dominant_record>;
+        void:triples "3515";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_catalog_url>;
+        void:triples "27761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_area_code>;
+        void:triples "1988";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvATables>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_resindence>;
+        void:triples "290";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_public_catalog_url>;
+        void:triples "2594";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvGeo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_published_contents>;
+        void:triples "27761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_polygon>;
+        void:triples "7272";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:triples "523353";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_uuid>;
+        void:triples "32462";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats>;
+        void:triples "98";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_is_referred_to_by>;
+        void:triples "1737";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_stock_type_value>;
+        void:triples "7914";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_traceability_flag>;
+        void:triples "18720";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval>;
+        void:triples "22";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_source>;
+        void:triples "15655";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LC13_is_carried_out_by>;
+        void:triples "102139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O1_diminished>;
+        void:triples "23201";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCustomString1>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_annotation_message>;
+        void:triples "110";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O11_described>;
+        void:triples "3360";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#noInherit>;
+        void:triples "56";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_catalog_id>;
+        void:triples "27761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmPredicateMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O15_occupied>;
+        void:triples "60716";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#loadAs>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#complementOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#unionOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_url_used_for_refresh>;
+        void:triples "9334";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:triples "529188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_time>;
+        void:triples "130";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumnsFormKey>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfName>;
+        void:triples "130";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmGraphMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_url>;
+        void:triples "9338";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_sdg>;
+        void:triples "18720";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_munit_type>;
+        void:triples "287";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftXmlIndex>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull>;
+        void:triples "40";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDtpOfNiceSqlval>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_flag_type>;
+        void:triples "226";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LT8_usually_belongs_to>;
+        void:triples "264681";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107_is_current_or_former_member_of>;
+        void:triples "110";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_gear_code>;
+        void:triples "112";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LC10_belongs_to>;
+        void:triples "4089";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type>;
+        void:triples "19448";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsUserMaps>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:triples "8610";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsDefaultMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/LC10_belongs_to>;
+        void:triples "3916";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O10_was_assigned_by>;
+        void:triples "314656";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#geometry>;
+        void:triples "27761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#version>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LC1_is_identified_by>;
+        void:triples "3066";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "74046";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_gear_type>;
+        void:triples "112";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "3360";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:triples "544880";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_reporting_year>;
+        void:triples "49419";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_management_entity>;
+        void:triples "26184";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageTmpl>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "750";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/constructed_from_dissection>;
+        void:triples "15205";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions>;
+        void:triples "172";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LC9_was_assigned_by>;
+        void:triples "102139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LX8_has_language>;
+        void:triples "299";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_polygon_from_dominant_record>;
+        void:triples "27761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+        void:triples "214297";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "566221";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_management_entities_values>;
+        void:triples "17272";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/triggered_by>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_creation_date>;
+        void:triples "27999";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftColumnName>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P44_has_condition>;
+        void:triples "822";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_created_merged_record>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner>;
+        void:triples "12990";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumns>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O15_occupied_ram>;
+        void:triples "1509";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_species_type>;
+        void:triples "2015";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmSubjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/archived_on>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "750";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_area_type>;
+        void:triples "1988";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/last_modified>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_flag_state>;
+        void:triples "20093";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_index>;
+        void:triples "1354";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#url>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/O_assigned_to>;
+        void:triples "314656";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_public_catalog_id>;
+        void:triples "2594";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/DAV#ownerUser>;
+        void:triples "750";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LX1_is_identified_by>;
+        void:triples "124209";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvTableName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#item>;
+        void:triples "139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LX3_has_type>;
+        void:triples "230658";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_munit_code>;
+        void:triples "287";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_flag_code>;
+        void:triples "226";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl>;
+        void:triples "37";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_modification_date>;
+        void:triples "27761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/ontology/MarineTLO/LX4_has_appellation>;
+        void:triples "103492";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/description>;
+        void:triples "959";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique>;
+        void:triples "3360";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isGcResistantType>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_annotation_event>;
+        void:triples "110";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_original_code>;
+        void:triples "15655";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsStable>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "1071596";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#imports>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_fao_state>;
+        void:triples "311";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_version_number>;
+        void:triples "1509";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_series_name>;
+        void:triples "2507";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/was_assessed_by_method>;
+        void:triples "374";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmObjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_species_code>;
+        void:triples "2015";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_administrator>;
+        void:triples "110";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/extent>;
+        void:triples "733";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftConds>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/has_status>;
+        void:triples "18740";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/is_published_by>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+        void:triples "7526";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isSpecialPredicate>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "1193334";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/is_connected_with>;
+        void:triples "17818";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcAlias>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#priorVersion>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfNiceSqlvalTmpl>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset>;
+        void:triples "39";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/Stock> ;
+        void:triples "11152";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> ;
+        void:triples "694";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT24_Family> ;
+        void:triples "261";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT24_Family> ;
+        void:triples "1152";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "23";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/URL> ;
+        void:triples "8923";
+    ];
+   void:classPartition  [ 
+        void:class <unknown> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT10_Biotic_Element_Type> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+        void:triples "130";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/S6_Data_Evaluation> ;
+        void:triples "3360";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC13_Organization> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC25_Linguistic_Object> ;
+        void:triples "299";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT18_Kingdom> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BC_Country> ;
+        void:triples "363";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT27_Species> ;
+        void:triples "2143";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+        void:triples "34411";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BC27_Publication> ;
+        void:triples "964";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#OntologyProperty> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-span> ;
+        void:triples "1403";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object> ;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+        void:triples "153";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BC15_Water_Area> ;
+        void:triples "3454";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT36_Language> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC32_Identifier> ;
+        void:triples "127116";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT11_Equipment_Type> ;
+        void:triples "112";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/Source> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC46_Identifier_Assignment> ;
+        void:triples "102139";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC42_Collection> ;
+        void:triples "84";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT22_Class> ;
+        void:triples "49";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT14_Appellation_Type> ;
+        void:triples "62";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT11_Equipment_Type> ;
+        void:triples "88";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State> ;
+        void:triples "681";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC15_Water_Area> ;
+        void:triples "3082";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E60_Number> ;
+        void:triples "129532";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT22_Class> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT33_Marine_Animal_Type> ;
+        void:triples "84";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        void:triples "31519";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC30_Appellation> ;
+        void:triples "103478";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+        void:triples "98";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit> ;
+        void:triples "162";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E62_String> ;
+        void:triples "1553";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/I4_Proposition_Set> ;
+        void:triples "680";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BC62_Capture_Activity> ;
+        void:triples "24465";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT26_Genus> ;
+        void:triples "563";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT34_Order> ;
+        void:triples "92";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT19_Phylum> ;
+        void:triples "17";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT26_Genus> ;
+        void:triples "6299";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT34_Order> ;
+        void:triples "241";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/Archived_Merge_Event> ;
+        void:triples "20";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure> ;
+        void:triples "189";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BC11_Person> ;
+        void:triples "17578";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+        void:triples "529294";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
+        void:triples "168";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-string> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+        void:triples "4305";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/BT19_Phylum> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/ontology/MarineTLO/BT27_Species> ;
+        void:triples "40564";
+    ];
+    
+ .

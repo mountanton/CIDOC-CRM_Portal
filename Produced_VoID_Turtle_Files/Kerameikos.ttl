@@ -1,0 +1,533 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://kerameikos.org/sparql> a void:Dataset;
+    dcterms:title "Kerameikos";
+    dcterms:description "Ceramics of Ancient Greece";
+    void:entities "70307";
+    void:properties "85";
+    void:classes "41";
+    void-crm:triplesWithCIDOCproperty "162847";
+    void-crm:triplesWithCIDOCpropertyPercentage "56.232475586";
+    void-crm:triplesWithCIDOCinstance "269640";
+    void-crm:triplesWithCIDOCinstancePercentage  "93.109020842";
+	void-crm:propertiesCIDOC "22";
+    void-crm:classesCIDOC "15";
+    void:triples "289596";
+	
+	void:propertyPartition  [ 
+        void:property <http://purl.org/dc/terms/isReplacedBy> ;
+        void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/modified> ;
+        void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples "1";
+    ];
+	void:propertyPartition  [
+		void:property <http://data.ordnancesurvey.co.uk/ontology/geometry/asGeoJSON> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/rights> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples "2";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples "3";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#scopeNote> ;
+        void:triples "3";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/created> ;
+        void:triples "4";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/thumbnail> ;
+        void:triples "4";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples "5";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/creator> ;
+        void:triples "6";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/license> ;
+        void:triples "6";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/title> ;
+        void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://rdfs.org/ns/void#dataDump> ;
+        void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.europeana.eu/schemas/edm/end> ;
+        void:triples "7";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples "8";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples "8";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.europeana.eu/schemas/edm/begin> ;
+        void:triples "9";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/org#organization> ;
+        void:triples "11";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/description> ;
+        void:triples "12";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples "14";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples "15";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples "26";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples "34";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/lemon/ontolex#otherForm> ;
+        void:triples "36";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples "40";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples "75";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/source> ;
+        void:triples "107";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.ics.forth.gr/isl/CRMgeo/Q9_is_expressed_in_terms_of> ;
+        void:triples "131";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples "133";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples "133";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by> ;
+        void:triples "135";
+    ];
+		void:propertyPartition  [
+		void:property <http://www.ics.forth.gr/isl/CRMgeo/asWKT> ;
+        void:triples "135";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2003/01/geo/wgs84_pos#location> ;
+        void:triples "135";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P9_consists_of> ;
+        void:triples "176";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/org#role> ;
+        void:triples "255";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/org#hasMembership> ;
+        void:triples "266";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#closeMatch> ;
+        void:triples "347";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/prov#activity> ;
+        void:triples "413";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.lexinfo.net/ontology/2.0/lexinfo#number> ;
+        void:triples "432";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/lemon/ontolex#writtenRep> ;
+        void:triples "432";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#changeNote> ;
+        void:triples "443";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/prov#wasGeneratedBy> ;
+        void:triples "443";
+    ];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/topic> ;
+        void:triples "443";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/prov#used> ;
+        void:triples "628";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> ;
+        void:triples "652";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#definition> ;
+        void:triples "688";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples "721";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/type> ;
+        void:triples "856";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/prov#atTime> ;
+        void:triples "856";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/ns/prov#wasAssociatedWith> ;
+        void:triples "856";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#exactMatch> ;
+        void:triples "1337";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> ;
+        void:triples "1633";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within> ;
+        void:triples "2252";
+    ];
+		void:propertyPartition  [
+		void:property <http://www.ics.forth.gr/isl/CRMsci/O19i_was_object_found_by> ;
+        void:triples "3711";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> ;
+        void:triples "3806";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within> ;
+        void:triples "3966";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples "4451";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples "4638";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> ;
+        void:triples "5870";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> ;
+        void:triples "5870";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> ;
+        void:triples "5870";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique> ;
+        void:triples "6056";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/conformsTo> ;
+        void:triples "6837";
+    ];
+	void:propertyPartition  [
+		void:property <http://purl.org/dc/terms/format> ;
+        void:triples "7570";
+    ];
+		void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> ;
+        void:triples "7644";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> ;
+        void:triples "7673";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> ;
+        void:triples "7673";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> ;
+        void:triples "7859";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> ;
+        void:triples "8550";
+    ];
+	void:propertyPartition  [
+		void:property <http://kerameikos.org/ontology#hasShape> ;
+        void:triples "8606";
+    ];
+	void:propertyPartition  [
+		void:property <http://rdfs.org/ns/void#inDataset> ;
+        void:triples "8606";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper> ;
+        void:triples "8607";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by> ;
+        void:triples "8609";
+    ];
+		void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> ;
+        void:triples "11212";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ;
+        void:triples "17218";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> ;
+        void:triples "17823";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
+        void:triples "23693";
+    ];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ;
+        void:triples "71776";
+    ];
+	
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Collection> ;
+        void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:triples "1";
+    ];
+	void:classPartition  [
+		void:class <http://kerameikos.org/ontology#Ware> ;
+        void:triples "2";
+    ];
+	void:classPartition  [
+		void:class <http://kerameikos.org/ontology#Style> ;
+        void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E4_Period> ;
+        void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/org#Organization> ;
+        void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/org#Role> ;
+        void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/prov#Entity> ;
+        void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "7";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> ;
+        void:triples "8";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E57_Material> ;
+        void:triples "11";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:triples "13";
+    ];
+	void:classPartition  [
+		void:class <http://kerameikos.org/ontology#Technique> ;
+        void:triples "22";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        void:triples "118";
+    ];
+		void:classPartition  [
+		void:class <http://kerameikos.org/ontology#Shape> ;
+        void:triples "127";
+    ];
+	void:classPartition  [
+		void:class <http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression> ;
+        void:triples "135";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        void:triples "135";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/org#Membership> ;
+        void:triples "226";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/prov#Modify> ;
+        void:triples "413";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/lemon/ontolex#Form> ;
+        void:triples "432";
+    ];
+	void:classPartition  [
+		void:class <http://purl.org/dc/terms/ProvenanceStatement> ;
+        void:triples "443";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/ns/prov#Create> ;
+        void:triples "443";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "460";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        void:triples "802";
+    ];
+		void:classPartition  [
+		void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:triples "856";
+    ];
+	void:classPartition  [
+		void:class <http://www.ics.forth.gr/isl/CRMsci/S19_Encounter_Event> ;
+        void:triples "3711";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+        void:triples "3806";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "3983";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+        void:triples "5870";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> ;
+        void:triples "6790";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
+        void:triples "7673";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+        void:triples "8606";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production> ;
+        void:triples "8785";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+        void:triples "8879";
+    ];
+	void:classPartition  [
+		void:class <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> ;
+        void:triples "8944";
+    ];
+
+
+ .

@@ -1,0 +1,120 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://github.com/datamusee/semjoconde> a void:Dataset;
+    dcterms:title "Joconde";
+    dcterms:description "Joconde Database";
+    void:entities "2437829";
+    void:properties "13";
+    void:classes "7";
+    void-crm:triplesWithCIDOCproperty "5615938";
+    void-crm:triplesWithCIDOCpropertyPercentage  "48.604761380";
+    void-crm:triplesWithCIDOCinstance "10373525";
+    void-crm:triplesWithCIDOCinstancePercentage  "89.780675516";
+	void-crm:propertiesCIDOC "7";
+    void-crm:classesCIDOC "6";
+    void:triples "11554296";
+
+   void:propertyPartition [ 
+        void:property <http://datamusee.givingsense.eu/onto/DMP18_has_current_curator>;
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P32_has_general_technique>;
+        void:isErlangen "yes";
+        void:triples "1261933";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "3027106";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P65_is_shown_by>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://datamusee.givingsense.eu/onto/P40_is_part_of_period>;
+        void:triples "593950";
+    ];
+   void:propertyPartition [ 
+        void:property <http://parismusees.givingsense.eu/onto/PJOC_REF>;
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "498882";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "1498015";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time_span>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://datamusee.givingsense.eu/onto/PX1_source>;
+        void:triples "589277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "549471";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man_Made_Thing>;
+        void:isErlangen "yes";
+        void:triples "589277";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+        void:isErlangen "yes";
+        void:triples "58489";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+        void:isErlangen "yes";
+        void:triples "22232";
+    ];
+   void:classPartition  [ 
+        void:class <http://parismusees.givingsense.eu/onto/E0_JOC_Reference> ;
+        void:triples "589277";
+    ];
+    
+ .
