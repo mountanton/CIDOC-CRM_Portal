@@ -1,0 +1,17 @@
+<mat-nav-list>
+  
+  <mat-list-item
+    *ngFor="let navItem of menu"
+    class="level-1"
+    [routerLink]="[navItem.route]"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: false }">
+    <div class="w-100 y-center">
+      <mat-icon>{{ navItem.icon }}</mat-icon>
+      <div class="list-item-title">
+        {{ navItem.title }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+  </mat-list-item>
+</mat-nav-list>

@@ -1,0 +1,36 @@
+.slider {
+  // background-color: #efefef!important;
+  height: 100% !important;
+  padding: 0 0.75em !important;
+  border-radius: 4px;
+}
+.compare-icon {
+  font-size: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+::ng-deep .theme-dark {
+  .reset-btn {
+    background-color: transparent;
+  }
+  .search-btn {
+    background-color: #83ce88;
+    color: white;
+  }
+  .search-btn-icon {
+    color: white;
+  }
+}
+
+::ng-deep .theme-light {
+  .search-btn {
+    background-color: #83ce88;
+    color: white;
+  }
+  .search-btn-icon {
+    color: white;
+  }
+  .txt-color {
+    color: #00722f;
+  }
+}

@@ -1,0 +1,24 @@
+<div class="col">
+  <mat-card class="mat-elevation-z5 relative">
+    <mat-toolbar
+      *ngIf="toolbar"
+      class="mb-3"
+      [ngStyle]="{ background: bgColor, color: color }">
+      <h3 class="mb-0 y-center">
+        <ng-content select=".before-title"></ng-content>
+        <mat-icon *ngIf="icon !== undefined" class="mr-10">{{ icon }}</mat-icon>
+        <span *ngIf="symbol !== undefined" class="material-symbols-outlined"> {{ symbol }} </span>
+        {{ title }}
+      </h3>
+      <ng-content select="[header]"></ng-content>
+    </mat-toolbar>
+    <div class="info-card-content">
+      <ng-content></ng-content>
+    </div>
+    <a
+      *ngIf="!buttonText && link"
+      class="stretched-link"
+      [href]="link"
+      [routerLink]="link"></a>
+  </mat-card>
+</div>

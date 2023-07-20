@@ -1,0 +1,27 @@
+:host ::ng-deep mat-button-toggle-group {
+  flex-wrap: wrap !important;
+}
+:host ::ng-deep mat-button-toggle-group {
+  outline: none !important;
+}
+mat-button-toggle-group {
+  border: none;
+}
+::ng-deep .theme-dark {
+  .mat-button-toggle-checked {
+    background-color: #83ce88;
+    color: #ffffff;
+  }
+  .mat-button-toggle-checked .tab-icon {
+    color: #ffffff;
+  }
+}
+::ng-deep .theme-light {
+  .mat-button-toggle-checked {
+    background-color: #00722f;
+    color: #ffffff;
+  }
+  .mat-button-toggle-checked .tab-icon {
+    color: #ffffff;
+  }
+}

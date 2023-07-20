@@ -1,0 +1,11 @@
+<app-info-card
+title="Most Frequent"
+  [bgColor]="
+    localStorage.getItem('theme-color') === 'theme-dark'
+      ? backgroundColorDark
+      : backgroundColorLight
+  "
+  [color]="color">
+  <app-tab-menu [tabs]="tab"></app-tab-menu>
+  <router-outlet></router-outlet>
+</app-info-card>

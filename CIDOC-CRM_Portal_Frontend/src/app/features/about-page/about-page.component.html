@@ -1,0 +1,24 @@
+<app-info-card
+  title="About CIDOC-CRM"
+  [bgColor]="
+    localStorage.getItem('theme-color') === 'theme-dark'
+      ? backgroundColorDark
+      : backgroundColorLight
+  "
+  [color]="color">
+  <div class="mb-15">
+    <p class="section-title">About CIDOC-CRM</p>
+    <p class="info-section">
+      The CIDOC Conceptual Reference Model (CRM) is a theoretical and practical tool for
+      information integration in the field of cultural heritage. It can help researchers,
+      administrators and the public explore complex questions with regards to our past
+      across diverse and dispersed datasets. The CIDOC CRM achieves this by providing
+      definitions and a formal structure for describing the implicit and explicit concepts
+      and relationships used in cultural heritage documentation and of general interest
+      for the querying and exploration of such data. Such models are also known as formal
+      ontologies. These formal descriptions allow the integration of data from multiple
+      sources in a software and schema agnostic fashion.
+      <a href="https://www.cidoc-crm.org">Link for CIDOC-CRM</a>
+    </p>
+  </div>
+</app-info-card>

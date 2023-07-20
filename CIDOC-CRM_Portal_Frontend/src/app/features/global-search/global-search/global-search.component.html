@@ -1,0 +1,43 @@
+<app-info-card
+  title="Global Search in Datasets"
+  [bgColor]="
+    localStorage.getItem('theme-color') === 'theme-dark'
+      ? backgroundColorDark
+      : backgroundColorLight
+  "
+  [color]="color">
+  <app-global-search-form></app-global-search-form>
+  <!-- <app-global-search-chart></app-global-search-chart> -->
+
+  <div *ngIf="(globalSearchService.globalSearchRequest$ | async) !== null" class="mt-20">
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="mr-5">table_rows</mat-icon>
+          Table
+        </ng-template>
+        <app-global-search-list></app-global-search-list>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="mr-5">bar_chart</mat-icon>
+          Bar Charts
+        </ng-template>
+        <app-global-search-chart></app-global-search-chart>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="mr-5">pie_chart</mat-icon>
+          Rose Charts
+        </ng-template>
+        <app-global-search-rose-chart></app-global-search-rose-chart>
+      </mat-tab>
+    </mat-tab-group>
+
+    <!-- <div class="row">
+      <div class="col-12">
+        <app-global-search-list></app-global-search-list>
+      </div>
+    </div> -->
+  </div>
+</app-info-card>

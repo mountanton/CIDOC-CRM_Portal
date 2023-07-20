@@ -1,0 +1,83 @@
+<div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col">
+        <app-autocomplete
+          [list$]="datasets$"
+          label="First Dataset"
+          placeHolder="Etc. http://ldf.fi/ww1lod/sparql"
+          displayName="title"
+          displayID="id"
+          [initID]="initDatasetAutocomplete$ | async"
+          [resetEvent$]="resetFirstFieldSubject$.asObservable()"
+          [disableEvent$]="disableEvent$"
+          [requiredInput]="true"
+          (autocompleteValue)="setDatasetAutocomplete($event, 'endpoint1')">
+        </app-autocomplete>
+      </div>
+
+      <div class="col-1">
+        <div class="minus-input-height d-flex justify-content-center align-items-center">
+          <mat-icon class="compare-icon">compare_arrowss</mat-icon>
+        </div>
+      </div>
+
+      <div class="col">
+        <app-autocomplete
+          [list$]="datasets$"
+          label="Second Dataset"
+          placeHolder="Etc. http://ldf.fi/ww1lod/sparql"
+          displayName="title"
+          displayID="id"
+          [resetEvent$]="resetSecondFieldSubject$.asObservable()"
+          [requiredInput]="true"
+          (autocompleteValue)="setDatasetAutocomplete($event, 'endpoint2')">
+        </app-autocomplete>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="minus-input-height">
+          <div class="slider d-flex align-self-center mb-10">
+            <mat-label class="d-flex align-self-center txt-color"
+              ><b>Only CIDOC-CRM:</b></mat-label
+            >
+            <mat-slide-toggle
+              class="ml-10 d-flex align-self-center txt-color"
+              [color]="inputColor"
+              #slideToggle
+              formControlName="onlyCIDOC">
+              {{ slideToggle.checked ? "Active" : "Inactive" }}
+            </mat-slide-toggle>
+          </div>
+        </div>
+      </div>
+      <div class="col-6"></div>
+      <div class="col">
+        <div *ngIf="loaderService.isLoading | async; else btns" class="loader">
+          <app-spinner></app-spinner>
+        </div>
+        <ng-template #btns>
+          <div class="d-flex gap-1">
+            <button
+              type="button"
+              class="w-100 reset-btn"
+              (click)="resetForm()"
+              mat-button>
+              <mat-icon class="mr-5">restart_alt</mat-icon>
+              <span class="txt-color">Reset Form</span>
+            </button>
+            <button
+              mat-raised-button
+              class="w-100 search-btn"
+              type="submit"
+              [disabled]="!this.form.valid">
+              <mat-icon class="mr-5 search-btn-icon">search</mat-icon>
+              <span>Search</span>
+            </button>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </form>
+</div>

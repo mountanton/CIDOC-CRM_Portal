@@ -1,0 +1,31 @@
+<nav class="mat-elevation-z1" mat-tab-nav-bar color="primary">
+  <ng-container class="row">
+    <a
+      class="col"
+      *ngFor="let tab of tabs"
+      [routerLink]="tab.path"
+      #RouterLinkActive="routerLinkActive"
+      [routerLinkActiveOptions]="{ exact: true }"
+      [active]="RouterLinkActive.isActive"
+      routerLinkActive
+      mat-tab-link>
+      <mat-icon
+        *ngIf="tab.icon !== undefined"
+        class="tab-icon mr-5"
+        >{{ tab.icon }}</mat-icon
+      >
+      <span *ngIf="tab.symbol !== undefined" class="mat-symbol material-symbols-{{ symbolStyle }} mr-5">
+        {{ tab.symbol }}
+      </span>
+      {{ tab.title }}
+    </a></ng-container
+  >
+</nav>
+<!-- <a *ngFor="let tab of tabs"
+[routerLink]="tab.path" #RouterLinkActive="routerLinkActive"
+[routerLinkActiveOptions]="options"
+[active]="RouterLinkActive.isActive"
+routerLinkActive  mat-tab-link>
+<mat-icon color="accent" class="tab-icon mr-5">{{ tab.icon }}</mat-icon>
+{{ tab.title }}
+</a> -->

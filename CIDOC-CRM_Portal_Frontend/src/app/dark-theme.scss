@@ -1,0 +1,142 @@
+::ng-deep .theme-dark {
+  body {
+    background: #2b2b2b !important;
+  }
+
+  //--------------------Bootstrap--------------------
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #83ce88;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(131, 206, 136, 0.493);
+  }
+  //--------------------Finish--------------------
+  //--------------------MatModule--------------------
+
+  td.mat-cell {
+    color: var(--green-main);
+  }
+
+  .mat-table thead {
+    background: unset;
+    background: #1f1f1f !important;
+  }
+
+  .mat-row:hover .mat-cell {
+    background-color: #1f1f1fd8;
+  }
+
+  [mat-row] {
+    background: #303030 !important;
+  }
+  .mat-paginator {
+    color: #83ce88 !important;
+    background: #303030 !important;
+  }
+  .mat-select-value-text,
+  .mat-select-arrow,
+  .mat-header-cell,
+  .mat-form-field-label {
+    color: #83ce88 !important;
+  }
+  .mat-form-field-appearance-legacy .mat-form-field-underline,
+  // .mat-form-field-subscript-wrapper,
+  .mat-form-field-appearance-standard .mat-form-field-underline,
+  .mat-form-field-appearance-standard .mat-form-field-underline:focus {
+    background: #83ce88 !important;
+  }
+  //--------------------Finish--------------------
+
+  mat-drawer-container.mat-drawer-container.mat-drawer-transition {
+    background-color: #2b2b2b !important;
+  }
+  mat-drawer-content.mat-drawer-content {
+    background-color: #2b2b2b;
+  }
+  .mat-drawer-inner-container::-webkit-scrollbar {
+    background: #ffffff;
+    width: 2px;
+  }
+
+  .mat-drawer-inner-container {
+    scrollbar-color: #ffffff #83ce88;
+    scrollbar-width: thin;
+  }
+
+  .mat-drawer-inner-container::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  .mat-drawer-inner-container::-webkit-scrollbar-thumb {
+    background-color: var(--blue-gray);
+    border-radius: 30px;
+    opacity: 0.3;
+  }
+
+  .mat-drawer-inner-container::-webkit-scrollbar {
+    background: #ffffff;
+    width: 2px;
+  }
+  .mat-card,
+  .mat-expansion-panel-header-title,
+  .mat-expansion-panel,
+  .mat-cell,
+  .mat-footer-cell,
+  .mat-tab-label {
+    color: rgb(90 90 90);
+  }
+
+  //default
+  ::ng-deep .mat-drawer-inner-container {
+    background-color: #303030 !important;
+  }
+  //header
+  mat-toolbar.mat-toolbar.deep-box-shadow.mat-primary.mat-toolbar-multiple-rows {
+    background: #1f1f1f;
+  }
+  //tab-menu
+  ::ng-deep .mat-tab-nav-bar .mat-ink-bar {
+    background: radial-gradient(black, #83ce88) !important;
+  }
+
+  ::ng-deep .mat-symbol,
+  .mat-tab-label,
+  .mat-tab-link,
+  .material-icon {
+    color: #83ce88 !important;
+  }
+
+  ::ng-deep .mat-tab-list {
+    background-color: #1f1f1f !important;
+    border: unset;
+  }
+  ::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #83ce88 !important;
+  }
+  //sidebar
+  .mat-icon,
+  .mat-list-item {
+    color: var(--green-main);
+  }
+
+  .mat-list-item.active {
+    color: var(--white);
+
+    background-color: var(--green-main);
+    .mat-icon {
+      color: var(--white);
+    }
+  }
+  //new
+  .header-menu {
+    color: #83ce88;
+  }
+
+  //form
+  ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline,
+  .mat-input-element,
+  .txt-color {
+    color: #83ce88;
+  }
+}

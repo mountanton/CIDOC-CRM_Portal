@@ -1,0 +1,11 @@
+mat-toolbar {
+  height: 50px;
+  border-radius: 5px;
+  color: var(--primary);
+  background: var(--light-blue);
+}
+mat-card {
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,770 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+//bootstrap//
+.form-floating > label {
+  color: black !important;
+  left: unset !important;
+}
+//finish//
+.mat-table thead,
+.mat-table tbody,
+.mat-table tfoot,
+mat-header-row,
+mat-row,
+mat-footer-row,
+[mat-header-row],
+[mat-row],
+[mat-footer-row],
+.mat-table-sticky {
+  background: unset !important;
+}
+
+.mat-datepicker-content .mat-calendar {
+  height: auto !important;
+}
+
+.content {
+  padding: 20px;
+}
+
+.mat-drawer-inner-container::-webkit-scrollbar {
+  height: 2px;
+}
+.mat-tab-link {
+  opacity: 1;
+}
+
+.mat-card {
+  background-color: transparent;
+}
+
+// Colors
+
+.light-gray-bg {
+  background: #b3b3b3;
+}
+
+.green-bg {
+  background: #70ad47;
+  color: #ffffff;
+}
+
+.dark-green-bg {
+  background: #548a30;
+  color: #ffffff;
+}
+
+.green {
+  color: #70ad47;
+}
+
+.yellow-bg {
+  background: #f8b029;
+  color: #ffffff;
+}
+
+.yellow {
+  color: #f8b029;
+}
+
+.gray-bg {
+  background: #636260;
+  color: #ffffff;
+}
+
+.gray {
+  color: #636260;
+}
+
+.blue-bg {
+  background: rgb(45, 121, 235);
+  color: #ffffff;
+}
+
+.white-bg {
+  background: #ffffff;
+}
+
+.light-bg {
+  background: #f5f5f5;
+}
+
+.deep-box-shadow {
+  box-shadow: 0 0.46875rem 2.1875rem rgb(0 0 0 / 3%),
+    0 0.9375rem 1.40625rem rgb(0 0 0 / 3%), 0 0.25rem 0.53125rem rgb(0 0 0 / 5%),
+    0 0.125rem 0.1875rem rgb(0 0 0 / 3%);
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+:host > mat-sidenav-container.mat-sidenav-container {
+  flex: 1;
+}
+
+.mat-card.error {
+  border: 2px solid var(--warn);
+  color: var(--warn);
+}
+
+.mat-card.bs-none {
+  box-shadow: none;
+}
+
+.mat-card.br-none {
+  border-radius: 0;
+}
+
+.mat-drawer {
+  visibility: visible !important;
+  transform: translate3d(calc(72px - 100%), 0, 0);
+}
+
+.mat-drawer-content {
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+.mat-drawer {
+  width: 260px !important;
+}
+
+/* mat nav list items fix */
+.item {
+  flex: 1;
+  text-align: right;
+}
+
+.mat-drawer.mat-drawer-opened .item {
+  text-align: left;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: var(--blue-gray);
+}
+
+.p-0-form-field .mat-form-field-wrapper {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// .mat-form-field-appearance-outline .mat-form-field-outline{
+//   color: var(--blue-gray);
+// }
+
+/////////////////// Toolbar Title Styles ///////////////////////////
+// .mat-toolbar.title  {
+//   background: var(--light-blue);
+//   color: rgba(0, 0, 0, 0.87);
+// }
+
+mat-toolbar.title {
+  height: 50px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  background: var(--light-blue);
+}
+
+mat-toolbar.title.small {
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+mat-toolbar.title span {
+  height: 50px;
+  font-size: 18px;
+}
+
+mat-toolbar.title span.form-title {
+  display: flex;
+  align-items: center;
+}
+
+//////////////////// Button Styles  ///////////////////////
+
+.mat-button-focus-overlay {
+  background-color: transparent;
+}
+
+.mat-raised-button.no-hover:hover,
+.mat-button.no-hover:hover {
+  background-color: inherit;
+}
+
+form .mat-raised-button {
+  font-size: 16px;
+}
+
+form .mat-raised-button,
+form .mat-button {
+  min-height: 50px;
+}
+
+.mat-raised-button:hover {
+  opacity: 0.9;
+}
+
+table .action-button {
+  min-height: 32px !important;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 10px;
+  margin: 0 4px;
+}
+
+////////////////// Helper Classes ///////////////////
+
+// Positioning and visibility
+
+.vh-100 {
+  height: 100vh !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+.h-90 {
+  height: 90% !important;
+}
+.h-80 {
+  height: 80% !important;
+}
+.h-85 {
+  height: 85% !important;
+}
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.xy-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: inherit;
+}
+
+.y-center {
+  display: flex !important;
+  align-items: center !important;
+  height: inherit;
+}
+
+.x-center {
+  display: flex !important;
+  justify-content: center !important;
+  height: inherit !important;
+}
+
+.x-end {
+  display: flex !important;
+  height: inherit;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.x-start {
+  display: flex !important;
+  height: inherit;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.y-self-end {
+  display: flex;
+  align-self: flex-end;
+}
+
+.x-space-between {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.stretched-link {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
+// Margins
+.m-auto {
+  margin: auto !important;
+}
+
+.m-0-auto {
+  margin: 0 auto !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mx-5 {
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+}
+
+.mb-1 {
+  margin-bottom: 1px !important;
+}
+
+.mb-2 {
+  margin-bottom: 2px !important;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mr-5 {
+  margin-right: 5px !important;
+}
+
+.mt-5 {
+  margin-top: 5px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.mx-10 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.mt-15 {
+  margin-top: 15px !important;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 15px;
+}
+
+.my-10 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.my-15 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.my-5 {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+// Paddings
+.p-0 {
+  padding: 0 !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.px-20 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.p-5 {
+  padding: 5px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.px-10 {
+  padding: 0 10px !important;
+}
+
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+.pr-20 {
+  padding-right: 20px !important;
+}
+
+.pl-5 {
+  padding-left: 5px !important;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+//font-size
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+// Icons
+.icon-xxs {
+  transform: scale(0.5);
+}
+
+.icon-xs {
+  transform: scale(0.8);
+}
+
+.icon-lg {
+  transform: scale(1.4);
+  margin-right: 15px;
+}
+
+.icon-x2 {
+  transform: scale(1.6);
+  margin-right: 15px;
+}
+
+.icon-x4 {
+  transform: scale(3.2);
+  margin-right: 30px;
+}
+
+.icon-x6 {
+  transform: scale(4.8);
+}
+
+.flag-icon-sm {
+  width: 16px;
+  height: auto;
+  margin: 0 4px;
+}
+
+// Borders
+.br-4 {
+  border-radius: 4px;
+}
+
+// Fonts
+.font-light {
+  font-weight: 300;
+}
+
+// Status Styles //
+
+// Status bullet
+span.status {
+  background: gray;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: auto 6px;
+  display: inline-block;
+}
+
+// .status.completed {
+//   background: var(--accent);
+// }
+
+.status.cancelled {
+  background: #d4002a;
+}
+
+.status.declined {
+  background: #ff6a00;
+}
+
+.status.pending {
+  background: #ffc82f;
+}
+
+// .status-text.completed {
+//   color: var(--accent);
+// }
+
+.status-text.cancelled {
+  color: #d4002a;
+}
+
+.status-text.declined {
+  color: #ff6a00;
+}
+
+.status-text.pending {
+  color: #ffc82f;
+}
+
+// Ferry Reservations Status
+.status.status-pc {
+  background: #ff6a00;
+}
+
+.status.status-c {
+  background: #d4002a;
+}
+
+.status.status-o {
+  background: #ffc82f;
+}
+
+// Material Elements
+.mat-tab-header {
+  background-color: #ffffff !important;
+  margin-bottom: 10px;
+}
+
+.mat-row {
+  cursor: pointer;
+}
+
+.mat-expansion-panel-body {
+  padding: 0 !important;
+}
+
+mat-panel-title.mat-expansion-panel-header-title {
+  font-weight: 600;
+  color: var(--green-main);
+}
+
+.mat-list-base .mat-list-item .mat-list-item-content,
+.mat-list-base .mat-list-option .mat-list-item-content {
+  padding: 0 24px !important;
+}
+
+mat-list-item.level-1 {
+  font-weight: 600;
+  color: var(--green-main);
+}
+
+// Mat Tables
+
+.td-expand {
+  padding: 0 !important;
+}
+
+table {
+  width: 100%;
+}
+
+td.mat-cell.mat-column-expandedDetail {
+  border-bottom-width: 0px;
+}
+
+tr.expandable-detail-row {
+  height: 0 !important;
+}
+
+// tr.expandable-panel-row:not(.expanded-row):active {
+//   background: #efefef;
+// }
+
+.expanded-panel-detail {
+  overflow: hidden;
+}
+
+.expanded-panel-wrapper {
+  width: 100%;
+}
+
+.mat-column-expand {
+  width: 30px;
+}
+
+tr.mat-header-row {
+  height: 56px;
+  background: var(--light-blue);
+}
+
+.mat-header-cell {
+  font-size: 16px;
+}
+
+tr.expandable-detail-row {
+  height: 0px !important;
+}
+
+.expanded-row .mat-cell,
+.expanded-row .mat-cell button,
+.expanded-row .mat-cell {
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+td.mat-cell:not(:first-of-type),
+th.mat-header-cell:not(:first-of-type) {
+  padding: 4px 6px;
+}
+
+// Scrollable
+.scrollable {
+  max-height: 100px;
+  overflow-y: auto;
+  white-space: initial;
+}
+
+.underline-light {
+  border-bottom: 1px solid var(--blue-gray);
+}
+
+// ng2-tooltip directive
+tooltip.app-tooltip {
+  max-width: 500px;
+}
+
+.minus-input-height {
+  height: calc(100% - 1.34375em);
+}

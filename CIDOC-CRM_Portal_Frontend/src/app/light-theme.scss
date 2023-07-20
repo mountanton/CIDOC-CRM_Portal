@@ -1,0 +1,144 @@
+::ng-deep .theme-light {
+  body {
+    background: white !important;
+  }
+
+  //--------------------Bootstrap--------------------
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #83ce88;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(131, 206, 136, 0.493);
+  }
+  //--------------------Finish--------------------
+  //--------------------MatModule--------------------
+
+  //table
+  // td.mat-cell {
+  //   color: var(--green-main);
+  // }
+
+  .mat-table thead {
+    background: unset;
+    background: #00722f !important;
+  }
+
+  // .mat-row:hover .mat-cell {
+  //   background-color: #00722fd8;
+  // }
+
+  // [mat-row] {
+  //   background: #303030 !important;
+  // }
+  // .mat-paginator {
+  //   color: #83ce88 !important;
+  //   background: #303030 !important;
+  // }
+
+  .mat-header-cell {
+    color: white !important;
+  }
+
+  //filter
+  .mat-form-field-appearance-legacy .mat-form-field-underline,
+  // .mat-form-field-subscript-wrapper,
+  .mat-form-field-appearance-standard .mat-form-field-underline,
+  .mat-form-field-appearance-standard .mat-form-field-underline:focus {
+    background: #83ce88 !important;
+  }
+  .mat-form-field-label {
+    color: black !important;
+  }
+  //end-table
+
+  //--------------------Finish--------------------
+
+  mat-drawer-container.mat-drawer-container.mat-drawer-transition {
+    background-color: white !important;
+  }
+  mat-drawer-content.mat-drawer-content {
+    background-color: white;
+  }
+  .mat-drawer-inner-container::-webkit-scrollbar {
+    background: #ffffff;
+    width: 2px;
+  }
+
+  .mat-drawer-inner-container {
+    scrollbar-color: #ffffff #83ce88;
+    scrollbar-width: thin;
+  }
+
+  .mat-drawer-inner-container::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  .mat-drawer-inner-container::-webkit-scrollbar-thumb {
+    background-color: var(--blue-gray);
+    border-radius: 30px;
+    opacity: 0.3;
+  }
+
+  .mat-drawer-inner-container::-webkit-scrollbar {
+    background: #ffffff;
+    width: 2px;
+  }
+  .mat-card,
+  .mat-expansion-panel-header-title,
+  .mat-expansion-panel,
+  .mat-cell,
+  .mat-footer-cell,
+  .mat-tab-label {
+    color: rgb(90 90 90);
+  }
+
+  //default
+  ::ng-deep .mat-drawer-inner-container {
+    background-color: #f8f8f8 !important;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.274);
+  }
+  //header
+  mat-toolbar.mat-toolbar.deep-box-shadow.mat-primary.mat-toolbar-multiple-rows {
+    background: #00722f;
+  }
+  //tab-menu
+  ::ng-deep .mat-tab-nav-bar .mat-ink-bar {
+    background: radial-gradient(rgb(212, 255, 210), #3fa846) !important;
+  }
+  ::ng-deep .mat-symbol,
+  .mat-tab-label,
+  .mat-tab-link,
+  .material-icon {
+    color: #00722f !important;
+  }
+
+  ::ng-deep .mat-tab-list {
+    border: unset;
+  }
+
+  ::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #00722f !important;
+  }
+  //sidebar
+  .mat-icon,
+  .mat-list-item {
+    color: #006e2e;
+  }
+
+  .mat-list-item.active {
+    color: var(--white);
+
+    background-color: #006e2e;
+    .mat-icon {
+      color: var(--white);
+    }
+  }
+  //new
+  .header-menu {
+    color: white;
+  }
+  .txt-color {
+    color: black;
+  }
+}

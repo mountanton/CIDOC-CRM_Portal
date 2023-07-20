@@ -1,0 +1,22 @@
+<app-info-card
+  title="Common Properties and Classes Between Datasets"
+  [bgColor]="
+    localStorage.getItem('theme-color') === 'theme-dark'
+      ? backgroundColorDark
+      : backgroundColorLight
+  "
+  [color]="color">
+  <app-common-elements-form></app-common-elements-form>
+  <div
+    *ngIf="(commonElementsService.commonRDFClassesRequest$ | async) !== null"
+    class="mt-20">
+    <div class="row">
+      <div class="col-6">
+        <app-common-elements-properties></app-common-elements-properties>
+      </div>
+      <div class="col-6">
+        <app-common-elements-classes></app-common-elements-classes>
+      </div>
+    </div>
+  </div>
+</app-info-card>

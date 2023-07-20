@@ -1,0 +1,12 @@
+<svg:g id="outer-ring">
+  <g *ngFor="let brand of databaseVms">
+    <path [attr.id]="brand?.title" [attr.d]="brand?.path" [attr.fill]="brand?.colour">
+      <title>{{ brand?.tooltip }}</title>
+    </path>
+    <text dy="-3" class="caption">
+      <textPath [attr.href]="brand?.href">
+        {{ brand?.title }}
+      </textPath>
+    </text>
+  </g>
+</svg:g>

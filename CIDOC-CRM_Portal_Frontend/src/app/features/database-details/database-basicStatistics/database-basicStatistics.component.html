@@ -1,0 +1,78 @@
+<app-info-card [toolbar]="false">
+  <div *ngIf="loaderService.isLoading | async; else statistics">
+    <app-spinner></app-spinner>
+  </div>
+  <ng-template #statistics>
+    <div class="statistics-title mb-10">Basic Statistics</div>
+    <mat-divider class="mb-10" [style]="{ position: 'relative' }"></mat-divider>
+    <div
+      class="row statistics-container"
+      *ngIf="(this.basicStatistics$ | async) !== null">
+      <div class="col-6">
+        <span class="font-title">Title:</span> {{ (this.basicStatistics$ | async).title }}
+      </div>
+      <div class="col-6">
+        <span class="font-title">Description:</span>
+        {{ (this.basicStatistics$ | async).description }}
+      </div>
+    </div>
+
+    <div
+      class="row statistics-container"
+      *ngIf="(this.basicStatistics$ | async) !== null">
+      <div class="col-6">
+        <span class="font-title">Triples:</span>
+        {{ (this.basicStatistics$ | async).triples | number }}
+      </div>
+      <div class="col-6">
+        <span class="font-title">Entities:</span>
+        {{ (this.basicStatistics$ | async).entities | number }}
+      </div>
+    </div>
+
+    <div
+      class="row statistics-container"
+      *ngIf="(this.basicStatistics$ | async) !== null">
+      <div class="col-6">
+        <span class="font-title">Properties:</span>
+        {{ (this.basicStatistics$ | async).properties | number }}
+      </div>
+      <div class="col-6">
+        <span class="font-title">Classes: </span>
+        {{ (this.basicStatistics$ | async).classes | number }}
+      </div>
+    </div>
+
+    <div
+      class="row statistics-container"
+      *ngIf="(this.basicStatistics$ | async) !== null">
+      <div class="col-6">
+        <span class="font-title">Triples With CIDOC-CRM property:</span>
+        {{ (this.basicStatistics$ | async).triplesWithCIDOCproperty | number }} ({{
+          (this.basicStatistics$ | async).triplesWithCIDOCpropertyPercentage
+            | number : "1.2-2"
+        }}%)
+      </div>
+      <div class="col-6">
+        <span class="font-title">Triples With CIDOC-CRM Instance:</span>
+        {{ (this.basicStatistics$ | async).triplesWithCIDOCinstance | number }} ({{
+          (this.basicStatistics$ | async).triplesWithCIDOCinstancePercentage
+            | number : "1.2-2"
+        }}%)
+      </div>
+    </div>
+
+    <div
+      class="row statistics-container"
+      *ngIf="(this.basicStatistics$ | async) !== null">
+      <div class="col-6">
+        <span class="font-title"> CIDOC-CRM Properties:</span>
+        {{ (this.basicStatistics$ | async).propertiesCIDOC | number }}
+      </div>
+      <div class="col-6">
+        <span class="font-title">CIDOC-CRM Classes:</span>
+        {{ (this.basicStatistics$ | async).classesCIDOC | number }}
+      </div>
+    </div>
+  </ng-template>
+</app-info-card>

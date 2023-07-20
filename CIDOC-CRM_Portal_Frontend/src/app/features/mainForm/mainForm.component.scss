@@ -1,0 +1,40 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+::ng-deep .theme-dark {
+  .section-title {
+    color: #83ce88;
+  }
+  .reset-btn {
+    background-color: transparent;
+  }
+  .submit-btn {
+    background-color: #83ce88;
+    color: white;
+  }
+  .submit-btn-icon {
+    color: white;
+  }
+}
+
+::ng-deep .theme-light {
+  .section-title {
+    color: default;
+  }
+  .submit-btn {
+    background-color: #83ce88;
+    color: white;
+  }
+  .submit-btn-icon {
+    color: white;
+  }
+  .txt-color {
+    color: #00722f;
+  }
+}

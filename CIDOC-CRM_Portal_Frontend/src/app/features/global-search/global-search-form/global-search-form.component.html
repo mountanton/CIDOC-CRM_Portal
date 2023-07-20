@@ -1,0 +1,66 @@
+<div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col">
+        <app-autocomplete
+          [list$]="autocompleteClassess$"
+          initID=""
+          label="Classes"
+          placeHolder="Etc. E1"
+          displayName="autocompleteViewValue"
+          displayID="autocompleteValue"
+          [emitStringValue]="true"
+          [changeInitIDToString]="true"
+          [resetEvent$]="resetClassSubject$.asObservable()"
+          (autocompleteValue)="setAutocompleteClass($event)">
+        </app-autocomplete>
+      </div>
+      <div
+        class="col-1 d-flex justify-content-center align-content-center align-items-center">
+        <b>OR</b>
+      </div>
+      <div class="col">
+        <app-autocomplete
+          [list$]="autocompleteProperties$"
+          initID=""
+          label="Properties"
+          placeHolder="Etc. P1"
+          displayName="autocompleteViewValue"
+          displayID="autocompleteValue"
+          [emitStringValue]="true"
+          [changeInitIDToString]="true"
+          [resetEvent$]="resetPropertySubject$.asObservable()"
+          (autocompleteValue)="setAutocompleteProperty($event)">
+        </app-autocomplete>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8"></div>
+      <div class="col">
+        <div *ngIf="loaderService.isLoading | async; else btns" class="loader">
+          <app-spinner></app-spinner>
+        </div>
+        <ng-template #btns>
+          <div class="d-flex gap-1">
+            <button
+              type="button"
+              class="w-100 reset-btn"
+              (click)="resetForm()"
+              mat-button>
+              <mat-icon class="mr-5">restart_alt</mat-icon>
+              <span class="txt-color">Reset Form</span>
+            </button>
+            <button
+              mat-raised-button
+              class="w-100 search-btn"
+              type="submit"
+              [disabled]="!this.form.valid">
+              <mat-icon class="mr-5 search-btn-icon">search</mat-icon>
+              <span>Search</span>
+            </button>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </form>
+</div>

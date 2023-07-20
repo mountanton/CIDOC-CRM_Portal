@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col-12">
+    <mat-tab-group
+      animationDuration="0ms"
+      (selectedTabChange)="changeToggleValue($event.tab.textLabel)">
+      <mat-tab *ngFor="let tabInfo of tabsInfo" [label]="tabInfo.viewValue"> </mat-tab>
+    </mat-tab-group>
+  </div>
+
+  <div class="col-12 mt-20">
+    <div class="row">
+      <div class="col-1">
+        <mat-button-toggle-group
+          #groupChart="matButtonToggleGroup"
+          value="default"
+          (change)="changeToggleValueChart($event.value)"
+          class="d-flex flex-column">
+          <mat-button-toggle value="default">
+            <mat-icon class="tab-icon">pie_chart</mat-icon>
+          </mat-button-toggle>
+          <mat-button-toggle value="bar">
+            <mat-icon class="tab-icon">bar_chart</mat-icon>
+          </mat-button-toggle>
+          <mat-button-toggle value="chord" class="d-flex">
+            <mat-icon class="tab-icon">incomplete_circle</mat-icon>
+          </mat-button-toggle>
+        </mat-button-toggle-group>
+      </div>
+      <div class="col-11">
+        <div *ngIf="loaderService.isLoading | async; else diagram">
+          <app-spinner></app-spinner>
+        </div>
+        <ng-template #diagram>
+          <div [ngSwitch]="chartSelector">
+            <div *ngSwitchDefault class="h-100">
+              <app-rose-diagram [data$]="roseChartModel$" [title]="titleOfGraphs">
+              </app-rose-diagram>
+            </div>
+            <div *ngSwitchCase="'bar'" class="h-100">
+              <app-bar-chart [data$]="barChartModel$" [title]="titleOfGraphs">
+              </app-bar-chart>
+            </div>
+            <div *ngSwitchCase="'chord'" class="d-flex justify-content-center">
+              <svg width="430" height="430" viewBox="-250 -250 500 500">
+                <g app-databases [databaseVms]="chordDiagramVm.databaseVms"></g>
+                <g id="chords">
+                  <path
+                    class="chord-path"
+                    *ngFor="let chord of chordDiagramVm.chordVms"
+                    [attr.d]="chord?.path"
+                    [attr.fill]="chord?.sourceDatabase?.colour"
+                    [attr.stroke]="chord?.sourceDatabase?.colour"
+                    opacity="0.8"
+                    (click)="seeDetails(chord?.sourceDatabase.href)">
+                    <title>{{ chord?.tooltip }}</title>
+                  </path>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<mat-toolbar color="primary" class="deep-box-shadow">
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="toggleSideBar()">
+      <mat-icon class="header-menu">menu</mat-icon>
+    </button>
+    <div class="d-flex ml-20 xy-center title-logo" (click)="homePage()">
+      <div class="header-logo xy-center mr-10">
+        <img class="img-header-logo w-100 h-85" src="{{ headerLogoPath }}" alt="" />
+      </div>
+      <span>CIDOC-CRM Datasets Portal</span>
+    </div>
+
+    <div class="w-100 nav-menu">
+      <ul class="m-0 d-flex align-items-center">
+        <li class="xy-center">
+          <button type="button" class="reset-btn mr-5" (click)="reset()" mat-icon-button>
+            <mat-icon class="reset-icon">restart_alt</mat-icon>
+          </button>
+          Datasets: {{ nubmerOfDatabases | number }} Triples:
+          {{ nubmerOfTriples | number }}
+        </li>
+        <li class="profile-card xy-center">
+          <!-- <mat-slide-toggle (change)="toggleTheme()">Theme</mat-slide-toggle> -->
+          <div class="checkbox-container">
+            <input
+              (click)="toggleTheme()"
+              type="checkbox"
+              class="checkbox"
+              id="checkbox"
+              [checked]="localStorage.getItem('theme-color') === 'theme-dark'" />
+            <label for="checkbox" class="label">
+              <mat-icon class="moon">nightlight_round</mat-icon>
+              <mat-icon class="sun">light_mode</mat-icon>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

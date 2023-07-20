@@ -1,0 +1,136 @@
+ul li {
+  list-style: none;
+}
+.title-logo {
+  cursor: pointer;
+}
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-logo {
+  width: 255px;
+  border-radius: 50px;
+}
+.header-logo img {
+  border-radius: 15px;
+  border: 0.2px solid black;
+}
+.header-search-form {
+  width: 250px;
+  margin: auto;
+
+  .header-search-input {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+input::placeholder {
+  color: #c2bdbd;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  height: 68px;
+}
+
+.mat-slide-toggle {
+  font-size: 14px;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 5px;
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0 0 0 15px;
+    }
+    padding: 0 10px;
+  }
+}
+
+////////
+.checkbox-container {
+  margin: 0 10px;
+  width: 36px;
+}
+.checkbox {
+  opacity: 0;
+  position: relative;
+}
+#checkbox {
+  position: absolute;
+}
+.label {
+  width: 35px;
+  height: 18px;
+  background-color: #111;
+  display: flex;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(17px);
+}
+
+.moon {
+  color: pink;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.sun {
+  color: yellow;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+:host ::ng-deep .reset-btn span.mat-button-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+::ng-deep .theme-dark {
+  .reset-btn {
+    background-color: #83ce88;
+  }
+  .reset-icon {
+    color: white;
+  }
+}
+
+::ng-deep .theme-light {
+  .reset-btn {
+    background-color: white;
+  }
+  .reset-icon {
+    color: #00722f;
+  }
+}

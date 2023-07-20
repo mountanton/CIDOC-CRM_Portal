@@ -1,0 +1,100 @@
+<app-info-card
+  [title]="title"
+  [bgColor]="
+    localStorage.getItem('theme-color') === 'theme-dark'
+      ? backgroundColorDark
+      : backgroundColorLight
+  "
+  [color]="color">
+  <div class="before-title">
+    <span class="material-symbols-outlined d-flex align-items-center mr-5">
+      database
+    </span>
+  </div>
+  <div>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <p class="section-title">Required Fields</p>
+      <div class="row">
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Dataset Name</mat-label>
+          <input matInput type="text" formControlName="datasetName" />
+        </mat-form-field>
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Url</mat-label>
+          <input matInput type="text" formControlName="url" />
+        </mat-form-field>
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Creator</mat-label>
+          <input matInput type="text" formControlName="creator" />
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Contact Email</mat-label>
+          <input matInput type="text" formControlName="email" />
+        </mat-form-field>
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Description</mat-label>
+          <input matInput type="text" formControlName="description" />
+        </mat-form-field>
+        <div class="col"></div>
+      </div>
+      <p class="section-title">Optional Fields</p>
+      <div class="row">
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Triples</mat-label>
+          <input matInput type="number" formControlName="numberOfTriples" />
+        </mat-form-field>
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Entities</mat-label>
+          <input matInput type="number" formControlName="numberOfEntities" />
+        </mat-form-field>
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Properties</mat-label>
+          <input matInput type="number" formControlName="numberOfProperties" />
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="col">
+          <mat-label>Classes</mat-label>
+          <input matInput type="number" formControlName="numberOfClasses" />
+        </mat-form-field>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p *ngIf="successMessage">
+            Request sent successfully, admin will aprove your request soon
+          </p>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+          <div *ngIf="loaderService.isLoading | async; else btns" class="loader">
+            <app-spinner></app-spinner>
+          </div>
+          <ng-template #btns>
+            <div class="d-flex gap-1">
+              <button
+                type="button"
+                class="w-100 reset-btn"
+                (click)="resetForm()"
+                mat-button>
+                <mat-icon class="mr-5">restart_alt</mat-icon>
+                <span class="txt-color">Reset Form</span>
+              </button>
+              <button
+                mat-raised-button
+                class="w-100 submit-btn"
+                type="submit"
+                [disabled]="!this.form.valid">
+                <mat-icon class="mr-5 submit-btn-icon">add_circle_outline</mat-icon>
+                <span>{{ title }}</span>
+              </button>
+            </div>
+          </ng-template>
+        </div>
+      </div>
+    </form>
+  </div>
+</app-info-card>

@@ -1,0 +1,15 @@
+<mat-form-field [appearance]="inputAppearance" [color]="inputColor" class="w-100">
+  <mat-label>{{label}}</mat-label>
+  <input type="text" placeholder="{{placeHolder}}" aria-label="location" matInput [class]="this.inputClass"
+    [formControl]="autocompleteFormControl" [matAutocomplete]="locationPathArr" (input)="removeAutocompleteValue()">
+  <mat-autocomplete autoActiveFirstOption #locationPathArr="matAutocomplete" [displayWith]="displayWithName.bind(this)"
+    (optionSelected)="onChangeAutocomplete()">
+    <mat-option *ngFor="let autocompleteValue of (autocompleteList$ | async)" [value]="autocompleteValue" 
+    [ngStyle]="{ display : handleHiddenValues(autocompleteValue[displayID]) ? 'none' : 'block' }">
+      {{autocompleteValue[displayName]}}
+    </mat-option>
+  </mat-autocomplete>
+  <mat-error *ngIf="requiredInput!=null && autocompleteFormControl.invalid && autocompleteFormControl.touched">
+    {{label}} is required
+  </mat-error>
+</mat-form-field>

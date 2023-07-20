@@ -1,0 +1,13 @@
+<div class="w-100 d-flex justify-content-between" *ngIf="showArrowMechanism">
+  <button mat-raised-button [disabled]="this.printStart == 0" (click)="prevArrow()">
+    <mat-icon>navigate_before</mat-icon>
+  </button>
+  <b>{{ title }} {{ this.printStart + 1 }}-{{ this.printEnd }} of {{ this.dataSize }} </b>
+  <button
+    mat-raised-button
+    [disabled]="this.printEnd == this.dataSize"
+    (click)="nextArrow()">
+    <mat-icon>navigate_next</mat-icon>
+  </button>
+</div>
+<div echarts [options]="options"></div>
