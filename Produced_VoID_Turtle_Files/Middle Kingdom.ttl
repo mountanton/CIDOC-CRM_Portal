@@ -1,0 +1,599 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://pnm.uni-mainz.de/sparql> a void:Dataset;
+    dcterms:title "Middle Kingdom";
+    dcterms:description "Egyptian Middle Kingdom Persons and Names";
+    void:entities "237111";
+    void:properties "101";
+    void:classes "42";
+    void-crm:triplesWithCIDOCproperty "226111";
+    void-crm:triplesWithCIDOCpropertyPercentage "15.167264450963017";
+    void-crm:triplesWithCIDOCinstance "452684";
+    void-crm:triplesWithCIDOCinstancePercentage  "30.36551932776266";
+    void:triples "1490783";
+	void-crm:propertiesCIDOC "27";
+    void-crm:classesCIDOC "18";
+
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#status_in_the_inscription>;
+        void:triples "10216";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "35620";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P96_has_formed>;
+        void:triples "72";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#refers_to_period>;
+        void:triples "121";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/pav/2.0/sourceLastAccessedOn>;
+        void:triples "2401";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:triples "550";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#refers_to_place>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#csl_json>;
+        void:triples "3242";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:triples "12761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of>;
+        void:triples "7071";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+        void:triples "453";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during>;
+        void:triples "12173";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch>;
+        void:triples "6434";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#reference_location>;
+        void:triples "30030";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+        void:triples "11391";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_installation_place_note>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_name_type_usage>;
+        void:triples "510";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_text_content>;
+        void:triples "10342";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "9402";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "245580";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#persons_bond_statement_subject>;
+        void:triples "1196";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/bibliographicCitation>;
+        void:triples "3242";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/lemon/ontolex#denotes>;
+        void:triples "3090";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_alternative_reading>;
+        void:triples "511";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#document_refers_to>;
+        void:triples "35621";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#location_in_the_inscription>;
+        void:triples "21181";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:triples "570";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#Egyptological_transliteration>;
+        void:triples "8011";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "133";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#attested_bond_statement_subject>;
+        void:triples "19552";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_lexical_entry_usage>;
+        void:triples "7828";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/pav/2.0/sourceAccessedAt>;
+        void:triples "2275";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#person_title_string>;
+        void:triples "1833";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of>;
+        void:triples "12761";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_script>;
+        void:triples "10616";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#installation_place>;
+        void:triples "23";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#refers_to>;
+        void:triples "7353";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#bond_statement_predicate>;
+        void:triples "20748";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term>;
+        void:triples "96";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "347";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P99_dissolved>;
+        void:triples "72";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#epithet>;
+        void:triples "454";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_identity_statement>;
+        void:triples "7353";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#attested_bond_statement_object>;
+        void:triples "19552";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#architecture>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#persons_bond_statement_object>;
+        void:triples "1196";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_wording>;
+        void:triples "19552";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:triples "12761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location>;
+        void:triples "8846";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#lived>;
+        void:triples "2149";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#attested_personal_names>;
+        void:triples "42201";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "1697";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_production_place_note>;
+        void:triples "614";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch>;
+        void:triples "541";
+    ];
+   void:propertyPartition [ 
+        void:property <http://lawd.info/ontology/foundAt>;
+        void:triples "7305";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#specificates>;
+        void:triples "1399";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#is_the_opposite_gender_form_of>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P88i_forms_part_of>;
+        void:triples "527";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#refers_to_title>;
+        void:triples "256";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P37_assigned>;
+        void:triples "8597";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_reasoning>;
+        void:triples "7327";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_provenance_note>;
+        void:triples "793";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of>;
+        void:triples "218";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/lemon/ontolex#canonicalForm>;
+        void:triples "8011";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "27767";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#P2_has_type>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:triples "994";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "36603";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#is_a_variant_of>;
+        void:triples "51";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "3158";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "168385";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#reads_as>;
+        void:triples "511";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "850";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner>;
+        void:triples "7029";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#attested_title_string>;
+        void:triples "19150";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_spelled_personal_name>;
+        void:triples "38997";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "47267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1i_identifies>;
+        void:triples "1526";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#attested_gender>;
+        void:triples "42206";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_origin_note>;
+        void:triples "1180";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#person_personal_names>;
+        void:triples "2496";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#origin>;
+        void:triples "1215";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner>;
+        void:triples "198";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "11585";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "168385";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_exact_location>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+        void:triples "287";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_title>;
+        void:triples "24085";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_reference_type>;
+        void:triples "36302";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#human_remains>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_usage_gender>;
+        void:triples "7827";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_visual_representation>;
+        void:triples "42207";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_spelling>;
+        void:triples "14563";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_name_type>;
+        void:triples "6951";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "4095";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_dating_note>;
+        void:triples "7890";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+        void:triples "8474";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#has_deposited>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <https://pnm.uni-mainz.de/ontology#person_gender>;
+        void:triples "2496";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:triples "6979";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by>;
+        void:triples "42207";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#title> ;
+        void:triples "2275";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+        void:triples "11366";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E51_Contact_Point> ;
+        void:triples "458";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+        void:triples "123";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#alternative_reading> ;
+        void:triples "511";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        void:triples "75";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E4_Period> ;
+        void:triples "228";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#life> ;
+        void:triples "2149";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/lemon/ontolex#Form> ;
+        void:triples "8011";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+        void:triples "12761";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E66_Formation> ;
+        void:triples "72";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#attested_bond> ;
+        void:triples "19552";
+    ];
+   void:classPartition  [ 
+        void:class <http://lawd.info/ontology/Place> ;
+        void:triples "307";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/BibliographicResource> ;
+        void:triples "7696";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#text_content> ;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+        void:triples "19846";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#criterion> ;
+        void:triples "133";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#spelling> ;
+        void:triples "14563";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#script> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production> ;
+        void:triples "1002";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#usage> ;
+        void:triples "8338";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> ;
+        void:triples "8474";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0007_Context> ;
+        void:triples "527";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "12";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E57_Material> ;
+        void:triples "63";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> ;
+        void:triples "265";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#thesaurus> ;
+        void:triples "12";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#persons_bond> ;
+        void:triples "1196";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E34_Inscription> ;
+        void:triples "11387";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#name_type> ;
+        void:triples "510";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#relative_location> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "3543";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_document> ;
+        void:triples "7696";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#person_attestation> ;
+        void:triples "42207";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#personal_name> ;
+        void:triples "5736";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#bond_type> ;
+        void:triples "13";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "307";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment> ;
+        void:triples "8597";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#biblio_ref> ;
+        void:triples "35622";
+    ];
+   void:classPartition  [ 
+        void:class <https://pnm.uni-mainz.de/ontology#identity_statement> ;
+        void:triples "7353";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution> ;
+        void:triples "72";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        void:triples "2496";
+    ];
+
+ .

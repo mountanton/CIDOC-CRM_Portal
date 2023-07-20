@@ -1,0 +1,807 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://nomisma.org/query> a void:Dataset;
+    dcterms:title "Nomisma";
+    dcterms:description "Numismatic concepts";
+    void:entities "1416993";
+    void:properties "129";
+    void:classes "66";
+    void-crm:triplesWithCIDOCproperty "114201";
+    void-crm:triplesWithCIDOCpropertyPercentage "1.0953143399944871";
+    void-crm:triplesWithCIDOCinstance "257903";
+    void-crm:triplesWithCIDOCinstancePercentage  "2.473576012710906";
+    void:triples "10426322";
+	void-crm:propertiesCIDOC "6";
+    void-crm:classesCIDOC "4";
+
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasObjectType>;
+        void:triples "8610";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasAssociatedWith>;
+        void:triples "49031";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/id/denomination>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/id/region>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso>;
+        void:triples "387";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "207433";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "253699";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/bio/0.1/birth>;
+        void:triples "46";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/identifier>;
+        void:triples "373568";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "143982";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definitition>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/tableOfContents>;
+        void:triples "2881";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+        void:triples "140858";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+        void:triples "18733";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/format>;
+        void:triples "3403";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasStartDate>;
+        void:triples "108603";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/rights>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#used>;
+        void:triples "13343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#organization>;
+        void:triples "3140";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/type>;
+        void:triples "44380";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasControlmark>;
+        void:triples "10674";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#defintion>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>;
+        void:triples "8820";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#location>;
+        void:triples "8416";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasMaterial>;
+        void:triples "103672";
+    ];
+   void:propertyPartition [ 
+        void:property <http://collection.britishmuseum.org/id/ontology/PX_nationality>;
+        void:triples "165";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasDate>;
+        void:triples "2150";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "1906";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:triples "49701";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isPartOf>;
+        void:triples "40328";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriSpace>;
+        void:triples "54";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by>;
+        void:triples "6354";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/partOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "24802";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "4279";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "1735940";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#memberOf>;
+        void:triples "328";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/accessRights>;
+        void:triples "262";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "16255";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#activity>;
+        void:triples "9767";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#seeAlso>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasDiameter>;
+        void:triples "174833";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#note>;
+        void:triples "3876";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isReplacedBy>;
+        void:triples "27286";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/id/object_type>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasAxis>;
+        void:triples "226322";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasMinDiameter>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/id/material>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#documents>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in>;
+        void:triples "3611";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasGeneratedBy>;
+        void:triples "23437";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "373187";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasEndDate>;
+        void:triples "104692";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/thumbnail>;
+        void:triples "552665";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/id/deity>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "127";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch>;
+        void:triples "25700";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#changeNote>;
+        void:triples "22175";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#notation>;
+        void:triples "8390";
+    ];
+   void:propertyPartition [ 
+        void:property <http://usefulinc.com/ns/doap#implements>;
+        void:triples "294667";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasLegend>;
+        void:triples "146191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#inDataset>;
+        void:triples "490913";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "262";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasRegion>;
+        void:triples "58340";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "257";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/contributor>;
+        void:triples "44";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#role>;
+        void:triples "3595";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#dataDump>;
+        void:triples "182";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/TR/sparql11-service-description/name>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasStatedAuthority>;
+        void:triples "7478";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#hasMembership>;
+        void:triples "3598";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#alternateOf>;
+        void:triples "69";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasWeight>;
+        void:triples "333646";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/CRMgeo/asWKT>;
+        void:triples "5947";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#atTime>;
+        void:triples "44379";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasObverse>;
+        void:triples "311599";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+        void:triples "140858";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasCollection>;
+        void:triples "277703";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "128033";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#deprecated>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/bio/0.1/death>;
+        void:triples "92";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasFindspot>;
+        void:triples "52745";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/TR/sparql11-service-description/namedGraph>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/depiction>;
+        void:triples "578938";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasShape>;
+        void:triples "2059";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasDenomination>;
+        void:triples "94548";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasMaxDiameter>;
+        void:triples "25";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "74";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasIssuer>;
+        void:triples "3382";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/replaces>;
+        void:triples "23182";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch>;
+        void:triples "56380";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasAuthority>;
+        void:triples "90768";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/date>;
+        void:triples "206";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasTypeSeriesItem>;
+        void:triples "387212";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasManufacture>;
+        void:triples "73189";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isReferencedBy>;
+        void:triples "294673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasReverse>;
+        void:triples "310795";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#related>;
+        void:triples "114";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/name>;
+        void:triples "492";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/conformsTo>;
+        void:triples "294667";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasAuthenticity>;
+        void:triples "180";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasInvalidatedBy>;
+        void:triples "11191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasMint>;
+        void:triples "103023";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasPeculiarityOfProduction>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "43809";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "50429";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#resouce>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasDie>;
+        void:triples "4094";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.owl-ontologies.com/Ontology1181490123.owl#hasUncertainty>;
+        void:triples "87901";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#representsObjectType>;
+        void:triples "109639";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/topic>;
+        void:triples "22182";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/sioc/services#has_service>;
+        void:triples "294673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "3281";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasClosingDate>;
+        void:triples "3043";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasPortrait>;
+        void:triples "135895";
+    ];
+   void:propertyPartition [ 
+        void:property <http://nomisma.org/ontology#hasDepth>;
+        void:triples "5334";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/CRMgeo/Q9_is_expressed_in_terms_of>;
+        void:triples "6354";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.ordnancesurvey.co.uk/ontology/geometry/asGeoJSON>;
+        void:triples "426";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "3373";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "87706";
+    ];
+   void:classPartition  [ 
+        void:class <http://ontologi.es/WordNet/class/Deity> ;
+        void:triples "296";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "135732";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/vocab/bio/0.1/Death> ;
+        void:triples "93";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.europeana.eu/schemas/edm/WebResource> ;
+        void:triples "294675";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:triples "44379";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.owl-ontologies.com/Ontology1181490123.owl#Uncertainty> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        void:triples "141311";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "65";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Monogram> ;
+        void:triples "3466";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#FindType> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Create> ;
+        void:triples "23427";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#Role> ;
+        void:triples "32";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:triples "258";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Find> ;
+        void:triples "43809";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.rdaregistry.info/Elements/c/Family> ;
+        void:triples "96";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Shape> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Collection> ;
+        void:triples "74";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "75";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        void:triples "40";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Denomination> ;
+        void:triples "372";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#ReferenceWork> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Hoard> ;
+        void:triples "6048";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Ethnic> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Group> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#PeculiarityOfProduction> ;
+        void:triples "16";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#FieldOfNumismatics> ;
+        void:triples "29";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#TypeSeries> ;
+        void:triples "23";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Replace> ;
+        void:triples "11191";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "44";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Corrosion> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#ObjectType> ;
+        void:triples "43";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> ;
+        void:triples "3367";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:triples "3514";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Manufacture> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Authenticity> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Entity> ;
+        void:triples "59";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "50314";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#NumismaticTerm> ;
+        void:triples "42";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/TR/sparql11-service-description/Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#SecondaryTreatment> ;
+        void:triples "25";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#CoinWear> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object> ;
+        void:triples "8373";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "48";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/TR/sparql11-service-description/NamedGraph> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/dcmitype/Collection> ;
+        void:triples "2881";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#NumismaticObject> ;
+        void:triples "373101";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:triples "29";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Mint> ;
+        void:triples "2402";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression> ;
+        void:triples "138757";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Material> ;
+        void:triples "36";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/vocab/bio/0.1/Birth> ;
+        void:triples "47";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#TypeSeriesItem> ;
+        void:triples "110756";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E37_Mark> ;
+        void:triples "179";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/PeriodOfTime> ;
+        void:triples "5854";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/sioc/services#Service> ;
+        void:triples "294667";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#Membership> ;
+        void:triples "3598";
+    ];
+   void:classPartition  [ 
+        void:class <http://nomisma.org/ontology#Region> ;
+        void:triples "259";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E4_Period> ;
+        void:triples "32";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Modify> ;
+        void:triples "9761";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/ProvenanceStatement> ;
+        void:triples "22182";
+    ];
+  
+ .

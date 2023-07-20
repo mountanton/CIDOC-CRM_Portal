@@ -1,0 +1,211 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://zenodo.org/record/3873203> a void:Dataset;
+    dcterms:title "OEBL";
+    dcterms:description "Austrian Biographical Dictionary";
+    void:entities "171238";
+    void:properties "34";
+    void:classes "12";
+    void-crm:triplesWithCIDOCproperty "256550";
+    void-crm:triplesWithCIDOCpropertyPercentage "42.62378425437037";
+    void-crm:triplesWithCIDOCinstance "601616";
+    void-crm:triplesWithCIDOCinstancePercentage  "99.95381246531781";
+    void:triples "601894";
+	void-crm:propertiesCIDOC "15";
+    void-crm:classesCIDOC "11";
+	
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#class>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#entities>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#property>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P02_has_range>;
+        void:triples "9343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#classPartition>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:triples "46536";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "30584";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "171238";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by>;
+        void:triples "550";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#triples>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#distinctSubjects>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of>;
+        void:triples "19653";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#classes>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P145_seperated>;
+        void:triples "2406";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P01_has_domain>;
+        void:triples "9343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end>;
+        void:triples "46536";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "23755";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#distinctObjects>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life>;
+        void:triples "19700";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#properties>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P144_1_kind_of_member>;
+        void:triples "9343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "1578";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "2693";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P146_seperated_from>;
+        void:triples "2406";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P143_joined>;
+        void:triples "9343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>;
+        void:triples "46536";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "150108";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#propertyPartition>;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
+        void:triples "46536";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        void:triples "2719";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/PC144_joined_with> ;
+        void:triples "9343";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        void:triples "19653";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        void:triples "29928";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        void:triples "19700";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E85_Joining> ;
+        void:triples "9343";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "30";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        void:triples "30584";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
+        void:triples "655";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E86_Leaving> ;
+        void:triples "2406";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+        void:triples "341";
+    ];
+
+ .

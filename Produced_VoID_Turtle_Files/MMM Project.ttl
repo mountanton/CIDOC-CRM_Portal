@@ -1,0 +1,915 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://ldf.fi/mmm/sparql> a void:Dataset;
+    dcterms:title "MMM Project";
+    dcterms:description "Mapping Manuscript Migrations- Linked Data Finland";
+    void:entities "3414259";
+    void:properties "152";
+    void:classes "58";
+    void-crm:triplesWithCIDOCproperty "4159346";
+    void-crm:triplesWithCIDOCpropertyPercentage "17.323510025";
+    void-crm:triplesWithCIDOCinstance "8133933";
+    void-crm:triplesWithCIDOCinstancePercentage  "33.877506191";
+    void:triples "24009834";
+	void-crm:propertiesCIDOC "29";
+    void-crm:classesCIDOC "19";
+
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_commissioner>;
+        void:triples "235";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom>;
+        void:triples "122";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_translator>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "6444";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#imports>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/bibale_country>;
+        void:triples "1470";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P28_custody_surrendered_by>;
+        void:isErlangen "yes";
+        void:triples "10064";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "412431";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ldf/dataVisualization>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/page>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#cardinality>;
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by>;
+        void:isErlangen "yes";
+        void:triples "33436";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/mbox>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/order>;
+        void:triples "429818";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentADM1>;
+        void:triples "1257";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/ldf/starRating>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/collection_location>;
+        void:triples "2851";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/miniatures>;
+        void:triples "17";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#disjointWith>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/phillipps_number>;
+        void:triples "7249";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:isErlangen "yes";
+        void:triples "351883";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/external_url>;
+        void:triples "1087";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_scribe>;
+        void:triples "11305";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/binding>;
+        void:triples "74353";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_buchanan>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/biblissima_id>;
+        void:triples "5229";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of>;
+        void:isErlangen "yes";
+        void:triples "40311";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:isErlangen "yes";
+        void:triples "148174";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/geonames_country>;
+        void:triples "1257";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+        void:isErlangen "yes";
+        void:triples "19791";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:isErlangen "yes";
+        void:triples "226402";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#maxCardinality>;
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:isErlangen "yes";
+        void:triples "476696";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P181_has_amount>;
+        void:isErlangen "yes";
+        void:triples "50009";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#sparqlEndpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>;
+        void:isErlangen "yes";
+        void:triples "283336";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/collection_type>;
+        void:triples "3585";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "234";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#name>;
+        void:triples "1259";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+        void:triples "4889";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "23";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_selling_agent>;
+        void:triples "99617";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "3366760";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#name>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/last_known_location_sdbm>;
+        void:triples "164607";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/decade>;
+        void:triples "1742030";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/data_provider_url>;
+        void:triples "1450385";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_illuminator>;
+        void:triples "86";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#onProperty>;
+        void:triples "218";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "334";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/bibale_region>;
+        void:triples "1395";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/decorated_initials>;
+        void:triples "12139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "3870534";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_printer>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R19_created_a_realisation_of>;
+        void:triples "449107";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#minCardinality>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/width>;
+        void:triples "97716";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_recipient>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "224821";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:isErlangen "yes";
+        void:triples "619";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R16_initiated>;
+        void:triples "434793";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_bnf_hebreu>;
+        void:triples "857";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/observed_manuscript>;
+        void:triples "682870";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/source_location>;
+        void:triples "10543";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/place_type>;
+        void:triples "1332";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/gender>;
+        void:triples "11564";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:isErlangen "yes";
+        void:triples "1740";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#exampleResource>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#defaultEntailmentRegime>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner>;
+        void:isErlangen "yes";
+        void:triples "341079";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#notation>;
+        void:triples "357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "323";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#defaultDataset>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#graph>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_christ_church>;
+        void:triples "76";
+    ];
+   void:propertyPartition [ 
+        void:property <http://vocab.getty.edu/ontology#placeTypePreferred>;
+        void:triples "4214";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#example>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/last_known_location>;
+        void:triples "184663";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+        void:isErlangen "yes";
+        void:triples "429270";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/source_agent>;
+        void:triples "8732";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/folios>;
+        void:triples "121069";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#vocabulary>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_bnf_nal>;
+        void:triples "831";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/last_known_location_bibale>;
+        void:triples "8611";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/had_sales_price>;
+        void:triples "54264";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/location_literal>;
+        void:triples "1209";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+        void:isErlangen "yes";
+        void:triples "17200";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+        void:isErlangen "yes";
+        void:triples "454312";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#namedGraph>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+        void:isErlangen "yes";
+        void:triples "17832";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/ownership_attributed_to>;
+        void:triples "473389";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/historiated_initials>;
+        void:triples "6596";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner>;
+        void:isErlangen "yes";
+        void:triples "9416";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:isErlangen "yes";
+        void:triples "5300";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "3327755";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/manuscript_author>;
+        void:triples "136497";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/religion>;
+        void:triples "4840";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/recon_date>;
+        void:triples "892";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+        void:isErlangen "yes";
+        void:triples "493771";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#wikipediaArticle>;
+        void:triples "577";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P180_has_currency>;
+        void:isErlangen "yes";
+        void:triples "16360";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by>;
+        void:isErlangen "yes";
+        void:triples "320";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "525";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_barocci>;
+        void:triples "321";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_possible_author>;
+        void:triples "711784";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/height>;
+        void:triples "98998";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by>;
+        void:isErlangen "yes";
+        void:triples "424";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_arsenal>;
+        void:triples "1474";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end>;
+        void:isErlangen "yes";
+        void:triples "27941";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/institution_literal>;
+        void:triples "2871";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:isErlangen "yes";
+        void:triples "3478";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_author>;
+        void:triples "8199";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/bibale_settlement>;
+        void:triples "1412";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R17_created>;
+        void:triples "452881";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriLookupEndPoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:isErlangen "yes";
+        void:triples "164135";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+        void:triples "320";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/lines>;
+        void:triples "35905";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_editor>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/geonames_class_description>;
+        void:triples "1264";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/carried_out_by_as_artist>;
+        void:triples "3697";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end>;
+        void:isErlangen "yes";
+        void:triples "283306";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/catalog_or_lot_number>;
+        void:triples "241124";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/phone>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/geonames_uri>;
+        void:triples "1265";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "55284";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/manuscript_work>;
+        void:triples "438981";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/last_known_location_bodley>;
+        void:triples "14230";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "373";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/source_date>;
+        void:triples "13708";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P81a_end_of_the_begin>;
+        void:isErlangen "yes";
+        void:triples "27920";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+        void:triples "4889";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#uriSpace>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://vocab.getty.edu/ontology#broaderPreferred>;
+        void:triples "4221";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/rightsHolder>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/shelfmark_bnf_latin>;
+        void:triples "15674";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/schema/mmm/columns>;
+        void:triples "43963";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+        void:isErlangen "yes";
+        void:triples "226402";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Property> ;
+        void:triples "22";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Height> ;
+        void:triples "1086";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/HistoriatedInitials> ;
+        void:triples "170";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F27_Work_Conception> ;
+        void:triples "434793";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+        void:isErlangen "yes";
+        void:triples "248";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Miniatures> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "22";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "379";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E66_Formation>;
+        void:isErlangen "yes";
+        void:triples "2515";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Database> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F2_Expression> ;
+        void:triples "453864";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/PlaceNationality> ;
+        void:triples "15292";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+        void:isErlangen "yes";
+        void:triples "27639";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E57_Material>;
+        void:isErlangen "yes";
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:triples "31";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "41";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+        void:isErlangen "yes";
+        void:triples "15262";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/ManuscriptActivity> ;
+        void:triples "670682";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/ActorActivity> ;
+        void:triples "1908";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F4_Manifestation_Singleton> ;
+        void:triples "222605";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+        void:isErlangen "yes";
+        void:triples "283286";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+        void:isErlangen "yes";
+        void:triples "18205";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Folios> ;
+        void:triples "928";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody>;
+        void:isErlangen "yes";
+        void:triples "40074";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Dataset> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group>;
+        void:isErlangen "yes";
+        void:triples "6101";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Columns> ;
+        void:triples "104";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Lines> ;
+        void:triples "162";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Bibale_place_type> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence>;
+        void:isErlangen "yes";
+        void:triples "479";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:triples "218";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "5077";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+        void:isErlangen "yes";
+        void:triples "5955";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F28_Expression_Creation> ;
+        void:triples "452881";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/DecoratedInitials> ;
+        void:triples "359";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence>;
+        void:isErlangen "yes";
+        void:triples "375";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Graph> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution>;
+        void:isErlangen "yes";
+        void:triples "1531";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F1_Work> ;
+        void:triples "435428";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object>;
+        void:isErlangen "yes";
+        void:triples "453864";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "23108";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount>;
+        void:isErlangen "yes";
+        void:triples "54264";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Width> ;
+        void:triples "654";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "124";
+    ];
+   void:classPartition  [ 
+        void:class <http://ldf.fi/schema/mmm/Source> ;
+        void:triples "14324";
+    ];
+
+ .
