@@ -1,8 +1,10 @@
 # CIDOC-CRM Portal Code Files and Queries
 
-This page contains the code for the CIDOC-CRM web portal (both for the backend and the frontends) 
+This page contains the code for the CIDOC-CRM web portal (both for the backend and the frontend) 
 and below all the SPARQL queries 
-thar are used for A) creating the statistics and B) for all the modes of the portal
+thar are used for A) creating the statistics and B) for all the modes of the portal.
+
+## The web portal is available in http://83.212.101.193:4200/
 
 
 ## A. SPARQL Queries for Creating the VoID Statistics for a given SPARQL Endpoint
