@@ -1,0 +1,830 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://data.archaeologydataservice.ac.uk/sparql/repositories/archives> a void:Dataset;
+    dcterms:title "Archaeology Data Service";
+    dcterms:description "Heritage Data of United Kingdom";
+    void:entities "208544";
+    void:properties "124";
+    void:classes "59";
+    void-crm:triplesWithCIDOCproperty "1128575";
+    void-crm:triplesWithCIDOCpropertyPercentage "72.9434355917042";
+    void-crm:triplesWithCIDOCinstance "1507419";
+    void-crm:triplesWithCIDOCinstancePercentage  "97.4293429645448";
+	void-crm:propertiesCIDOC "58";
+    void-crm:classesCIDOC "13";
+    void:triples "1547192";
+
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P113i_was_removed_by>;
+        void:isErlangen "yes";
+        void:triples "232";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept>;
+        void:triples "222";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmltd>;
+        void:triples "26";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlh1>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P37i_was_assigned_by>;
+        void:isErlangen "yes";
+        void:triples "5191";
+    ];
+   void:propertyPartition [ 
+        void:property <lang>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlnoscript>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrower>;
+        void:triples "1317";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "9327";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlscript>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P141_assigned>;
+        void:isErlangen "yes";
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "63";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P88i_forms_part_of>;
+        void:isErlangen "yes";
+        void:triples "23708";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/publisher>;
+        void:triples "449";
+    ];
+   void:propertyPartition [ 
+        void:property <onLoad>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/coverage>;
+        void:triples "2390";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
+        void:isErlangen "yes";
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by>;
+        void:isErlangen "yes";
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P26i_was_destination_of>;
+        void:isErlangen "yes";
+        void:triples "5610";
+    ];
+   void:propertyPartition [ 
+        void:property <href>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/description>;
+        void:triples "445";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:isErlangen "yes";
+        void:triples "9761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "64952";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlli>;
+        void:triples "59";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P25_moved>;
+        void:isErlangen "yes";
+        void:triples "5188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmla>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "29913";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "208547";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/source>;
+        void:triples "448";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P109i_is_current_or_former_curator_of>;
+        void:isErlangen "yes";
+        void:triples "18149";
+    ];
+   void:propertyPartition [ 
+        void:property <class>;
+        void:triples "98";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+        void:isErlangen "yes";
+        void:triples "44017";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:isErlangen "yes";
+        void:triples "2617";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/crmeh#EHP3_occupied>;
+        void:triples "226";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/rights>;
+        void:triples "449";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P25i_moved_by>;
+        void:isErlangen "yes";
+        void:triples "5188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension>;
+        void:isErlangen "yes";
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "159216";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <type>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#topConceptOf>;
+        void:triples "222";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/crmeh#EHP3i_was_occupied_by>;
+        void:triples "226";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/identifier>;
+        void:triples "276";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch>;
+        void:triples "645";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+        void:isErlangen "yes";
+        void:triples "14307";
+    ];
+   void:propertyPartition [ 
+        void:property <http://vocab.deri.ie/void#exampleResource>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P40i_was_observed_in>;
+        void:isErlangen "yes";
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P87i_identifies>;
+        void:isErlangen "yes";
+        void:triples "98021";
+    ];
+   void:propertyPartition [ 
+        void:property <id>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P120_occurs_before>;
+        void:isErlangen "yes";
+        void:triples "329";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broadMatch>;
+        void:triples "366";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1i_identifies>;
+        void:isErlangen "yes";
+        void:triples "9327";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P114_is_equal_in_time_to>;
+        void:isErlangen "yes";
+        void:triples "582";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:isErlangen "yes";
+        void:triples "9761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:isErlangen "yes";
+        void:triples "2078";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlbody>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <width>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "285";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14i_performed>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlbr>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "185";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/subject>;
+        void:triples "3137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrowMatch>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlsmall>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location>;
+        void:isErlangen "yes";
+        void:triples "7911";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "175980";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout>;
+        void:isErlangen "yes";
+        void:triples "26";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "332";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45i_is_incorporated_in>;
+        void:isErlangen "yes";
+        void:triples "5858";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89i_contains>;
+        void:isErlangen "yes";
+        void:triples "46484";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/language>;
+        void:triples "448";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by>;
+        void:isErlangen "yes";
+        void:triples "15117";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlth>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to>;
+        void:isErlangen "yes";
+        void:triples "15117";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P26_moved_to>;
+        void:isErlangen "yes";
+        void:triples "5610";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P53i_is_former_or_current_location_of>;
+        void:isErlangen "yes";
+        void:triples "7911";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P37_assigned>;
+        void:isErlangen "yes";
+        void:triples "5191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of>;
+        void:isErlangen "yes";
+        void:triples "175980";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:isErlangen "yes";
+        void:triples "3903";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/date>;
+        void:triples "441";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P120i_occurs_after>;
+        void:isErlangen "yes";
+        void:triples "329";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:isErlangen "yes";
+        void:triples "14343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P112_diminished>;
+        void:isErlangen "yes";
+        void:triples "232";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch>;
+        void:triples "298";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmldiv>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P112i_was_diminished_by>;
+        void:isErlangen "yes";
+        void:triples "232";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "98021";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/hasVersion>;
+        void:triples "285";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by>;
+        void:isErlangen "yes";
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+        void:isErlangen "yes";
+        void:triples "2078";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P88_consists_of>;
+        void:isErlangen "yes";
+        void:triples "23708";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/format>;
+        void:triples "2601";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7i_witnessed>;
+        void:isErlangen "yes";
+        void:triples "2617";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:isErlangen "yes";
+        void:triples "5858";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/creator>;
+        void:triples "714";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlspan>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <title>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P113_removed>;
+        void:isErlangen "yes";
+        void:triples "232";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P57_has_number_of_parts>;
+        void:isErlangen "yes";
+        void:triples "27340";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/contributor>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/title>;
+        void:triples "456";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#related>;
+        void:triples "2990";
+    ];
+   void:propertyPartition [ 
+        void:property <alt>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/type>;
+        void:triples "555";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:isErlangen "yes";
+        void:triples "46484";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmlhead>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91i_is_unit_of>;
+        void:isErlangen "yes";
+        void:triples "14343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "285";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of>;
+        void:isErlangen "yes";
+        void:triples "14307";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P109_has_current_or_former_curator>;
+        void:isErlangen "yes";
+        void:triples "18149";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>;
+        void:isErlangen "yes";
+        void:triples "3984";
+    ];
+   void:propertyPartition [ 
+        void:property <rel>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <src>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4i_is_time-span_of>;
+        void:isErlangen "yes";
+        void:triples "3903";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/xhtmltable>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:isErlangen "yes";
+        void:triples "14343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+        void:isErlangen "yes";
+        void:triples "44017";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0071_GroupEventTimespanAppellation> ;
+        void:triples "966";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE2013_ContextFindIdentifierAssignmentEvent> ;
+        void:triples "5191";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+        void:isErlangen "yes";
+        void:triples "16462";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0007_Context> ;
+        void:triples "19089";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0038_ContextFindProductionEventTimespan> ;
+        void:triples "2078";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0050_ContextSampleMeasurementType> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0008_ContextStuff> ;
+        void:triples "226";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlscript> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmllink> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE1004_ContextFindDepositionEvent> ;
+        void:triples "5188";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+        void:isErlangen "yes";
+        void:triples "30048";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Resource> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE1003_GroupEvent> ;
+        void:triples "966";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0039_ContextFindProductionEventTimespanAppellation> ;
+        void:triples "2078";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0009_ContextFind> ;
+        void:triples "5191";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0043_ContextFindUID> ;
+        void:triples "5191";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0018_ContextSample> ;
+        void:triples "232";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmltr> ;
+        void:triples "14";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmla> ;
+        void:triples "21";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0005_Group> ;
+        void:triples "1592";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlspan> ;
+        void:triples "44";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0021_EHProjectTimespan> ;
+        void:triples "26";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE2006_ContextSamplingEvent> ;
+        void:triples "232";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE2015_ContextSampleProcessingEvent> ;
+        void:triples "36";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "285";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+        void:isErlangen "yes";
+        void:triples "1578";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0051_ContextSampleMeasurementUnit> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0019_AreaOfInvestigationDepiction> ;
+        void:triples "24";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE1001_ContextEvent> ;
+        void:triples "1618";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>;
+        void:isErlangen "yes";
+        void:triples "340";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE1002_ContextFindProductionEvent> ;
+        void:triples "2078";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlul> ;
+        void:triples "13";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation>;
+        void:isErlangen "yes";
+        void:triples "8321";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+        void:isErlangen "yes";
+        void:triples "14307";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0053_ContextSampleType> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlhtml> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0070_GroupEventTimespan> ;
+        void:triples "966";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0030_ContextFindMaterial> ;
+        void:triples "119";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0003_AreaOfInvestigation> ;
+        void:triples "47";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0061_ContextUID> ;
+        void:triples "18806";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "19144";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation>;
+        void:isErlangen "yes";
+        void:triples "38";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0049_ContextSampleMeasurement> ;
+        void:triples "36";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+        void:isErlangen "yes";
+        void:triples "28251";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0022_ContextDepiction> ;
+        void:triples "104";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlp> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0026_ContextEventTimespanAppellation> ;
+        void:triples "833";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmltitle> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlsmall> ;
+        void:triples "10";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmldiv> ;
+        void:triples "7";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0025_ContextEventTimespan> ;
+        void:triples "833";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E57_Material>;
+        void:isErlangen "yes";
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0001_EHProject> ;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/crmeh#EHE0092_GroupUID> ;
+        void:triples "1545";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates>;
+        void:isErlangen "yes";
+        void:triples "14307";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/xhtmlimg> ;
+        void:triples "3";
+    ];
+
+ .

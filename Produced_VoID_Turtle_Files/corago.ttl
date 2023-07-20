@@ -1,0 +1,765 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://zenodo.org/record/7821713> a void:Dataset;
+    dcterms:title "Corago";
+    dcterms:description "The Corago repository holds historical information about the italian opera from 1600 to 1900";
+    void:entities "5102527";
+    void:properties "115";
+    void:classes "58";
+    void-crm:triplesWithCIDOCproperty "7655451";
+    void-crm:triplesWithCIDOCpropertyPercentage "31.671666537";
+    void-crm:triplesWithCIDOCinstance "16147649";
+    void-crm:triplesWithCIDOCinstancePercentage  "66.80507521";
+    void:triples "24171292";
+	void-crm:propertiesCIDOC "26";
+    void-crm:classesCIDOC "21";
+	
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP1_work_genre_in_source>;
+		void:triples "19982";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP10_bibliography_author_in_source>;
+		void:triples "288";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP11_document_title_in_source>;
+		void:triples "3354";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP12_has_digital_reproduction>;
+		void:triples "312212";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP18_is_literary_text_original>;
+		void:triples "20005";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP19_literary_text_originality>;
+		void:triples "20005";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP2_is_attribution_uncertain>;
+		void:triples "2506";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP3_is_secondary_source_attribution>;
+		void:triples "11428";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP4_is_primary>;
+		void:triples "222669";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP5_season_sequence_order>;
+		void:triples "4411";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP6_performance_title_in_source>;
+		void:triples "330";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP7_document_editorial_number>;
+		void:triples "830";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP8_document_edition_in_source>;
+		void:triples "519";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CDP9_work_title_in_source>;
+		void:triples "330";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP10_documented_in>;
+		void:triples "47243";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP11_first_performance_place>;
+		void:triples "46";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP12_first_performance_location>;
+		void:triples "38";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP13_first_performance_date>;
+		void:triples "16329";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP14_conception_date>;
+		void:triples "1488";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP15_has_URL>;
+		void:triples "122904";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP16_book_title>;
+		void:triples "80";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP17_most_specific_title>;
+		void:triples "370";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP2_carried_out_role>;
+		void:triples "462343";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP3_carried_out_actor>;
+		void:triples "462355";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP5_refers_with>;
+		void:triples "139895";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP6_refers_to>;
+		void:triples "139895";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP7_performed_part>;
+		void:triples "182702";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP8_performed_character>;
+		void:triples "175065";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CP9_first_performed_in>;
+		void:triples "9415";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPAN1_priority>;
+		void:triples "798554";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC1_work_author>;
+		void:triples "176574";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC10_type>;
+		void:triples "85817";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC11_work_date>;
+		void:triples "1489";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC12_link_note>;
+		void:triples "106";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC13_part_note>;
+		void:triples "91743";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC14_plan_note>;
+		void:triples "1196";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC15_plan_type>;
+		void:triples "43968";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC16_refers_to>;
+		void:triples "139895";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC18_document_work>;
+		void:triples "46517";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC2_performed>;
+		void:triples "48078";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC20_title>;
+		void:triples "110044";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC21_published_by>;
+		void:triples "58517";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC22_place_of_publication>;
+		void:triples "58244";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC23_work_author_in_source>;
+		void:triples "62408";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC24_performace_author>;
+		void:triples "102289";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC25_document_fragment>;
+		void:triples "62836";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC26_document_fragment_text>;
+		void:triples "1460";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC27_work_first_performed_on>;
+		void:triples "9415";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC28_performance_date>;
+		void:triples "41849";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC29_work_author_role>;
+		void:triples "777";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC3_took_place_at>;
+		void:triples "80468";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC30_year_of_conception>;
+		void:triples "1489";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC31_work_character_qualifier>;
+		void:triples "67797";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC32_work_character_note>;
+		void:triples "734";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC33_work_bibliographic_reference_note>;
+		void:triples "1088";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC34_performance_actor_note>;
+		void:triples "44549";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC35_performance_character_note>;
+		void:triples "230468";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC36_performance_character_qualifier>;
+		void:triples "3190";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC37_performance_ref_note>;
+		void:triples "2813";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC38_document_explicit>;
+		void:triples "392";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC39_document_struct_place>;
+		void:triples "535";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC4_is_about>;
+		void:triples "95110";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC40_document_content_genre>;
+		void:triples "44623";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC41_document_work_notes>;
+		void:triples "855";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC42_document_reference_notes>;
+		void:triples "3262";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC43_document_item_notes>;
+		void:triples "6513";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC44_document_collocation>;
+		void:triples "162212";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC45_document_biblio_id>;
+		void:triples "93675";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC46_document_biblio_denom>;
+		void:triples "180679";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC47_performance_season>;
+		void:triples "41530";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC48_document_pag>;
+		void:triples "55498";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC5_character_performance>;
+		void:triples "175065";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC6_note>;
+		void:triples "9590";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC7_performance_actor>;
+		void:triples "183509";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC8_actor_birth_place>;
+		void:triples "23506";
+	];
+	void:propertyPartition  [
+		void:property <http://corago.unibo.it/sm/CPBC9_actor_death_place>;
+		void:triples "22049";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+		void:triples "308609";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+		void:triples "33922";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+		void:triples "171545";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during>;
+		void:triples "41530";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+		void:triples "1852";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+		void:triples "95110";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+		void:triples "124727";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+		void:triples "117034";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+		void:triples "1178788";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+		void:triples "3726356";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+		void:triples "249651";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+		void:triples "3106";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of>;
+		void:triples "93675";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper>;
+		void:triples "180681";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+		void:triples "191114";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+		void:triples "225624";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+		void:triples "261241";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+		void:triples "817";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by>;
+		void:triples "389323";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P79_beginning_is_qualified_by>;
+		void:triples "1221";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P8_took_place_on_or_within>;
+		void:triples "38735";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P80_end_is_qualified_by>;
+		void:triples "628";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P86_falls_within>;
+		void:triples "7330";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by>;
+		void:triples "116761";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+		void:triples "47449";
+	];
+	void:propertyPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+		void:triples "48622";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/CLR6_should_carry>;
+		void:triples "47079";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R10_has_member>;
+		void:triples "38047";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R15_has_fragment>;
+		void:triples "62836";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R16i_was_initiated_by>;
+		void:triples "22452";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R17_created>;
+		void:triples "94321";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R25_performed>;
+		void:triples "48078";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R26_produced_things_of_type>;
+		void:triples "58517";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R7_is_example_of>;
+		void:triples "180681";
+	];
+	void:propertyPartition  [
+		void:property <http://erlangen-crm.org/efrbroo/R9_is_realised_in>;
+		void:triples "48089";
+	];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+		void:triples "5102527";
+	];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+		void:triples "301457";
+	];
+	void:propertyPartition  [
+		void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+		void:triples "4608595";
+	];
+	void:propertyPartition  [
+		void:property <http://xmlns.com/foaf/0.1/gender>;
+		void:triples "51150";
+	];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C10_Scene_Setting>;
+		void:triples "6939";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C11_Chorus_Description>;
+		void:triples "5610";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C12_Production_Type>;
+		void:triples "10";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C13_Occasion_Type>;
+		void:triples "17";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C14_Event_Type>;
+		void:triples "18";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C15_Edition_Type>;
+		void:triples "5";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C16_Approximate_Time_Appellation>;
+		void:triples "96952";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C18_Author_Role>;
+		void:triples "182844";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C19_Bibliographic_Reference>;
+		void:triples "106876";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C2_Actor_Role>;
+		void:triples "61491";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C20_Contributor_Role>;
+		void:triples "34553";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C21_Season>;
+		void:triples "7331";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C3_Genre>;
+		void:triples "17";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C4_Codified_Genre>;
+		void:triples "28";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C5_Link>;
+		void:triples "33019";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C6_Performer_Role>;
+		void:triples "183653";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C8_Character_Type>;
+		void:triples "9";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/C9_Production_Release>;
+		void:triples "13";
+    ];
+	void:classPartition  [
+		void:class <http://corago.unibo.it/sm/E55_Type>;
+		void:triples "402";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E19_Physical_object>;
+		void:triples "38773";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+		void:triples "370";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object>;
+		void:triples "1852";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+		void:triples "172012";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+		void:triples "113462";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E4_Period>;
+		void:triples "14";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+		void:triples "472811";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation>;
+		void:triples "125421";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name>;
+		void:triples "41";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation>;
+		void:triples "209878";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E50_Date>;
+		void:triples "82544";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+		void:triples "210198";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+		void:triples "3106";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+		void:triples "142649";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+		void:triples "33";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E60_Number>;
+		void:triples "938339";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E62_String>;
+		void:triples "701240";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+		void:triples "48622";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+		void:triples "33922";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+		void:triples "54943";
+    ];
+	void:classPartition  [
+		void:isErlangen "yes";
+		void:property <http://www.cidoc-crm.org/cidoc-crm/E82_ActorAppellation>;
+		void:triples "58517";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F14_Individual_Work>;
+		void:triples "3";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F15_Complex_Work>;
+		void:triples "22493";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F17_Aggregation_Work>;
+		void:triples "4";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression>;
+		void:triples "22498";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F23_Expression_Fragment>;
+		void:triples "100885";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F24_Publication_Expression>;
+		void:triples "47079";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F25_Performance_Plan>;
+		void:triples "48078";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F27_Work_Conception>;
+		void:triples "22452";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F28_Expression_Creation>;
+		void:triples "48448";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F3_Manifestation_Product_Type>;
+		void:triples "58517";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F30_Publication_Event>;
+		void:triples "58887";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F31_Performance>;
+		void:triples "41849";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F32_Carrier_Production_Event>;
+		void:triples "58517";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F38_Character>;
+		void:triples "95110";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F5_Item>;
+		void:triples "180681";
+    ];
+	void:classPartition  [
+		void:class <http://erlangen-crm.org/efrbroo/F9_Place>;
+		void:triples "168325";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+		void:triples "115";
+    ];
+	void:classPartition  [
+		void:class <http://www.w3.org/2000/01/rdf-schema#Class>;
+		void:triples "52";
+    ];	
+.

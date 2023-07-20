@@ -1,0 +1,1521 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://dati.culturaitalia.it/sparql> a void:Dataset;
+    dcterms:title "Cultura Italia";
+    dcterms:description "Italian Painting, Painters, Sounds and Videos";
+    void:entities "9951056";
+    void:properties "181";
+    void:classes "177";
+    void-crm:triplesWithCIDOCproperty "21927494";
+    void-crm:triplesWithCIDOCpropertyPercentage "52.33098412037302";
+    void-crm:triplesWithCIDOCinstance "41896526";
+    void-crm:triplesWithCIDOCinstancePercentage  "99.98800760382355";
+	void-crm:propertiesCIDOC "33";
+    void-crm:classesCIDOC "29";
+    void:triples "41901551";
+
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:isErlangen "yes";
+        void:triples "2171685";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#priorVersion>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/replaces>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#noInherit>;
+        void:triples "56";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#member>;
+        void:triples "58";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "992443";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrower>;
+        void:triples "835";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "9953410";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "388";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/rightsHolder>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftXmlIndex>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/contributor>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "1972";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#complementOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/description>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "1437367";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCustomString1>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "744";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#maxCardinality>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#unionOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/conformsTo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumns>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P117i_includes>;
+        void:isErlangen "yes";
+        void:triples "44";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to>;
+        void:isErlangen "yes";
+        void:triples "882527";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsUserMaps>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by>;
+        void:isErlangen "yes";
+        void:triples "331033";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#version>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmGraphMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P75_possesses>;
+        void:isErlangen "yes";
+        void:triples "4316";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P139_has_alternative_form>;
+        void:isErlangen "yes";
+        void:triples "29786";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumnsFormKey>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#notation>;
+        void:triples "357";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:isErlangen "yes";
+        void:triples "69821";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:isErlangen "yes";
+        void:triples "132232";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftConds>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/DAV#ownerUser>;
+        void:triples "743";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P136_was_based_on>;
+        void:isErlangen "yes";
+        void:triples "547020";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by>;
+        void:isErlangen "yes";
+        void:triples "29273";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/title>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "905";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+        void:isErlangen "yes";
+        void:triples "129714";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point>;
+        void:isErlangen "yes";
+        void:triples "12646";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:isErlangen "yes";
+        void:triples "572346";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/extent>;
+        void:triples "730";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDtpOfNiceSqlval>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions>;
+        void:triples "172";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "2910253";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "282";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#url>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location>;
+        void:isErlangen "yes";
+        void:triples "1289959";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvATables>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats>;
+        void:triples "98";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P147i_was_curated_by>;
+        void:isErlangen "yes";
+        void:triples "189046";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmSubjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl>;
+        void:triples "37";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmObjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isSpecialPredicate>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/language>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/identifier>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvGeo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcAlias>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+        void:isErlangen "yes";
+        void:triples "748134";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfNiceSqlvalTmpl>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+        void:triples "865";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of>;
+        void:isErlangen "yes";
+        void:triples "242033";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFText>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "151";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#loadAs>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#imports>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "149";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom>;
+        void:triples "49";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1>;
+        void:triples "66";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "1091422";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/format>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by>;
+        void:isErlangen "yes";
+        void:triples "784775";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on>;
+        void:isErlangen "yes";
+        void:triples "478";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "2369083";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/L29_has_responsible_organization>;
+        void:triples "6333";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "293";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull>;
+        void:triples "40";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftColumnName>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:isErlangen "yes";
+        void:triples "69955";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isGcResistantType>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "236";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#inheritFrom>;
+        void:triples "99";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#item>;
+        void:triples "139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_is_referred_to_by>;
+        void:isErlangen "yes";
+        void:triples "450644";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "5928392";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/picotheme>;
+        void:triples "643";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_1_in_the_role_of>;
+        void:isErlangen "yes";
+        void:triples "64268";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+        void:isErlangen "yes";
+        void:triples "744541";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#onProperty>;
+        void:triples "77";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#disjointWith>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmPredicateMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by>;
+        void:isErlangen "yes";
+        void:triples "332586";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P105_right_held_by>;
+        void:isErlangen "yes";
+        void:triples "673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#minCardinality>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/issued>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/creator>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#cardinality>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "4529569";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval>;
+        void:triples "22";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:isErlangen "yes";
+        void:triples "163493";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfName>;
+        void:triples "130";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/L1i_is_digitized_by>;
+        void:triples "266498";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P19_was_intended_use_of>;
+        void:isErlangen "yes";
+        void:triples "547834";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:isErlangen "yes";
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsStable>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by>;
+        void:isErlangen "yes";
+        void:triples "1862942";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvTableName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "743";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsDefaultMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageTmpl>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName>;
+        void:triples "39";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#paleontologia_e_paleoecologia> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_etnografici_e_antropologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body>;
+        void:isErlangen "yes";
+        void:triples "11134";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#dipinti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E38_Image>;
+        void:isErlangen "yes";
+        void:triples "79211";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+        void:isErlangen "yes";
+        void:triples "2659122";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_ambientali_e_paesaggistici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#elementi_architettonici_e_decorativi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#reperti_antropologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_archeologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#ceramiche> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#tessuti_e_ricami> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+        void:isErlangen "yes";
+        void:triples "547836";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#sculture> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#rocce> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arte> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#scienze_naturali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#reperti_archeologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+        void:triples "98";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#periodici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:triples "77";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/D2_Digitization_Process> ;
+        void:triples "134";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_della_scienza_e_della_tecnica> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#cinema_documentario> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#edizioni_musicali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#eventi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+        void:isErlangen "yes";
+        void:triples "390719";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#edifici_industriali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_antropologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#fotografie> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation>;
+        void:isErlangen "yes";
+        void:triples "629883";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#gemme_incise> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#2001> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#giardini_e_parchi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#parchi_e_riserve_naturali_regionali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#ministero_delle_infrastrutture_e_dei_trasporti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#geologia> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#collection> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#storia_dell_arte> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#installazioni_arte> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#archeologia> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#orologi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#case_museo> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#carte_geografiche_mappe> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#cultura_artigianale_tradizionale> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event>;
+        void:isErlangen "yes";
+        void:triples "1897";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#spartiti_musicali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+        void:triples "130";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#designer_industriali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arti_applicate> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+        void:isErlangen "yes";
+        void:triples "67733";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_specializzati> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#opere_di_argomento_religioso> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#minerali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#abbigliamento_liturgico> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#piante> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#pittura> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_culturali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#abbigliamento_e_accessori> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#beni_librari> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#disegni> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#OntologyProperty> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#stampe_incisioni_matrici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Collection>;
+        void:isErlangen "yes";
+        void:triples "673";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#cinema> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+        void:isErlangen "yes";
+        void:triples "45";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#strumenti_musicali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#design_di_arredi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "87";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#ministero_dei_trasporti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#mezzi_di_trasporto> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#porti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+        void:isErlangen "yes";
+        void:triples "1006244";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arte_del_tessuto> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#storia_orale> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#animali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#aeroporti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:triples "31";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E51_Contact_Point>;
+        void:isErlangen "yes";
+        void:triples "12646";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+        void:isErlangen "yes";
+        void:triples "15122";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#armi_e_armature> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#scultura> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#zoologia> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#palazzi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#monete_e_medaglie> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#edifici_strutture_di_difesa> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#illustratori> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume>;
+        void:isErlangen "yes";
+        void:triples "8616";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "63051";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#monumenti_archeologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-string> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#fotografia> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E64_Creation>;
+        void:isErlangen "yes";
+        void:triples "2034";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation>;
+        void:isErlangen "yes";
+        void:triples "7076";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#manoscritti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Collection> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object>;
+        void:isErlangen "yes";
+        void:triples "233687";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#architettura> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "91558";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#castelli> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E57_Material>;
+        void:isErlangen "yes";
+        void:triples "43591";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#numismatica> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#video_digitali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arte_della_ceramica> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#parchi_e_riserve_naturali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_architettonici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_applicata> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#industriali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#preistoria_e_protostoria> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arti_visive> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#ville> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E30_Right>;
+        void:isErlangen "yes";
+        void:triples "890367";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#monumenti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#teatro_delle_marionette> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#suppellettile_liturgica> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#conventi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#scienze_antropologiche> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_immateriali_della_tradizione_e_del_folklore> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "273";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arte_lapidea> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#eta_del_ferro> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E83_Type_Creation>;
+        void:isErlangen "yes";
+        void:triples "547020";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#fossili> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musica> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#strumenti_scientifici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+        void:isErlangen "yes";
+        void:triples "643301";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#aree_archeologiche> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#abbigliamento_d_alta_moda> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#arte_del_ricamo> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+        void:isErlangen "yes";
+        void:triples "358492";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#abitazioni> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://dati.culturaitalia.it/resource1> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#impianti_dei_trasporti> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_d_arte> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#parchi_archeologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_storici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_materiali_della_tradizione_e_del_folklore> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.3#beni_naturalistici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#chiese> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#seconda_guerra_mondiale> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#gastronomia> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity>;
+        void:isErlangen "yes";
+        void:triples "189046";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+        void:isErlangen "yes";
+        void:triples "972006";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#feste_religiose> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#beni_archeologici> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "982";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#discipline_artistiche_e_storico_artistiche> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#edifici_religiosi> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.2#audioregistrazioni> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+        void:isErlangen "yes";
+        void:triples "400386";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_di_storia_e_scienze_naturali> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#oggetti_d_uso> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#geofisica> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "23";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E45_Address>;
+        void:isErlangen "yes";
+        void:triples "6108";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+        void:isErlangen "yes";
+        void:triples "72760";
+    ];
+   void:classPartition  [ 
+        void:class <http://culturaitalia.it/pico/thesaurus/4.1#musei_aziendali_e_industriali> ;
+        void:triples "1";
+    ];
+
+ .

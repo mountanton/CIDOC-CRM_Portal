@@ -1,0 +1,2059 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://stad.gent/sparql> a void:Dataset;
+    dcterms:title "CoGhent";
+    dcterms:description "CoGhent Dataset";
+    void:entities "61437653";
+    void:properties "412";
+    void:classes "96";
+    void-crm:triplesWithCIDOCproperty "43082959";
+    void-crm:triplesWithCIDOCpropertyPercentage "21.825541431670455";
+    void-crm:triplesWithCIDOCinstance "94036071";
+    void-crm:triplesWithCIDOCinstancePercentage  "47.638050201";
+	void-crm:propertiesCIDOC "32";
+    void-crm:classesCIDOC "11";
+    void:triples "197396977";
+
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/generiek#isTijdspecialisatieVan>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/openingHours>;
+        void:triples "209";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/hydra/core#member>;
+        void:triples "5651";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "11689";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/Toilets>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#alternatieveNaam>;
+        void:triples "383";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumnsFormKey>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/revision_user>;
+        void:triples "479";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/outDoors>;
+        void:triples "1060";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/identifier>;
+        void:triples "11943";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/streetaddress>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of>;
+        void:triples "1557694";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftXmlIndex>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#inheritFrom>;
+        void:triples "99";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_poi_type>;
+        void:triples "936";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#hasPost>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by>;
+        void:triples "7088";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/caption>;
+        void:triples "37472";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/resource/Neighbourhood>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/music_genre>;
+        void:triples "1650";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_group_contact>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/data-processing/isSensitive>;
+        void:triples "34";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/7>;
+        void:triples "58";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/opens>;
+        void:triples "787";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "11730";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvATables>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/oslo/ns/localgov#address>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/hydra/core#previous>;
+        void:triples "123";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_contact_person_email>;
+        void:triples "426";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#atTime>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/thumbnailUrl>;
+        void:triples "11995";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:triples "62478";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/locn#poBox>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/additionalType>;
+        void:triples "850";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/keywords>;
+        void:triples "26852";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P42_assigned>;
+        void:triples "6369005";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/revision_log_message>;
+        void:triples "377";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/ontology/buildingType>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/superEvent>;
+        void:triples "3766";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumns>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_related_poi>;
+        void:triples "3690";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/contentLocation>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/priceValidUntil>;
+        void:triples "74";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#preflabel>;
+        void:triples "241";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsDefaultMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/validThrough>;
+        void:triples "1043";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isGcResistantType>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/1>;
+        void:triples "382";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#heeftOverlijden>;
+        void:triples "1721";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <https://w3id.org/tree#relation>;
+        void:triples "1924";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/nl>;
+        void:triples "2901";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "4319";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#heeftNationaliteit>;
+        void:triples "2428";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/contactPoint>;
+        void:triples "3931";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/closes>;
+        void:triples "787";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/givenName>;
+        void:triples "5796";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/revision_translation_affected>;
+        void:triples "479";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/streetAddress>;
+        void:triples "3054";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsUserMaps>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/postalcode>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.opengis.net/ont/geosparql#asWKT>;
+        void:triples "903";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/relation>;
+        void:triples "520";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftColumnName>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/category>;
+        void:triples "2540";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by>;
+        void:triples "300009";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/service_label>;
+        void:triples "1063";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/availableAtOrFrom>;
+        void:triples "1277";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/audience>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <https://w3id.org/tree#node>;
+        void:triples "1924";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/description>;
+        void:triples "17654";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/memberOf>;
+        void:triples "106";
+    ];
+   void:propertyPartition [ 
+        void:property <http://mu.semte.ch/vocabularies/ext/state>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#item>;
+        void:triples "139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:triples "3353911";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFText>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#definedBy>;
+        void:triples "1728";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.vlaanderen.be/ns/toestemming#verwerkingsgrond>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/OpeninghoursId>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#sparqlEndpoint>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/artform>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/extent>;
+        void:triples "733";
+    ];
+   void:propertyPartition [ 
+        void:property <https://w3id.org/tree#value>;
+        void:triples "1924";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#dataset>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1>;
+        void:triples "66";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats>;
+        void:triples "98";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/oslo/ns/localgov#contact>;
+        void:triples "1665";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/WebPage>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/video>;
+        void:triples "951";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_random_sort>;
+        void:triples "1338";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull>;
+        void:triples "40";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/locn#thoroughfare>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/dateModified>;
+        void:triples "3270";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#geslacht>;
+        void:triples "5584";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P62_depicts>;
+        void:triples "24350";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/mainEntityOfPage>;
+        void:triples "1690";
+    ];
+   void:propertyPartition [ 
+        void:property <http://gentsefeesten.be/ns/isWheelchairUnfriendly>;
+        void:triples "4388";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by>;
+        void:triples "2665013";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_search_keywords>;
+        void:triples "170";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://import.stad.gent/oh/ohChannel>;
+        void:triples "246";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/hasPart>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+        void:triples "997531";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#priorVersion>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "21";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/ChildrensToilets>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/identifier>;
+        void:triples "2469";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/2>;
+        void:triples "343";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/Supervision>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/name>;
+        void:triples "52321";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:triples "3965540";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#heeftGeboorte>;
+        void:triples "3525";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/ontology/af/confidence>;
+        void:triples "3761";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#triples>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#complementOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/typicalAgeRange>;
+        void:triples "788";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmSubjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_datatable_always>;
+        void:triples "376";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/postalCode>;
+        void:triples "2837";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_schedule_info>;
+        void:triples "50";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:triples "572";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrower>;
+        void:triples "12919";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/accountablePerson>;
+        void:triples "1599";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/price>;
+        void:triples "3859";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#notation>;
+        void:triples "8470896";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftConds>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <https://w3id.org/tree#path>;
+        void:triples "1924";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of>;
+        void:triples "2294717";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#topConceptOf>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/sourceOrganization>;
+        void:triples "1794";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/title>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/frequency>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/temporal>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/subjectOf>;
+        void:triples "2156";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_datatable_screensaver>;
+        void:triples "989";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmObjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://gentsefeesten.be/ns/outdoors>;
+        void:triples "3328";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:triples "118062";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/0>;
+        void:triples "555";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:triples "3097176";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/es>;
+        void:triples "2455";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+        void:triples "106028";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/offers>;
+        void:triples "3229";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P41_classified>;
+        void:triples "6369005";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDtpOfNiceSqlval>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/previousPage>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.europa.eu/m8g/endTime>;
+        void:triples "466673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/telephone>;
+        void:triples "1261";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/vcard/ns#hasEmail>;
+        void:triples "1509";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/uri>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval>;
+        void:triples "22";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location>;
+        void:triples "5148";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#accessURL>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "132777";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/priceCurrency>;
+        void:triples "4096";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/familyName>;
+        void:triples "6850";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/inLanguage>;
+        void:triples "4987";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_label>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#noInherit>;
+        void:triples "56";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/inScheme>;
+        void:triples "800";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:triples "57780366";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/contributor>;
+        void:triples "1154";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isPartOf>;
+        void:triples "7005";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/service>;
+        void:triples "1063";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:triples "153227";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of>;
+        void:triples "110210";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/label>;
+        void:triples "2156";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+        void:triples "86775";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#keyword>;
+        void:triples "128";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_age_min>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/geo>;
+        void:triples "569";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isVersionOf>;
+        void:triples "147893";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/location>;
+        void:triples "3769";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/locationCreated>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#loadAs>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#version>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/isPartOf>;
+        void:triples "3934";
+    ];
+   void:propertyPartition [ 
+        void:property <http://gentsefeesten.be/ns/eligibleForDiscount>;
+        void:triples "1556";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/channel>;
+        void:triples "1070";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/DAV#ownerUser>;
+        void:triples "750";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_datatable>;
+        void:triples "930";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.europa.eu/m8g/startTime>;
+        void:triples "466673";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/locationType>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#plaats>;
+        void:triples "9196";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isSpecialPredicate>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>;
+        void:triples "16766";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+        void:triples "9592819";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/startDate>;
+        void:triples "3708";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/accrualPeriodicity>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/name>;
+        void:triples "2168";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "207896";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#qualifiedGeneration>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_lez>;
+        void:triples "702";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+        void:triples "37161";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvGeo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/oslo/ns/localgov#statusCode>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/5>;
+        void:triples "287";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/target_id>;
+        void:triples "483";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/resource/Restroom_attendant>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#datum>;
+        void:triples "12248";
+    ];
+   void:propertyPartition [ 
+        void:property <https://linked.art/ns/terms/equivalent>;
+        void:triples "5842570";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "5187";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfName>;
+        void:triples "130";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#generatedAtTime>;
+        void:triples "147897";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/data-processing/hasPersonalData>;
+        void:triples "1679";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.europa.eu/m8g/isOwnedBy>;
+        void:triples "736";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#note>;
+        void:triples "103352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#unionOf>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://open.vocab.org/terms/icon>;
+        void:triples "1414";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.vlaanderen.be/ns/mandaat#aantalHouders>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/hydra/core#last>;
+        void:triples "173";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/page>;
+        void:triples "117150";
+    ];
+   void:propertyPartition [ 
+        void:property <http://import.stad.gent/oh/ohService>;
+        void:triples "246";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/WaterAccessPoints>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:triples "3431563";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvTableName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#distribution>;
+        void:triples "26";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/de>;
+        void:triples "2438";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/Urinals>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to>;
+        void:triples "1557694";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfNiceSqlvalTmpl>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/containedInPlace>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/isAccessibleForFree>;
+        void:triples "3328";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/validFrom>;
+        void:triples "1043";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/4>;
+        void:triples "308";
+    ];
+   void:propertyPartition [ 
+        void:property <https://w3id.org/ldes#state>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/containsPlace>;
+        void:triples "155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper>;
+        void:triples "110261";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/en>;
+        void:triples "2485";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#related>;
+        void:triples "213";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_admin_tags>;
+        void:triples "1297";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:triples "3922707";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_hotel_class>;
+        void:triples "32";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/locn#city>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_age_max>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/headline>;
+        void:triples "1581";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCustomString1>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/revision_created>;
+        void:triples "813";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/persoon#volledigeNaam>;
+        void:triples "10684";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/8>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/longitude>;
+        void:triples "569";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/locn#adminUnitL2>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/AccessStatus>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/subEvent>;
+        void:triples "3766";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by>;
+        void:triples "12693";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/geometry>;
+        void:triples "903";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/language>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_datatable_visibility>;
+        void:triples "101";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/channel_label>;
+        void:triples "1063";
+    ];
+   void:propertyPartition [ 
+        void:property <dcterms:modified>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/10>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.vlaanderen.be/ns/mandaat#bindingStart>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/openingHoursSpecification>;
+        void:triples "1043";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_contact_person_name>;
+        void:triples "244";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/3>;
+        void:triples "325";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/PotableWaterAccessPoints>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasAttributedTo>;
+        void:triples "10684";
+    ];
+   void:propertyPartition [ 
+        void:property <https://schema.org/value>;
+        void:triples "404271";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/oslo/ns/localgov#mailingLocation>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_link>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
+        void:triples "1059118";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_opening_hours>;
+        void:triples "1070";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/format>;
+        void:triples "26";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl>;
+        void:triples "37";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/data-processing/verduidelijkingRechtsgrond>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#theme>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/hydra/core#first>;
+        void:triples "173";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcAlias>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/url>;
+        void:triples "34290";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.vlaanderen.be/ns/mandaat#isTijdspecialisatieVan>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/address>;
+        void:triples "2451";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_citycard_calculator>;
+        void:triples "43";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#distinctSubjects>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/latitude>;
+        void:triples "569";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>;
+        void:triples "1105";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/hydra/core#next>;
+        void:triples "165";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "61471352";
+    ];
+   void:propertyPartition [ 
+        void:property <https://schema.org/unitText>;
+        void:triples "8814440";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#role>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#distinctObjects>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/articleBody>;
+        void:triples "10261";
+    ];
+   void:propertyPartition [ 
+        void:property <http://rdfs.org/ns/void#properties>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/locn#postCode>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/status>;
+        void:triples "479";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/CleaningCompany>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#downloadURL>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/type>;
+        void:triples "2156";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/endDate>;
+        void:triples "3708";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#holds>;
+        void:triples "1429";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.vlaanderen.be/ns/toestemming#verwerker>;
+        void:triples "267";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#url>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/email>;
+        void:triples "1339";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/data-processing/hasSensitivePersonalData>;
+        void:triples "264";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/adms#identifier>;
+        void:triples "399433";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/fr>;
+        void:triples "2465";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/duration>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/AdultToilets>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "11517";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/vcard/ns#hasUrl>;
+        void:triples "1402";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/source>;
+        void:triples "2449";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/6>;
+        void:triples "261";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "1402";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/copyright>;
+        void:triples "4464";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/organizer>;
+        void:triples "4894";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/revision_id>;
+        void:triples "1279";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_openinghours_info>;
+        void:triples "91";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:triples "84829";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "14470";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/image>;
+        void:triples "13973";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/datePublished>;
+        void:triples "3231";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions>;
+        void:triples "172";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/broken>;
+        void:triples "1070";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/org#unitOf>;
+        void:triples "81183";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/revision_default>;
+        void:triples "479";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/field_accessible_name>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/contentUrl>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsStable>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through>;
+        void:triples "113486";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/data-processing/grantee>;
+        void:triples "387";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/nickname>;
+        void:triples "1728";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmPredicateMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/weight>;
+        void:triples "800";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/addressLocality>;
+        void:triples "3189";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/locn#adminUnitL1>;
+        void:triples "1661";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "614";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmGraphMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.vlaanderen.be/ns/mandaat#isAangesteldAls>;
+        void:triples "1429";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/thumbnail>;
+        void:triples "7644";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/embedUrl>;
+        void:triples "951";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "10477";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/addressCountry>;
+        void:triples "3189";
+    ];
+   void:propertyPartition [ 
+        void:property <https://w3id.org/tree#remainingItems>;
+        void:triples "1924";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/9>;
+        void:triples "11";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#imports>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://stad.gent/data/ns/DiaperChangingTables>;
+        void:triples "217";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/conformsTo>;
+        void:triples "107471";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/type>;
+        void:triples "5911";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/artist>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <https://data.vlaanderen.be/ns/dossier#Dossier.bestaatUit>;
+        void:triples "7092";
+    ];
+   void:propertyPartition [ 
+        void:property <skos:broader>;
+        void:triples "187";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageTmpl>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "14";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "22709";
+    ];
+   void:classPartition  [ 
+        void:class <http://rdfs.org/ns/void#Dataset> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/oslo/ns/localgov#BasicAddress> ;
+        void:triples "1661";
+    ];
+   void:classPartition  [ 
+        void:class <https://data.vlaanderen.be/ns/persoon#Geboorte> ;
+        void:triples "8655";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> ;
+        void:triples "529";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Concept> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Person> ;
+        void:triples "391";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/PostalAddress> ;
+        void:triples "4815";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.europa.eu/m8g/PeriodOfTime> ;
+        void:triples "466673";
+    ];
+   void:classPartition  [ 
+        void:class <https://data.vlaanderen.be/ns/persoon#Overlijden> ;
+        void:triples "4524";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/Location> ;
+        void:triples "2490763";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E78_Collection> ;
+        void:triples "3849";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.opengis.net/ont/geosparql#Geometry> ;
+        void:triples "903";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "6333745";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+        void:triples "130";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/WebPage> ;
+        void:triples "1690";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Organization> ;
+        void:triples "983";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Collection> ;
+        void:triples "29266";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition> ;
+        void:triples "1557694";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/GeoCoordinates> ;
+        void:triples "352";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object> ;
+        void:triples "157630";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/hydra/core#PartialCollectionView> ;
+        void:triples "173";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.vlaanderen.be/ns/toestemming#VerwerkingsActiviteit> ;
+        void:triples "267";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2006/vcard/ns#VCard> ;
+        void:triples "1665";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+        void:triples "98";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> ;
+        void:triples "2485481";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.europa.eu/m8g/PublicOrganisation> ;
+        void:triples "617";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Dataset> ;
+        void:triples "20";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/CreativeWork> ;
+        void:triples "352";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:triples "2168";
+    ];
+   void:classPartition  [ 
+        void:class <file:/data/lp/etl/executor/data/1688452201227-37-8369757c-3c3e-429a-9e53-0108bc5bb27f/working/working-filesoutput-29/PostalAddress> ;
+        void:triples "1000";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Catalog> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.vlaanderen.be/ns/mandaat#Mandataris> ;
+        void:triples "1429";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Article> ;
+        void:triples "2002";
+    ];
+   void:classPartition  [ 
+        void:class <file:/data/lp/etl/executor/data/1688453401518-39-473b2350-1e77-43a7-b9a8-0e326122879f/working/working-filesoutput-30/PostalAddress> ;
+        void:triples "22";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/person#Person> ;
+        void:triples "1795214";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+        void:triples "111613";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/ParkingFacility> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+        void:triples "2665019";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/Agent> ;
+        void:triples "10684";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/oslo/ns/localgov#ResidenceObject> ;
+        void:triples "1661";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production> ;
+        void:triples "3431563";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Organisation> ;
+        void:triples "1154";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-string> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#OntologyProperty> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/contactPoint> ;
+        void:triples "646";
+    ];
+   void:classPartition  [ 
+        void:class <https://data.vlaanderen.be/ns/dossier#Dossier> ;
+        void:triples "3433";
+    ];
+   void:classPartition  [ 
+        void:class <file:/data/lp/etl/executor/data/1688453101410-38-957fd533-35ab-48ff-8b9a-1a20ed5d51f1/working/working-filesoutput-29/PostalAddress> ;
+        void:triples "177";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/PublicToilet> ;
+        void:triples "217";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/TouristAttraction> ;
+        void:triples "936";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/NewsArticle> ;
+        void:triples "1581";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Offer> ;
+        void:triples "1556";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/adms#Identifier> ;
+        void:triples "8511855";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.europa.eu/m8g/Channel> ;
+        void:triples "736";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:triples "11774";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:triples "3360437";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/VisualArtwork> ;
+        void:triples "352";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Event> ;
+        void:triples "5296";
+    ];
+   void:classPartition  [ 
+        void:class <https://w3id.org/tree#Node> ;
+        void:triples "792";
+    ];
+   void:classPartition  [ 
+        void:class <https://data.vlaanderen.be/ns/persoon#Nationaliteit> ;
+        void:triples "5093";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "23";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> ;
+        void:triples "107471";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <https://w3id.org/tree#LessThanRelation> ;
+        void:triples "1100";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Location> ;
+        void:triples "607855";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan> ;
+        void:triples "22";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/ContactPoint> ;
+        void:triples "958";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/OpeningHoursSpecification> ;
+        void:triples "1043";
+    ];
+   void:classPartition  [ 
+        void:class <http://vocab.datex.org/terms#ParkingSite> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/ImageObject> ;
+        void:triples "15408";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment> ;
+        void:triples "6368476";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#Role> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/org#OrganizationalUnit> ;
+        void:triples "81183";
+    ];
+   void:classPartition  [ 
+        void:class <https://data.vlaanderen.be/ns/dossier#Stuk> ;
+        void:triples "7115";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> ;
+        void:triples "600";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Entity> ;
+        void:triples "11790492";
+    ];
+   void:classPartition  [ 
+        void:class <https://w3id.org/tree#GreaterThanOrEqualToRelation> ;
+        void:triples "824";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/locn#Address> ;
+        void:triples "1661";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Generation> ;
+        void:triples "12693";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.vlaanderen.be/ns/mandaat#Mandaat> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://schema.org/Place> ;
+        void:triples "1412";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Distribution> ;
+        void:triples "26";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+        void:triples "8991525";
+    ];
+    
+ .

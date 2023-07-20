@@ -1,0 +1,2719 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://data.doremus.org/sparql> a void:Dataset;
+    dcterms:title "Doremus";
+    dcterms:description "World Classical Music";
+    void:entities "18531445";
+    void:properties "507";
+    void:classes "151";
+    void-crm:triplesWithCIDOCproperty "12721751";
+    void-crm:triplesWithCIDOCpropertyPercentage "13.965668636";
+    void-crm:triplesWithCIDOCinstance "18789384";
+    void-crm:triplesWithCIDOCinstancePercentage  "20.626587552";
+	void-crm:propertiesCIDOC "44";
+    void-crm:classesCIDOC "15";
+    void:triples "91093032";
+
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/VSPX#type>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#loadAs>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#City>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/property/birthPlace>;
+        void:triples "8486";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U54i_has_performed_expression>;
+        void:triples "13240";
+    ];
+   void:propertyPartition [ 
+        void:property <http://metadataregistry.org/uri/profile/regap/status>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfName>;
+        void:triples "130";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U31_had_function>;
+        void:triples "1330056";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#amountOfThisGood>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#publisher>;
+        void:triples "148";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/RDF#format>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#eligibleRegions>;
+        void:triples "738";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/identifier>;
+        void:triples "356269";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasAttributedTo>;
+        void:triples "3576002";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R2_is_derivative_of>;
+        void:triples "14604";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#inheritFrom>;
+        void:triples "99";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/VSPX#pageId>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U221_has_title_proper_of_series>;
+        void:triples "38212";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmGraphMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl>;
+        void:triples "29";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U195_has_order_or_location_indication>;
+        void:triples "437";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageTmpl>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U4_had_princeps_publication>;
+        void:triples "9375";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U50_has_annotation>;
+        void:triples "135655";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U87_has_medium_of_performance_section>;
+        void:triples "21906";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R22_created_a_realisation_of>;
+        void:triples "397722";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentADM3>;
+        void:triples "2392";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#identifierGroupType>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#ADR>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass>;
+        void:triples "20";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U76_has_WoO_subnumber>;
+        void:triples "256";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/birthPlace>;
+        void:triples "13751";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#editoralNote>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U207_has_carrier_type>;
+        void:triples "2842";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#item>;
+        void:triples "139";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#locationUrl>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U177_has_parallel_edition_statement>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R5i_is_component_of>;
+        void:triples "15181";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U11_has_key>;
+        void:triples "26076";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote>;
+        void:triples "3395";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U23_has_casting_detail>;
+        void:triples "417765";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "4331163";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#Street>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/coverage>;
+        void:triples "332";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>;
+        void:triples "20503";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U168_has_parallel_title>;
+        void:triples "54515";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/location>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U85_has_closely_related_key>;
+        void:triples "107";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfNiceSqlvalTmpl>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U29_edited>;
+        void:triples "5702";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftXmlIndex>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R8_consists_of>;
+        void:triples "285397";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CRL6_should_carry>;
+        void:triples "5012";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvTableName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval>;
+        void:triples "22";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R21_created>;
+        void:triples "397722";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment>;
+        void:triples "4676401";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U172_has_statement_of_responsibility_relatingt_to_title>;
+        void:triples "252697";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#includes>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U43_has_opus_subnumber>;
+        void:triples "595";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/vann/preferredNamespacePrefix>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#identifier>;
+        void:triples "113";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U170_has_title_statement>;
+        void:triples "639717";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by>;
+        void:isErlangen "yes";
+        void:triples "3530";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#disjointWith>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://creativecommons.org/ns#attributionURL>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#wikipediaArticle>;
+        void:triples "4310";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:isErlangen "yes";
+        void:triples "1010270";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/deathPlace>;
+        void:triples "7002";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U81_had_performer_status>;
+        void:triples "3802";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#description>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U7_foresees_place_at>;
+        void:triples "6453";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U185_has_distribution_statement>;
+        void:triples "206663";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U173_has_parallel_statement_of_responsibility_relating_to_title>;
+        void:triples "199";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/created>;
+        void:triples "9044";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#record>;
+        void:triples "151";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U53_has_duration>;
+        void:triples "384948";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#topConceptOf>;
+        void:triples "4365";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#type>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#first>;
+        void:triples "100";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#shortName>;
+        void:triples "352";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#titlePrincipal>;
+        void:triples "154";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrowMatch>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy>;
+        void:triples "4185";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U227_has_content_type>;
+        void:triples "1441564";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U16_has_catalogue_statement>;
+        void:triples "33464";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U71_has_uniform_title>;
+        void:triples "157358";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U204_has_reproduction_note>;
+        void:triples "765";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#definition>;
+        void:triples "937";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#featureCode>;
+        void:triples "3726";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U65_has_geographical_context>;
+        void:triples "19037";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#alternateName>;
+        void:triples "96218";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvATables>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/birthDate>;
+        void:triples "111549";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmPredicateMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U5_had_premiere>;
+        void:triples "46596";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2007/ont/link#uri>;
+        void:triples "3543";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/description>;
+        void:triples "57";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/creator>;
+        void:triples "40";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#validThrough>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats>;
+        void:triples "98";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/issued>;
+        void:triples "174";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R24_created>;
+        void:triples "223167";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#versionInfo>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#mediaType>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#edition>;
+        void:triples "22";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#qualifiedCardinality>;
+        void:triples "24";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/time#hasEnd>;
+        void:triples "1115884";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CLU206_should_have_media_type>;
+        void:triples "171205";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique>;
+        void:isErlangen "yes";
+        void:triples "3406";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper>;
+        void:isErlangen "yes";
+        void:triples "505";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>;
+        void:isErlangen "yes";
+        void:triples "1208";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U199_has_sponsor>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U215_has_groove_caracteristics>;
+        void:triples "2803";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R24i_was_created_through>;
+        void:triples "4620";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U202_has_colour_details>;
+        void:triples "8445";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to>;
+        void:isErlangen "yes";
+        void:triples "141830";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P69_has_association_with>;
+        void:isErlangen "yes";
+        void:triples "19998";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#minQualifiedCardinality>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#dialect-exceptions>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R26_produced_things_of_type>;
+        void:triples "3480";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U70_has_title>;
+        void:triples "7056";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U17_has_opus_statement>;
+        void:triples "41448";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/NET/c4dm/keys.owl#mode>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#version>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsStable>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#genre>;
+        void:triples "95";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P10_falls_within>;
+        void:isErlangen "yes";
+        void:triples "35726";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#catName>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#imports>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#propertyChainAxiom>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/isPartOf>;
+        void:triples "4072";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U32_had_responsibility>;
+        void:triples "73";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CLU210_should_have_pagination>;
+        void:triples "26010";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U70_has_original_title>;
+        void:triples "52258";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/identifier>;
+        void:triples "1411588";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R4i_comprises_carriers_of>;
+        void:triples "5012";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#related>;
+        void:triples "5422";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R19i_was_realised_through>;
+        void:triples "106483";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#hasUnitOfMeasurement>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/time#intervalIn>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U13_has_casting>;
+        void:triples "198439";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U94_has_work_type>;
+        void:triples "172771";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U225_used_sound_spatialization_technique>;
+        void:triples "237380";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isGcResistantType>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U203_has_summary_or_abstract>;
+        void:triples "273";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/time#inXSDDate>;
+        void:triples "2351105";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaAlias>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U15_has_history>;
+        void:triples "107";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U88_has_member_casting_detail>;
+        void:triples "4191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/contributor>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#noteGroupValue>;
+        void:triples "170";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U19i_caterorizes>;
+        void:triples "16024";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/ontology/frequency>;
+        void:triples "2293";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#hasPriceSpecification>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U47_has_derivation_type>;
+        void:triples "6385";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U169_was_issued_under_label_name>;
+        void:triples "85582";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CLU198_should_have_container>;
+        void:triples "64070";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#hasValue>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl>;
+        void:triples "19";
+    ];
+   void:propertyPartition [ 
+        void:property <http://creativecommons.org/ns#attributionName>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "40802";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U1_used_medium_of_performance>;
+        void:triples "771593";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#countryCode>;
+        void:triples "3697";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#includesObject>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#noInherit>;
+        void:triples "56";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#featureClass>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R19_created_a_realisation_of>;
+        void:triples "1382636";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf>;
+        void:triples "507";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasGeneratedBy>;
+        void:triples "3607156";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U229_has_music_format>;
+        void:triples "85469";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CRL6i_should_be_carried_by>;
+        void:triples "5012";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U208_has_extent_of_carrier>;
+        void:triples "89747";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U167_has_title_proper>;
+        void:triples "787439";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U42_has_opus_number>;
+        void:triples "29792";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumnsFormKey>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#languageOfResource>;
+        void:triples "156";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U178_has_statement_of_responsibility_relating_to_edition>;
+        void:triples "44619";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.bnf.fr/ontology/bnf-onto/FRBNF>;
+        void:triples "4052";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+        void:isErlangen "yes";
+        void:triples "128154";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R18_created>;
+        void:triples "27233";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R25_performed>;
+        void:triples "652492";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/U11_has_key>;
+        void:isErlangen "yes";
+        void:triples "4605";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+        void:isErlangen "yes";
+        void:triples "53603";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/time#intervalAfter>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#dialect>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+        void:isErlangen "yes";
+        void:triples "34691";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U22_is_about_place>;
+        void:triples "922";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U35_foresees_function>;
+        void:triples "2199";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#relatedVersion>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#hasBusinessFunction>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+        void:isErlangen "yes";
+        void:triples "7306";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/accrualPeriodicity>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#language>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U41_has_catalogue_number>;
+        void:triples "30521";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U78_estimated_duration>;
+        void:triples "6636";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:isErlangen "yes";
+        void:triples "1318651";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/modified>;
+        void:triples "9171";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/VSPX#title>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U172i_is_statement_of_responsibility_relating_to_title_of>;
+        void:triples "7155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to>;
+        void:isErlangen "yes";
+        void:triples "563303";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R20_recorded>;
+        void:triples "172995";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/time#hasBeginning>;
+        void:triples "1235657";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#unionOf>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#maxCardinality>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#used>;
+        void:triples "810507";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U54_is_performed_expression_of>;
+        void:triples "457063";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/name>;
+        void:triples "393298";
+    ];
+   void:propertyPartition [ 
+        void:property <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition>;
+        void:triples "299";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#cardinality>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R3i_realises>;
+        void:triples "67055";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "211251";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U193_used_historical_instruments>;
+        void:triples "892";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by>;
+        void:isErlangen "yes";
+        void:triples "331265";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#officialName>;
+        void:triples "9366";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P9_consists_of>;
+        void:isErlangen "yes";
+        void:triples "2476890";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U69_has_WoO_number>;
+        void:triples "759";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U219_used_object_of_type_for_mixing>;
+        void:triples "32067";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U40_has_catalogue_name>;
+        void:triples "28351";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#locationMap>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#legalName>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U205_has_cast_detail>;
+        void:triples "156581";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/affiliation>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/gender>;
+        void:triples "26468";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U19_is_categorized_as>;
+        void:triples "710785";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsDefaultMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/hasVersion>;
+        void:triples "167";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U95_has_hierarchical_level>;
+        void:triples "32012";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#atTime>;
+        void:triples "997128";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U5i_was_premiere_of>;
+        void:triples "6374";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>;
+        void:triples "100";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/logo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/publisher>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#onDataRange>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R66_included_performed_version_of>;
+        void:triples "445634";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U33_has_set_of_characters>;
+        void:triples "6569";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#note>;
+        void:triples "2221";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U220_has_title_and_statement_of_responsibility>;
+        void:triples "187828";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U68_has_variant_title>;
+        void:triples "99497";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R13_is_realised_in>;
+        void:triples "807946";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U63_has_religious_context>;
+        void:triples "837";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U24_has_award>;
+        void:triples "180";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2006/time#intervalBefore>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#notation>;
+        void:triples "374";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U192_used_noise_reduction_technique>;
+        void:triples "34676";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl>;
+        void:triples "37";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch>;
+        void:triples "10127";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmObjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#identifierGroupValue>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by>;
+        void:isErlangen "yes";
+        void:triples "19023";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P148_has_component>;
+        void:isErlangen "yes";
+        void:triples "66816";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R4_carriers_provided_by>;
+        void:triples "5012";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R5_has_component>;
+        void:triples "491622";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#accessURL>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R12_is_realised_in>;
+        void:triples "221529";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U10_has_order_number>;
+        void:triples "463709";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#supportedLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic>;
+        void:triples "3728";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CLU207_should_have_carrier_type>;
+        void:triples "90552";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U213_has_recording_method>;
+        void:triples "33096";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#languagePartition>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#relatedSeries>;
+        void:triples "17";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#noteGroup>;
+        void:triples "173";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U182_has_music_format_statement>;
+        void:triples "21036";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#feature>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept>;
+        void:triples "41";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U35_foresees_function_of_type>;
+        void:triples "61";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#subjectName>;
+        void:triples "151";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "367322";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U31_had_function_of_type>;
+        void:triples "15337";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/deathDate>;
+        void:triples "53355";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#editorialNote>;
+        void:triples "8141";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U218_used_object_of_type_for_mastering>;
+        void:triples "32067";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#nearbyFeatures>;
+        void:triples "3418";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#placeOfOrigin>;
+        void:triples "178";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:isErlangen "yes";
+        void:triples "347603";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#postalCode>;
+        void:triples "27019";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U30_foresees_quantity_of_mop>;
+        void:triples "392967";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+        void:isErlangen "yes";
+        void:triples "137222";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by>;
+        void:isErlangen "yes";
+        void:triples "376742";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#title>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U176_has_edition_statement>;
+        void:triples "1346";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/ontology/wikiPageWikiLink>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in>;
+        void:isErlangen "yes";
+        void:triples "29709";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U179_has_parallel_statement_of_responsibility_relating_to_edition>;
+        void:triples "48370";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#availableAtOrFrom>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U77_foresees_performing_plan>;
+        void:triples "3832";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull>;
+        void:triples "40";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U67_has_subtitle>;
+        void:triples "93564";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of>;
+        void:isErlangen "yes";
+        void:triples "38625";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/description>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://ldf.fi/void-ext#languages>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/property/deathPlace>;
+        void:triples "4776";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftConds>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/focus>;
+        void:triples "600";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P99i_was_dissolved_by>;
+        void:isErlangen "yes";
+        void:triples "64";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvGeo>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P165_incorporates>;
+        void:isErlangen "yes";
+        void:triples "588294";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#resultFormat>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U12_has_genre>;
+        void:triples "243811";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CLU217_should_have_playing_speed>;
+        void:triples "28534";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme>;
+        void:triples "4103";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U222_has_title_proper_of_sub-series>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/extent>;
+        void:triples "1191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#CLU53_should_have_duration>;
+        void:triples "51473";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvColumns>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentADM2>;
+        void:triples "2896";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U51_is_partial_or_full_recording_of>;
+        void:triples "499684";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/distribution>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+        void:isErlangen "yes";
+        void:triples "2266";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/topic_interest>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel>;
+        void:triples "317";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U171_has_parallel_title_statement>;
+        void:triples "12789";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#maxQualifiedCardinality>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/vann/usageNote>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/subject>;
+        void:triples "170";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:isErlangen "yes";
+        void:triples "2620";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/license>;
+        void:triples "35";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U36_foresees_responsibility_of_type>;
+        void:triples "5594";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "570664";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P80_end_is_qualified_by>;
+        void:isErlangen "yes";
+        void:triples "15555";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#noteGroupType>;
+        void:triples "340";
+    ];
+   void:propertyPartition [ 
+        void:property <http://dbpedia.org/ontology/wikiPageRedirects>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U175_has_parallel_cast_statement>;
+        void:triples "30";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>;
+        void:triples "763";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/dcat#dataset>;
+        void:triples "5";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/vann/preferredNamespaceUri>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#validFrom>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#alt>;
+        void:triples "587";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl>;
+        void:triples "47";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "184403";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1>;
+        void:triples "66";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R9i_realises>;
+        void:triples "75675";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl>;
+        void:triples "45";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U201_has_illustrative_content>;
+        void:triples "12839";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P79_beginning_is_qualified_by>;
+        void:isErlangen "yes";
+        void:triples "34596";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U55_incorporates_performed_expression>;
+        void:triples "392019";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#member>;
+        void:triples "2700";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "1085051";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmMatchingFlags>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P103_was_intended_for>;
+        void:isErlangen "yes";
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel>;
+        void:triples "37196";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R40_has_representative_expression>;
+        void:triples "135472";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P141_assigned>;
+        void:isErlangen "yes";
+        void:triples "441605";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/maker>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U200_has_supplementary_content>;
+        void:triples "775";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvcAlias>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R3_is_realised_in>;
+        void:triples "251843";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/homepage>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfDtpOfNiceSqlval>;
+        void:triples "6";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R10i_is_member_of>;
+        void:triples "75675";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/NET/c4dm/keys.owl#tonic>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#availableDeliveryMethods>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+        void:isErlangen "yes";
+        void:triples "111873";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvFText>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:isErlangen "yes";
+        void:triples "20713";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#example>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "3946";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#minCardinality>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrLanguage>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#onProperty>;
+        void:triples "163";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain>;
+        void:triples "867";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#redomi-doriskey>;
+        void:triples "73531";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U212_has_technical_features>;
+        void:triples "65752";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qsUserMaps>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvaTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U183_has_parallel_music_format_statement>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#acceptedPaymentMethods>;
+        void:triples "18";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#broader>;
+        void:triples "10985";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#relatedMatch>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#population>;
+        void:triples "2990";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfCustomString1>;
+        void:triples "12";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#dateOfCopyright>;
+        void:triples "146";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#endpoint>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl>;
+        void:triples "39";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmSubjectMap>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://creativecommons.org/ns#license>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U184_has_publication_statement>;
+        void:triples "210084";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U84_has_parallel_key>;
+        void:triples "13";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U2_foresees_use_of_medium_of_performance>;
+        void:triples "428985";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/depiction>;
+        void:triples "5117";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentADM4>;
+        void:triples "1743";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U48_foresees_quantity_of_actors>;
+        void:triples "61";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#BusinessEntity>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U224_has_title_proper_of_multipart_monograph>;
+        void:triples "1231";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U36_foresees_responsibility>;
+        void:triples "34068";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U8_foresees_time_span>;
+        void:triples "4068";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#Pcode>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U174_has_cast_statement>;
+        void:triples "172985";
+    ];
+   void:propertyPartition [ 
+        void:property <http://metadataregistry.org/uri/profile/regap/identifier>;
+        void:triples "42";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R66i_had_a_performed_version_through>;
+        void:triples "12948";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P95i_was_formed_by>;
+        void:isErlangen "yes";
+        void:triples "1249";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentFeature>;
+        void:triples "3919";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl>;
+        void:triples "53";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/DAV#ownerUser>;
+        void:triples "1231";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+        void:isErlangen "yes";
+        void:triples "128155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#offers>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso>;
+        void:triples "7062";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U172_has_statement_of_responsibility_relating_to_title>;
+        void:triples "7155";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U90_foresees_creation_or_performance_mode>;
+        void:triples "993";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R17i_was_created_by>;
+        void:triples "101863";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U3_foresees_use_of_specific_object>;
+        void:triples "23";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R25i_was_performed_by>;
+        void:triples "26188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "2340079";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U38_has_descriptive_expression>;
+        void:triples "17092";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/CLR6_should_carry>;
+        void:triples "199339";
+    ];
+   void:propertyPartition [ 
+        void:property <http://schema.org/startTime>;
+        void:triples "376742";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/CLP43_should_have_dimension>;
+        void:triples "104932";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U19_is_caterorized_as>;
+        void:triples "16024";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/is_realised_in>;
+        void:triples "4620";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#Country>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#range>;
+        void:triples "794";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R12i_realises>;
+        void:triples "26188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#neighbouringFeatures>;
+        void:triples "150";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#complementOf>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom>;
+        void:triples "79";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#TEL>;
+        void:triples "8";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R17_created>;
+        void:triples "1586329";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/firstName>;
+        void:triples "306062";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U83_has_relative_key>;
+        void:triples "16";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U59_has_partial_published_recording>;
+        void:triples "28948";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#namePrincipal>;
+        void:triples "135";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentCountry>;
+        void:triples "3547";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/sparql-service-description#url>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDescribedUsing>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#typeOfGood>;
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#childrenFeatures>;
+        void:triples "309";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/ns/prov#wasDerivedFrom>;
+        void:triples "3163210";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#name>;
+        void:triples "4511";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentADM1>;
+        void:triples "3364";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/surname>;
+        void:triples "328105";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/goodrelations/v1#eligibleCustomerTypes>;
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions>;
+        void:triples "172";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.loc.gov/standards/mods/rdf/v1/#identifierGroup>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U21_is_about_actor>;
+        void:triples "1878";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch>;
+        void:triples "9831";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#inverseOf>;
+        void:triples "498";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U44_has_dedication_statement>;
+        void:triples "11878";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R10_has_member>;
+        void:triples "861640";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#isSpecialPredicate>;
+        void:triples "10";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P42_assigned>;
+        void:isErlangen "yes";
+        void:triples "4444";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+        void:triples "3727";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftColumnName>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#priorVersion>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmvftTableName>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#onClass>;
+        void:triples "34";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P41_classified>;
+        void:isErlangen "yes";
+        void:triples "27578";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U27_performed_character>;
+        void:triples "77442";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#narrower>;
+        void:triples "9097";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U194_has_system_requirements>;
+        void:triples "88";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U89_occured_in_performance_conditions>;
+        void:triples "9460";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "24010386";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U58_has_full_published_recording>;
+        void:triples "352516";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R9_is_realised_in>;
+        void:triples "957999";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/language>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/elements/1.1/title>;
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://data.doremus.org/ontology#U6_foresees_actor>;
+        void:triples "19998";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:triples "810507";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M6_Casting> ;
+        void:triples "198435";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "113";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Entity> ;
+        void:triples "3763311";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M60_Intended_Audience> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F3_Manifestation_Product_Type> ;
+        void:triples "204351";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.loc.gov/standards/mods/rdf/v1/#ModsResource> ;
+        void:triples "152";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#SymmetricObjectProperty> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M28_Individual_Performance> ;
+        void:triples "1076749";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+        void:triples "98";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+        void:isErlangen "yes";
+        void:triples "53314";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M39_Derivation_Type_Assignment> ;
+        void:triples "13789";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+        void:isErlangen "yes";
+        void:triples "1002428";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+        void:isErlangen "yes";
+        void:triples "175098";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#PriceSpecification> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F19_Publication_Expression> ;
+        void:triples "4620";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M5_Genre> ;
+        void:triples "393";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Project> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/terms/AgentClass> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
+        void:triples "28";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F24_Publication_Expression> ;
+        void:triples "256629";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M36_Award> ;
+        void:triples "180";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#Manufacturer> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M156_Title_Statement> ;
+        void:triples "639721";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AAB316003-tax> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M27_Foreseen_Individual_Performance> ;
+        void:triples "19998";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M25_Foreseen_Activity> ;
+        void:triples "435";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F25_Performance_Plan> ;
+        void:triples "210239";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E4_Period>;
+        void:isErlangen "yes";
+        void:triples "25";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "30547";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M157_Statement_of_Responsibility> ;
+        void:triples "353040";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "12727";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F28_Expression_Creation> ;
+        void:triples "742685";
+    ];
+   void:classPartition  [ 
+        void:class <title> ;
+        void:triples "504";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M171_Container> ;
+        void:triples "64070";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+        void:isErlangen "yes";
+        void:triples "72";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.loc.gov/standards/mods/rdf/v1/#NoteGroup> ;
+        void:triples "170";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKJ315005-tax> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M15_Dedication> ;
+        void:triples "4905";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:triples "163";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E66_Formation>;
+        void:isErlangen "yes";
+        void:triples "1312";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M31_Actor_Function> ;
+        void:triples "102724";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2006/time#ProperInterval> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:triples "32";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/NET/c4dm/keys.owl#Key> ;
+        void:triples "31";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M158_Title_and_Statement_of_Responsibility> ;
+        void:triples "187828";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M161_Distribution_Statement> ;
+        void:triples "206663";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#BusinessEntity> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M2_Opus_Statement> ;
+        void:triples "34321";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+        void:isErlangen "yes";
+        void:triples "128154";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2006/time#Interval> ;
+        void:triples "1002424";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.geonames.org/ontology#Feature> ;
+        void:triples "3727";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2006/time#Instant> ;
+        void:triples "2351087";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        void:triples "535579";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+        void:triples "18";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+        void:isErlangen "yes";
+        void:triples "365072";
+    ];
+   void:classPartition  [ 
+        void:class <html> ;
+        void:triples "504";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-string> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M4_Key> ;
+        void:triples "868";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F19_Publication_Work> ;
+        void:triples "189408";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F42_Representative_Expression_Assignment> ;
+        void:triples "135472";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M29_Editing> ;
+        void:triples "91363";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution>;
+        void:isErlangen "yes";
+        void:triples "66";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M33_Set_of_Characters> ;
+        void:triples "6569";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F31_Performance> ;
+        void:triples "206411";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+        void:isErlangen "yes";
+        void:triples "909795";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F21_Recording_Work> ;
+        void:triples "397721";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/vocommons/voaf#Vocabulary> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F29_Recording_Event> ;
+        void:triples "172995";
+    ];
+   void:classPartition  [ 
+        void:class <http://rhizomik.net/ontologies/copyrightonto#ProducersRights> ;
+        void:triples "331264";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#ActualProductOrServicesInstance> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M43_Performed_Expression> ;
+        void:triples "482892";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M23_Casting_Detail> ;
+        void:triples "417747";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:triples "267";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Catalog> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2001/vcard-rdf/3.0#voice> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M1_Catalogue_Statement> ;
+        void:triples "33461";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:triples "50";
+    ];
+   void:classPartition  [ 
+        void:class <http://rhizomik.net/ontologies/copyrightonto#DistributionRight> ;
+        void:triples "60833";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M46_Set_of_Tracks> ;
+        void:triples "483310";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.loc.gov/standards/mods/rdf/v1/#IdentifierGroup> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Agent> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2001/vcard-rdf/3.0#work> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/prov#Derivation> ;
+        void:triples "810507";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:triples "781";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+        void:isErlangen "yes";
+        void:triples "111517";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M175_Music_Format> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F38_Character> ;
+        void:triples "77442";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M26_Foreseen_Performance> ;
+        void:triples "3832";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M154_Label_Name> ;
+        void:triples "3951";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M42_Performed_Expression_Creation> ;
+        void:triples "480598";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M155_Cast_Statement> ;
+        void:triples "173015";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F20_Performance_Work> ;
+        void:triples "234131";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F30_Publication_Event> ;
+        void:triples "223167";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+        void:isErlangen "yes";
+        void:triples "573749";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F25_PerformancePlan> ;
+        void:triples "26188";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M159_Edition_Statement> ;
+        void:triples "1349";
+    ];
+   void:classPartition  [ 
+        void:class <http://rhizomik.net/ontologies/copyrightonto#CommunicationRight> ;
+        void:triples "171206";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F15_Complex_Work> ;
+        void:triples "464062";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Distribution> ;
+        void:triples "6";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F4_Manifestation_Singleton> ;
+        void:triples "15267";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#TypeAndQuantityNode> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "322";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M40_Context> ;
+        void:triples "1480";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M44_Performed_Work> ;
+        void:triples "482892";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:triples "38";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+        void:triples "130";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/dcat#Dataset> ;
+        void:triples "5";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F26_Recording> ;
+        void:triples "397722";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:triples "3727";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+        void:isErlangen "yes";
+        void:triples "4602";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M24_Track> ;
+        void:triples "67424";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/goodrelations/v1#Offering> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M15_Dedication_Statement> ;
+        void:triples "6973";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M50_Creation_or_Performance_Mode> ;
+        void:triples "972";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M14_Medium_Of_Performance> ;
+        void:triples "4755";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "1981";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/ns/sparql-service-description#Service> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F14_Individual_Work> ;
+        void:triples "477416";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M45_Descriptive_Expression_Assignment> ;
+        void:triples "6358";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Collection> ;
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M160_Publication_Statement> ;
+        void:triples "210085";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#OntologyProperty> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:triples "13";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.openlinksw.com/schemas/VSPX#> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M19_Categorization> ;
+        void:triples "427034";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M169_Carrier_Type> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:triples "25";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2001/vcard-rdf/3.0#internet> ;
+        void:triples "8";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F32_Carrier_Production_Event> ;
+        void:triples "3480";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F11_Corporate_Body> ;
+        void:triples "45968";
+    ];
+   void:classPartition  [ 
+        void:class <http://data.doremus.org/ontology#M167_Publication_Expression_Fragment> ;
+        void:triples "16591";
+    ];
+    void-crm:propertiesCIDOC "44";
+    void-crm:classesCIDOC "15";
+ .

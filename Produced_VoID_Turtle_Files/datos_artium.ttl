@@ -1,0 +1,431 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://old.datahub.io/dataset/datos-artium-org> a void:Dataset;
+    dcterms:title "Datos Artium";
+    dcterms:description "Basque Museum-Center of Contemporary Art";
+    void:entities "1447194";
+    void:properties "45";
+    void:classes "43";
+    void-crm:triplesWithCIDOCproperty "1985997";
+    void-crm:triplesWithCIDOCpropertyPercentage "44.76336575";
+    void-crm:triplesWithCIDOCinstance "3030086";
+    void-crm:triplesWithCIDOCinstancePercentage  "68.296602599";
+	void-crm:propertiesCIDOC "25";
+    void-crm:classesCIDOC "27";
+    void:triples "4436657";
+
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "571584";
+    ];
+   void:propertyPartition [ 
+        void:property <http://aliada-project.eu/2014/aliada-ontology#PX_is_an_alternate_to>;
+        void:triples "33";
+    ];
+   void:propertyPartition [ 
+        void:property <http://aliada-project.eu/2014/aliada-ontology#PX_expected_frequency>;
+        void:triples "100";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P149_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "85937";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "1513006";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to>;
+        void:isErlangen "yes";
+        void:triples "3";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R16i_was_initiated_by>;
+        void:triples "7";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "9";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for>;
+        void:isErlangen "yes";
+        void:triples "36";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "15337";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R16_initiated>;
+        void:triples "31";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+        void:isErlangen "yes";
+        void:triples "48330";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P103_was_intended_for>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+        void:isErlangen "yes";
+        void:triples "47409";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R4_carriers_provided_by>;
+        void:triples "85905";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R5_has_component>;
+        void:triples "1474";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:isErlangen "yes";
+        void:triples "161188";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:isErlangen "yes";
+        void:triples "257232";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+        void:isErlangen "yes";
+        void:triples "172";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+        void:isErlangen "yes";
+        void:triples "1252";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "36006";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R8_consists_of>;
+        void:triples "987";
+    ];
+   void:propertyPartition [ 
+        void:property <http:/http://datos.artium.org/id/collections/library/bib/E35_Title/72eee822-3ada-3096-b865-5f10a3064c7f>;
+        void:triples "1";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:isErlangen "yes";
+        void:triples "2463";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "15003";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/CLP43_should_have_dimension>;
+        void:triples "93431";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14B_performed>;
+        void:isErlangen "yes";
+        void:triples "155621";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+        void:isErlangen "yes";
+        void:triples "48789";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/CLP2_should_have_type>;
+        void:triples "47296";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>;
+        void:isErlangen "yes";
+        void:triples "1369";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "226697";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#member>;
+        void:triples "36636";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R3i_realises>;
+        void:triples "294";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "112137";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/CLR6_should_carry>;
+        void:isErlangen "yes";
+        void:triples "16419";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "254211";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "2251";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R24_created>;
+        void:triples "10901";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>;
+        void:isErlangen "yes";
+        void:triples "10901";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R14_incorporates>;
+        void:triples "23810";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P148_has_component>;
+        void:isErlangen "yes";
+        void:triples "63211";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R40_has_representative_expression>;
+        void:triples "70085";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "130131";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>;
+        void:isErlangen "yes";
+        void:triples "4";
+    ];
+   void:propertyPartition [ 
+        void:property <http://aliada-project.eu/2014/aliada-ontology#PX_has_an_alternate>;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F18_Serial_work> ;
+        void:triples "76";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F10_Person> ;
+        void:triples "42197";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E89_PropositionalObject>;
+        void:isErlangen "yes";
+        void:triples "60133";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E30_Right>;
+        void:isErlangen "yes";
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F1_Work> ;
+        void:triples "60133";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F13_Identifier> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation>;
+        void:isErlangen "yes";
+        void:triples "85937";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+        void:isErlangen "yes";
+        void:triples "40097";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F2_Expression> ;
+        void:triples "41517";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object>;
+        void:isErlangen "yes";
+        void:triples "74072";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object>;
+        void:isErlangen "yes";
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F30_Publication_Event> ;
+        void:triples "10901";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E50_Date>;
+        void:isErlangen "yes";
+        void:triples "199335";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F27_Work_Conception> ;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+        void:isErlangen "yes";
+        void:triples "3375";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "12714";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+        void:isErlangen "yes";
+        void:triples "75262";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+        void:isErlangen "yes";
+        void:triples "1263";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+        void:isErlangen "yes";
+        void:triples "48789";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/Ε56_Language>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+        void:isErlangen "yes";
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        void:triples "122";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/E89_PropositionalObject> ;
+        void:triples "2778";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:triples "36005";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F11_Corporate_Body> ;
+        void:triples "18992";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+        void:isErlangen "yes";
+        void:triples "1263";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/Ε75_Conceptual_Object_Appellation>;
+        void:isErlangen "yes";
+        void:triples "1263";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/Ε55_Type>;
+        void:isErlangen "yes";
+        void:triples "2526";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F24_Publication_Expression> ;
+        void:triples "27320";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F6_Concept> ;
+        void:triples "823";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+        void:isErlangen "yes";
+        void:triples "107896";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing>;
+        void:isErlangen "yes";
+        void:triples "2463";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+        void:isErlangen "yes";
+        void:triples "156672";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "1054";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F3_Manifestation_Product_Type> ;
+        void:triples "85937";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+        void:isErlangen "yes";
+        void:triples "257263";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation>;
+        void:isErlangen "yes";
+        void:triples "9";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/F13_Identifier>;
+        void:isErlangen "yes";
+        void:triples "987";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+        void:isErlangen "yes";
+        void:triples "57";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+        void:isErlangen "yes";
+        void:triples "48789";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F5_Item> ;
+        void:triples "823";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+        void:isErlangen "yes";
+        void:triples "3339";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F12_Name> ;
+        void:triples "782";
+    ];
+    
+ .
