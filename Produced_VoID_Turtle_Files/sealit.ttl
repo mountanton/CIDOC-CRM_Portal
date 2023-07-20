@@ -1,0 +1,911 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://zenodo.org/record/6460841> a void:Dataset;
+    dcterms:title "Sealit";
+    dcterms:description "SeaLiT Knowledge Graphs - Maritime History Data in RDF";
+    void:entities "4466105";
+    void:properties "140";
+    void:classes "81";
+    void-crm:triplesWithCIDOCproperty "10662888";
+    void-crm:triplesWithCIDOCpropertyPercentage "49.38062166";
+    void-crm:triplesWithCIDOCinstance "18220946";
+    void-crm:triplesWithCIDOCinstancePercentage  "84.382546334";
+    void:triples "21593264";
+	void-crm:propertiesCIDOC "71";
+    void-crm:classesCIDOC "38";
+	
+	void:propertyPartition [
+		void:property	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+		void:triples	"4466105";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P01i_is_domain_of>;
+		void:triples	"23755";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P02_has_range>;
+		void:triples	"659";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P02i_is_range_of>;
+		void:triples	"12886";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P03_has_range_literal>;
+		void:triples	"88";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+		void:triples	"256915";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+		void:triples	"4441";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+		void:triples	"382";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>;
+		void:triples	"61";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of>;
+		void:triples	"711";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>;
+		void:triples	"297";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P107.1_kind_of_member>;
+		void:triples	"9579";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of>;
+		void:triples	"13610";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+		void:triples	"1052";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P11_had_participant>;
+		void:triples	"629";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in>;
+		void:triples	"735";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of>;
+		void:triples	"61";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P128_carries>;
+		void:triples	"541";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at>;
+		void:triples	"562";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P134i_was_continued_by>;
+		void:triples	"1651";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+		void:triples	"26214";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P14.1_in_the_role_of>;
+		void:triples	"11733";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by>;
+		void:triples	"977";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P141_assigned>;
+		void:triples	"604";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P148_has_component>;
+		void:triples	"164";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P152_has_parent>;
+		void:triples	"2413";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by>;
+		void:triples	"18846";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for>;
+		void:triples	"40";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by>;
+		void:triples	"1546";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P170i_time_is_defined_by>;
+		void:triples	"94";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P175i_starts_after_or_with_the_start_of>;
+		void:triples	"3024";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P180_has_currency>;
+		void:triples	"32875";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P183_ends_before_the_start_of>;
+		void:triples	"3";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P183i_starts_after_the_end_of>;
+		void:triples	"186";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P184_ends_before_or_with_the_end_of>;
+		void:triples	"4804";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+		void:triples	"4214360";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+		void:triples	"5201";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P3.1_has_type>;
+		void:triples	"88";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P34i_was_assessed_by>;
+		void:triples	"562";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P39_measured>;
+		void:triples	"546";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by>;
+		void:triples	"2821";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+		void:triples	"244655";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension>;
+		void:triples	"5882";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension>;
+		void:triples	"8525";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P44_has_condition>;
+		void:triples	"4319";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+		void:triples	"989";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+		void:triples	"11";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper>;
+		void:triples	"406";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P56_bears_feature>;
+		void:triples	"5";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+		void:triples	"5108836";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by>;
+		void:triples	"6209";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+		void:triples	"64488";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P70_documents>;
+		void:triples	"2374";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in>;
+		void:triples	"64901";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in>;
+		void:triples	"3893";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+		void:triples	"519";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence>;
+		void:triples	"19522";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P8_took_place_on_or_within>;
+		void:triples	"49991";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout>;
+		void:triples	"2685";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>;
+		void:triples	"54843";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>;
+		void:triples	"70091";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end>;
+		void:triples	"3834";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+		void:triples	"9522";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P89i_contains>;
+		void:triples	"253";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P9_consists_of>;
+		void:triples	"21696";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P90_has_value>;
+		void:triples	"54831";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P91_has_unit>;
+		void:triples	"8277";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by>;
+		void:triples	"5883";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P96_by_mother>;
+		void:triples	"14233";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P97_from_father>;
+		void:triples	"34811";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+		void:triples	"138179";
+	];
+	void:propertyPartition [
+		void:property	<http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of>;
+		void:triples	"2509";
+	];
+	void:propertyPartition [
+		void:property	<http://www.w3.org/2002/07/owl#sameAs>;
+		void:triples	"1162367";
+	];
+	void:propertyPartition [
+		void:property	<http://www.w3.org/2000/01/rdf-schema#label>;
+		void:triples	"4334213";
+	];
+	void:propertyPartition [
+		void:property	<http://www.w3.org/2000/01/rdf-schema#seeAlso>;
+		void:triples	"107404";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#at_place>;
+		void:triples	"1040";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#by_place>;
+		void:triples	"19";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#consists_of_leaving>;
+		void:triples	"1851";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#destination>;
+		void:triples	"3084";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#employment_of>;
+		void:triples	"1";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#ended_by>;
+		void:triples	"7955";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#for_employment_period>;
+		void:triples	"2111";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#for_service>;
+		void:triples	"7501";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#for_thing>;
+		void:triples	"134";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#formerly_or_currently_possesses>;
+		void:triples	"285";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#from_place>;
+		void:triples	"2768";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#had_duration>;
+		void:triples	"8942";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#had_money_value>;
+		void:triples	"35992";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#had_student>;
+		void:triples	"2898";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_been_agreed_in>;
+		void:triples	"186";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_current_age>;
+		void:triples	"193";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_duration_value>;
+		void:triples	"12579";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_first_name>;
+		void:triples	"238387";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_horsepower>;
+		void:triples	"4234";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_language_capacity>;
+		void:triples	"305";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_last_name>;
+		void:triples	"239707";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_literacy_status>;
+		void:triples	"373";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_navigation_type>;
+		void:triples	"8";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_owner>;
+		void:triples	"187";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_ownership_phase>;
+		void:triples	"884";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_profession>;
+		void:triples	"31829";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_religion_status>;
+		void:triples	"5884";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_sex_type>;
+		void:triples	"3927";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_social_status>;
+		void:triples	"7051";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_subject>;
+		void:triples	"661";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_tonnage>;
+		void:triples	"6623";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#has_value_duration>;
+		void:triples	"1137";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#in_time>;
+		void:triples	"28";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#is_initialized_by>;
+		void:triples	"247";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#is_registered_by>;
+		void:triples	"2843";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#loaded>;
+		void:triples	"1238";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#motivated_payment>;
+		void:triples	"467";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#navigated_by_captain>;
+		void:triples	"672";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#of_share>;
+		void:triples	"45";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#ownership_under_name>;
+		void:triples	"405";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#participates_with_share>;
+		void:triples	"45";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#PC_has_type>;
+		void:triples	"312";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#PC_with_status_of_participation>;
+		void:triples	"1681";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#PCa_in_the_role_of>;
+		void:triples	"3499";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#PCb_in_the_role_of>;
+		void:triples	"9827";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#person_is_registered_by>;
+		void:triples	"15775";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#provided_employment>;
+		void:triples	"30206";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#provided_money>;
+		void:triples	"759";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#provided_service>;
+		void:triples	"51751";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#received_money>;
+		void:triples	"45903";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#registers_person>;
+		void:triples	"12894";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#related_to>;
+		void:triples	"8868";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#service_of>;
+		void:triples	"3228";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#started_by>;
+		void:triples	"8377";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#thing_of>;
+		void:triples	"149";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#under_name>;
+		void:triples	"5431";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#voyage_of>;
+		void:triples	"1280";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#voyages>;
+		void:triples	"2943";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#was_constructed_by>;
+		void:triples	"5540";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#with_number_of_students>;
+		void:triples	"132";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#with_ship_ID>;
+		void:triples	"817";
+	];
+	void:propertyPartition [
+		void:property	<http://www.sealit.gr/ontology/sealit#works_at>;
+		void:triples	"1748";
+	];
+	void:propertyPartition [
+		void:property	<http://www.w3.org/2004/02/skos/core#broader>;
+		void:triples	"1568";
+	];
+	void:propertyPartition [
+		void:property	<http://www.w3.org/2004/02/skos/core#inScheme>;
+		void:triples	"10732";
+	];
+	void:propertyPartition [
+		void:property	<http://www.w3.org/2004/02/skos/core#prefLabel>;
+		void:triples	"2141";
+	];
+		void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity>;
+		void:triples	"776";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+		void:triples	"1052";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment>;
+		void:triples	"977";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment>;
+		void:triples	"562";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E16_Measurement>;
+		void:triples	"4472";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing>;
+		void:triples	"1502";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+		void:triples	"432499";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object>;
+		void:triples	"1032";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature>;
+		void:triples	"2";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State>;
+		void:triples	"1478";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+		void:triples	"64541";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document>;
+		void:triples	"635";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object>;
+		void:triples	"519";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+		void:triples	"409";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E37_Mark>;
+		void:triples	"186";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E41_Appellation>;
+		void:triples	"88764";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+		void:triples	"38876";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+		void:triples	"136833";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+		void:triples	"51229";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E53_Place , 	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Country>;
+		void:triples	"4";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E54_Dimension>;
+		void:triples	"6142";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+		void:triples	"27172";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+		void:triples	"519";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit>;
+		void:triples	"244";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive>;
+		void:triples	"557";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E65_Creation>;
+		void:triples	"5884";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+		void:triples	"138249";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+		void:triples	"4441";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E7_Activity>;
+		void:triples	"54";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object>;
+		void:triples	"1970405";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E74_Group>;
+		void:triples	"23918";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding>;
+		void:triples	"11";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive>;
+		void:triples	"3855";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount>;
+		void:triples	"38863";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/E98_Currency>;
+		void:triples	"272";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/PC107_has_current_or_former_member>;
+		void:triples	"9579";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/PC14_carried_out_by>;
+		void:triples	"11743";
+	];
+	void:classPartition[
+		void:class	<http://www.cidoc-crm.org/cidoc-crm/PC3_has_note>;
+		void:triples	"88";
+	];
+	void:classPartition[
+		void:class	<http://www.w3.org/2000/01/rdf-schema#Resource>;
+		void:triples	"107404";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Arrival>;
+		void:triples	"1045";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Civil_Registration>;
+		void:triples	"18527";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Country>;
+		void:triples	"3";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Course>;
+		void:triples	"793";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Crew_Payment>;
+		void:triples	"49599";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Discharge>;
+		void:triples	"8670";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Duration>;
+		void:triples	"13716";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Employment>;
+		void:triples	"33532";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Horsepower>;
+		void:triples	"4243";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Labour_Contract>;
+		void:triples	"186";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Language_Capacity>;
+		void:triples	"27";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Leaving>;
+		void:triples	"2821";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Legal_Document_with_Temporal_Validity>;
+		void:triples	"285";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Literacy_Status>;
+		void:triples	"11";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Loading>;
+		void:triples	"1238";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Money_For_Things>;
+		void:triples	"911";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Navigation_Type>;
+		void:triples	"8";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Passing>;
+		void:triples	"19";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#PC_provided_service>;
+		void:triples	"3499";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#PC_related_to>;
+		void:triples	"312";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#PC_student_in>;
+		void:triples	"1681";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#PC_works_at>;
+		void:triples	"9739";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Profession>;
+		void:triples	"7097";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Recruitment>;
+		void:triples	"9435";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Religion_Status>;
+		void:triples	"102";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Section>;
+		void:triples	"132";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Service>;
+		void:triples	"53125";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Sex_Type>;
+		void:triples	"92";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Shareholding>;
+		void:triples	"45";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Ship>;
+		void:triples	"1003717";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Ship_Construction>;
+		void:triples	"5540";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Ship_ID>;
+		void:triples	"817";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Ship_Name>;
+		void:triples	"21970";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Ship_Ownership_Phase>;
+		void:triples	"643";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Ship_Registration>;
+		void:triples	"2832";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Social_Status>;
+		void:triples	"495";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Subject>;
+		void:triples	"177";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Teaching_Unit>;
+		void:triples	"18";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Tonnage>;
+		void:triples	"6626";
+	];
+	void:classPartition[
+		void:class	<http://www.sealit.gr/ontology/sealit#Voyage>;
+		void:triples	"4237";
+	];
+	void:classPartition[
+		void:class	<http://www.w3.org/2004/02/skos/core#Concept>;
+		void:triples	"11660";
+	];
+	void:classPartition[
+		void:class	<http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+		void:triples	"10732";
+	];
+.

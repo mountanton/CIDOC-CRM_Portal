@@ -1,0 +1,294 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<http://ta.sandrart.net/en> a void:Dataset;
+    dcterms:title "Sandrart";
+    dcterms:description "Teutsche Academie der Bau";
+    void:entities "34362";
+    void:properties "34";
+    void:classes "26";
+    void-crm:triplesWithCIDOCproperty "51385";
+    void-crm:triplesWithCIDOCpropertyPercentage "34.727103157439444";
+    void-crm:triplesWithCIDOCinstance "143844";
+    void-crm:triplesWithCIDOCinstancePercentage  "97.21291089965398";
+    void:triples "147968";
+	void-crm:propertiesCIDOC "17";
+    void-crm:classesCIDOC "10";
+
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of>;
+        void:isErlangen "yes";
+        void:triples "200";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/member>;
+        void:triples "249";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/mentorOf>;
+        void:triples "101";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/childOf>;
+        void:triples "173";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/parentOf>;
+        void:triples "173";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/siblingOf>;
+        void:triples "226";
+    ];
+   void:propertyPartition [ 
+        void:property <http://RDVocab.info/ElementsGr2/biographicalInformation>;
+        void:triples "5010";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#parentFeature>;
+        void:triples "184";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P62_depicts>;
+        void:isErlangen "yes";
+        void:triples "5881";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/closeFriendOf>;
+        void:triples "2";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P62i_is_depicted_by>;
+        void:isErlangen "yes";
+        void:triples "5881";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "49003";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of>;
+        void:isErlangen "yes";
+        void:triples "1191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P49i_is_former_or_current_keeper_of>;
+        void:isErlangen "yes";
+        void:triples "440";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>;
+        void:isErlangen "yes";
+        void:triples "760";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/name>;
+        void:triples "5092";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P89i_contains>;
+        void:isErlangen "yes";
+        void:triples "760";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/spouseOf>;
+        void:triples "90";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14i_performed>;
+        void:isErlangen "yes";
+        void:triples "4782";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "4782";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2002/07/owl#sameAs>;
+        void:triples "6563";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "5145";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of>;
+        void:isErlangen "yes";
+        void:triples "1191";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:isErlangen "yes";
+        void:triples "5145";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P49_has_former_or_current_keeper>;
+        void:isErlangen "yes";
+        void:triples "440";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "5084";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.geonames.org/ontology#name>;
+        void:triples "2047";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108_has_produced>;
+        void:isErlangen "yes";
+        void:triples "4782";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by>;
+        void:isErlangen "yes";
+        void:triples "4782";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "5084";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/title>;
+        void:triples "7607";
+    ];
+   void:propertyPartition [ 
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>;
+        void:triples "14817";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/vocab/relationship/apprenticeTo>;
+        void:triples "101";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>;
+        void:isErlangen "yes";
+        void:triples "200";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:triples "5036";
+    ];
+   void:classPartition  [ 
+        void:class <http://umbel.org/umbel/sc/Building> ;
+        void:triples "85";
+    ];
+   void:classPartition  [ 
+        void:class <http://umbel.org/umbel/sc/Painting_ArtForm> ;
+        void:triples "1290";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/ontology/bibo/Article> ;
+        void:triples "433";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object>;
+        void:isErlangen "yes";
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/ontology/bibo/MultiVolumeBook> ;
+        void:triples "254";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+        void:isErlangen "yes";
+        void:triples "851";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/ontology/bibo/Thesis> ;
+        void:triples "33";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Group> ;
+        void:triples "54";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/ontology/bibo/Book> ;
+        void:triples "1621";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://umbel.org/umbel/sc/Sculpture> ;
+        void:triples "333";
+    ];
+   void:classPartition  [ 
+        void:class <http://umbel.org/umbel/sc/PenOrPencilDrawing> ;
+        void:triples "578";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person>;
+        void:isErlangen "yes";
+        void:triples "5036";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/ontology/bibo/Manuscript> ;
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:triples "38";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+        void:isErlangen "yes";
+        void:triples "5084";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E74_Group>;
+        void:isErlangen "yes";
+        void:triples "48";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E12_Production>;
+        void:isErlangen "yes";
+        void:triples "9564";
+    ];
+   void:classPartition  [ 
+        void:class <http://umbel.org/umbel/sc/Artist_Visual> ;
+        void:triples "1490";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+        void:isErlangen "yes";
+        void:triples "5145";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place>;
+        void:isErlangen "yes";
+        void:triples "1850";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object>;
+        void:isErlangen "yes";
+        void:triples "5095";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/ontology/bibo/Proceedings> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://umbel.org/umbel/sc/ArtObject> ;
+        void:triples "5066";
+    ];
+   
+ .

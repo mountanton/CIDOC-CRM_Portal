@@ -1,0 +1,480 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> . 
+@prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+
+<https://zenodo.org/record/5692109> a void:Dataset;
+    dcterms:title "REPIM";
+    dcterms:description "Italian Music, 1500-1700";
+    void:entities "757516";
+    void:properties "53";
+    void:classes "53";
+    void-crm:triplesWithCIDOCproperty "1714499";
+    void-crm:triplesWithCIDOCpropertyPercentage "41.8828354781657";
+    void-crm:triplesWithCIDOCinstance "4093560";
+    void-crm:triplesWithCIDOCinstancePercentage  "100.000000000000";
+    void:triples "4093560";
+	void-crm:propertiesCIDOC "17";
+    void-crm:classesCIDOC "12";
+
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD19_book_physical_description>;
+        void:triples "3202";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD14_dedication_heading>;
+        void:triples "5458";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "194783";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P94_has_created>;
+        void:isErlangen "yes";
+        void:triples "124987";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD5_verse_number>;
+        void:triples "63375";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by>;
+        void:isErlangen "yes";
+        void:triples "98447";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P129_is_about>;
+        void:isErlangen "yes";
+        void:triples "581";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P3_has_note>;
+        void:isErlangen "yes";
+        void:triples "4962";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD10_caption>;
+        void:triples "19388";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>;
+        void:isErlangen "yes";
+        void:triples "2999";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD4_is_head_of_group>;
+        void:triples "39405";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD17_is_attribution_uncertain>;
+        void:triples "15";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD2_has_second_verse>;
+        void:triples "38260";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD9_page_number>;
+        void:triples "96369";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>;
+        void:isErlangen "yes";
+        void:triples "10735";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD18_is_secondary_source_attribution>;
+        void:triples "486";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P52i_is_current_owner_of>;
+        void:isErlangen "yes";
+        void:triples "13443";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RP2_has_matter>;
+        void:triples "74904";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P102_has_title>;
+        void:isErlangen "yes";
+        void:triples "75310";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>;
+        void:triples "32721";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R24_created>;
+        void:triples "7650";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD7_part_number>;
+        void:triples "75006";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R3i_realises>;
+        void:triples "89645";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>;
+        void:isErlangen "yes";
+        void:triples "465719";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD15_number_in_source>;
+        void:triples "23604";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD3_is_archetype>;
+        void:triples "42571";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>;
+        void:triples "854242";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD8_work_level>;
+        void:triples "75006";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R4_carriers_provided_by>;
+        void:triples "96925";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD20_partbooks>;
+        void:triples "2019";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to>;
+        void:isErlangen "yes";
+        void:triples "2300";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P72_has_language>;
+        void:isErlangen "yes";
+        void:triples "157270";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD16_scoring>;
+        void:triples "61032";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>;
+        void:isErlangen "yes";
+        void:triples "12748";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD6_sequential_number>;
+        void:triples "87562";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2000/01/rdf-schema#label>;
+        void:triples "560112";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD11_digital_reproduction_available>;
+        void:triples "7558";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RP3_has_literary_source>;
+        void:triples "24060";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD12_item_extent_description>;
+        void:triples "8569";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/biro/isReferencedBy>;
+        void:triples "18174";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>;
+        void:isErlangen "yes";
+        void:triples "98447";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by>;
+        void:isErlangen "yes";
+        void:triples "131218";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RP1_group_member_of>;
+        void:triples "42571";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel>;
+        void:triples "12527";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R10_has_member>;
+        void:triples "88514";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/dc/terms/hasPart>;
+        void:triples "31241";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/R10i_is_member_of>;
+        void:isErlangen "yes";
+        void:triples "22617";
+    ];
+   void:propertyPartition [ 
+        void:property <http://erlangen-crm.org/efrbroo/R7_is_example_of>;
+        void:triples "13443";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/biro/references>;
+        void:triples "18174";
+    ];
+   void:propertyPartition [ 
+        void:property <http://purl.org/spar/doco/contains>;
+        void:triples "15198";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD1_has_first_verse>;
+        void:triples "42571";
+    ];
+   void:propertyPartition [ 
+        void:property <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier>;
+        void:isErlangen "yes";
+        void:triples "1756";
+    ];
+   void:propertyPartition [ 
+        void:property <http://repim.unibo.it/sm/RD13_dedication_explicit>;
+        void:triples "3681";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Preface> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Colophon> ;
+        void:triples "7316";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F9_Place> ;
+        void:triples "12784";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC4_Musical_Form> ;
+        void:triples "93";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier>;
+        void:isErlangen "yes";
+        void:triples "20734";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC7_Genre> ;
+        void:triples "15";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F3_Manifestation_Product_Type> ;
+        void:triples "15440";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Figure> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC3_Link> ;
+        void:triples "1150";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Section> ;
+        void:triples "13879";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC8_Dedication_Role> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F5_Item> ;
+        void:triples "13443";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span>;
+        void:isErlangen "yes";
+        void:triples "98447";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E39_Actor>;
+        void:isErlangen "yes";
+        void:triples "12927";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC11_Edition_Type> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/biro/BibliographicReference> ;
+        void:triples "18174";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F28_Expression_Creation> ;
+        void:triples "46711";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F14_Individual_Work> ;
+        void:triples "12729";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F24_Publication_Expression> ;
+        void:triples "7604";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC9_Document_Type> ;
+        void:triples "4";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/SectionTitle> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation>;
+        void:isErlangen "yes";
+        void:triples "11825";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        void:triples "89707";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/BodyMatter> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Afterword> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E56_Language>;
+        void:isErlangen "yes";
+        void:triples "11";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type>;
+        void:isErlangen "yes";
+        void:triples "272";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation>;
+        void:isErlangen "yes";
+        void:triples "1232";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E50_Date>;
+        void:isErlangen "yes";
+        void:triples "1725";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F23_Expression_Fragment> ;
+        void:triples "13879";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        void:triples "53";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death>;
+        void:isErlangen "yes";
+        void:triples "2999";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC10_Document_Format> ;
+        void:triples "19";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth>;
+        void:isErlangen "yes";
+        void:triples "10735";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:triples "30";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/FrontMatter> ;
+        void:triples "5479";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/deo/Dedication> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC5_Poetic_Form> ;
+        void:triples "52";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F1_Work> ;
+        void:triples "75006";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E31_Document>;
+        void:isErlangen "yes";
+        void:triples "46";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/FrontMatter> ;
+        void:triples "2";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Section> ;
+        void:triples "3";
+    ];
+   void:classPartition  [ 
+        void:class <http://repim.unibo.it/sm/RC1_Incipit> ;
+        void:triples "42571";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/biro/BibliographicRecord> ;
+        void:triples "46";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F27_Work_Conception> ;
+        void:triples "77119";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Colophon> ;
+        void:triples "1";
+    ];
+   void:classPartition  [ 
+        void:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title>;
+        void:isErlangen "yes";
+        void:triples "75310";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F30_Publication_Event> ;
+        void:triples "7604";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Structured> ;
+        void:triples "7558";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F15_Complex_Work> ;
+        void:triples "62277";
+    ];
+   void:classPartition  [ 
+        void:class <http://erlangen-crm.org/efrbroo/F11_Corporate_Body> ;
+        void:triples "428";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/BodyMatter> ;
+        void:triples "86787";
+    ];
+   void:classPartition  [ 
+        void:class <http://purl.org/spar/doco/Index> ;
+        void:triples "1";
+    ];
+   
+ .
