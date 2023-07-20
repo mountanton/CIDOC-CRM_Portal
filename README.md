@@ -7,14 +7,7 @@ thar are used for A) creating the statistics and B) for all the modes of the por
 
 ## A. SPARQL Queries for Creating the VoID Statistics for a given SPARQL Endpoint
 
-Below, we provide the different SPARQL queries that we sent to <https://triplydb.com/smithsonian/american-art-museum/sparql/american-art-museum>,
-for creating the 5,000 single-entity factoid question.
-
-```sparql
-PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/> 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
-```
+Here, we present the queries for creating the VoID statistics.
 
 1. SPARQL Query for the number of triples of a Dataset (void:triples)
 
@@ -64,11 +57,21 @@ SELECT (COUNT(distinct ?class) AS ?no) { ?s a ?class . filter(regex(str(?class),
 9. SPARQL Query for  the number of triples having a  CIDOC-CRM property (void-crm:triplesWithCIDOCProperty)
 
 ```sparql
-"SELECT (count(?s) as ?no) WHERE { ?s ?p ?o . filter(regex(str(?p),'http://www.cidoc-crm.org/cidoc-crm'))}
+SELECT (count(?s) as ?no) WHERE { ?s ?p ?o . filter(regex(str(?p),'http://www.cidoc-crm.org/cidoc-crm'))}
 ```
 10. SPARQL Query for the number of triples having a  CIDOC-CRM instance (void-crm:triplesWithCIDOCinstance)
 
 ```sparql
 SELECT (count(?o1) as ?no) WHERE { ?s a ?o . ?s ?p1 ?o1 . filter(regex(str(?o),'http://www.cidoc-crm.org/cidoc-crm'))}
 ```
+
+## B. SPARQL Queries for all the modes of the web portal
+
+Here we present the queries of the modes of the web portal
+```sparql
+PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+```
+
 
