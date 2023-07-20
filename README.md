@@ -204,7 +204,7 @@ select ?class <Dataset1> <Dataset2> where
 
 ## B4. Most Frequent 
 
-1. SPARQL Query for Retrieving the most frequent properties (number of triples)
+1. SPARQL Query for Retrieving the most frequent properties (number of datasets)
 ```sparql
 select ?prop count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
 where {
@@ -214,7 +214,7 @@ where {
 } order by desc (count(?dat))
 ```
 
-2. SPARQL Query for Retrieving the most frequent CIDOC-CRM properties (number of triples)
+2. SPARQL Query for Retrieving the most frequent CIDOC-CRM properties (number of datasets)
 ```sparql
 select ?prop count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
 where {
@@ -226,7 +226,7 @@ where {
 } order by desc (count(?dat))
 ```
 
-3. SPARQL Query for Retrieving the most frequent classes (number of triples)
+3. SPARQL Query for Retrieving the most frequent classes (number of datasets)
 ```sparql
 select ?class count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
 where {
@@ -236,7 +236,7 @@ where {
 } order by desc (count(?dat))
 ```
 
-4. SPARQL Query for Retrieving the most frequent CIDOC-CRM classes (number of triples)
+4. SPARQL Query for Retrieving the most frequent CIDOC-CRM classes (number of datasets)
 ```sparql
 select ?class count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
 where {
@@ -249,6 +249,50 @@ where {
 ```
 
 
+5. SPARQL Query for Retrieving the most frequent properties (number of triples)
+```sparql
+select ?prop sum(xsd:integer(?triples)) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where {
+?dat a void:Dataset .
+?dat void:propertyPartition ?part .
+?part void:property ?prop.
+?part void:triples ?triples }
+order by desc (sum(xsd:integer(?triples))) 
+```
 
+6. SPARQL Query for Retrieving the most frequent CIDOC-CRM properties (number of triples)
+```sparql
+select ?prop sum(xsd:integer(?triples)) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where
+{
+?dat a void:Dataset .
+?dat void:propertyPartition ?part .
+?part void:property ?prop  .
+?part void:triples ?triples .
+?prop a rdf:Property
+. filter(regex(?prop,\"http://www.cidoc-crm.org/cidoc-crm/\")) }
+order by desc (sum(xsd:integer(?triples)))
+```
 
+7. SPARQL Query for Retrieving the most frequent classes (number of triples)
+```sparql
+select ?class sum(xsd:integer(?triples)) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where {
+?dat a void:Dataset .
+?dat void:classPartition ?part .
+?part void:class ?class.
+?part void:triples ?triples }
+order by desc (sum(xsd:integer(?triples))) 
+```
 
+8. SPARQL Query for Retrieving the most frequent CIDOC-CRM classes (number of triples)
+```sparql
+select ?class sum(xsd:integer(?triples)) from <http://www.ics.forth.gr/isl/CIDOC_VoID> where
+{
+?dat a void:Dataset .
+?dat void:classPartition ?part .
+?part void:class ?class  .
+?part void:triples ?triples
+}
+order by desc (sum(xsd:integer(?triples)))
+```
