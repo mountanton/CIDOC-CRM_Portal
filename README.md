@@ -1,4 +1,4 @@
-# CIDOC-CRM_Portal
+# CIDOC-CRM Portal Code Files and Queries
 
 This page contains the code for the CIDOC-CRM web portal (both for the backend and the frontends) 
 and below all the SPARQL queries 
@@ -199,12 +199,54 @@ select ?class <Dataset1> <Dataset2> where
 <Dataset2> void:classPartition ?o2 .
 ?o2 void:class ?class
 . filter(regex(str(?class),'http://www.cidoc-crm.org/cidoc-crm'))
-}
 } 
 ```
 
+## B4. Most Frequent 
 
- 
+1. SPARQL Query for Retrieving the most frequent properties (number of triples)
+```sparql
+select ?prop count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where {
+?dat a void:Dataset .
+?dat void:propertyPartition ?part .
+?part void:property ?prop .
+} order by desc (count(?dat))
+```
+
+2. SPARQL Query for Retrieving the most frequent CIDOC-CRM properties (number of triples)
+```sparql
+select ?prop count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where {
+?dat a void:Dataset .
+?dat void:propertyPartition ?part .
+?part void:property ?prop .
+?prop a rdf:Property
+. filter(regex(?prop,\"http://www.cidoc-crm.org/cidoc-crm/\"))
+} order by desc (count(?dat))
+```
+
+3. SPARQL Query for Retrieving the most frequent classes (number of triples)
+```sparql
+select ?class count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where {
+?dat a void:Dataset .
+?dat void:classPartition ?part .
+?part void:class ?class .
+} order by desc (count(?dat))
+```
+
+4. SPARQL Query for Retrieving the most frequent CIDOC-CRM classes (number of triples)
+```sparql
+select ?class count(?dat) from <http://www.ics.forth.gr/isl/CIDOC_VoID>
+where {
+?dat a void:Dataset .
+?dat void:classPartition ?part .
+?part void:class ?prop .
+?class a rdfs:Class
+. filter(regex(?class,\"http://www.cidoc-crm.org/cidoc-crm/\"))
+} order by desc (count(?dat))
+```
 
 
 
