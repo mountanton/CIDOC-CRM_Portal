@@ -69,9 +69,144 @@ SELECT (count(?o1) as ?no) WHERE { ?s a ?o . ?s ?p1 ?o1 . filter(regex(str(?o),'
 
 Here we present the queries of the modes of the web portal
 ```sparql
-PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/> 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+Prefix void: <http://rdfs.org/ns/void#> .
+Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+Prefix dcterms: <http://purl.org/dc/terms/> .
+Prefix void-crm: <http://www.ics.forth.gr/isl/void-crm/>.
+Prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
 ```
+## B1. Datasets Mode
+
+1. SPARQL Query for Retrieving all the statistics of a dataset
+```sparql
+select ?dataset ?title ?triples ?entities ?properties ?classes ?cidocProperties ?cidocClasses ?triplesWithCIDOCinstance ?triplesWithCIDOCproperty ?triplesWithCIDOCpropertyPercentage ?triplesWithCIDOCinstancePercentage where {
+?dataset a void:Dataset . 
+?dataset <http://purl.org/dc/terms/title> ?title . 
+?dataset void:triples ?triples .
+?dataset void:entities ?entities .
+?dataset void:properties ?properties .
+?dataset void:classes ?classes .
+?dataset void-crm:propertiesCIDOC ?cidocProperties .
+?dataset void-crm:classesCIDOC ?cidocClasses .
+?dataset void-crm:triplesWithCIDOCinstance ?triplesWithCIDOCinstance .
+?dataset void-crm:triplesWithCIDOCproperty ?triplesWithCIDOCproperty .
+?dataset void-crm:triplesWithCIDOCpropertyPercentage ?triplesWithCIDOCpropertyPercentage .
+?dataset void-crm:triplesWithCIDOCinstancePercentage ?triplesWithCIDOCinstancePercentage}
+order by desc(xsd:integer(?triples ))
+```
+
+2. SPARQL Query for Retrieving all the properties of a dataset
+```sparql
+SELECT ?prop ?triples
+WHERE{
+<DATASET> void:propertyPartition ?o .
+?o void:property ?prop .
+?o void:triples ?triples }
+ORDER BY DESC(xsd:integer(?triples))
+```
+3. SPARQL Query for Retrieving all the classes of a dataset
+```sparql
+SELECT ?class ?triples
+WHERE{
+<DATASET> void:classPartition ?o .
+?o void:class ?class .
+?o void:triples ?triples }
+ORDER BY DESC(xsd:integer(?triples))
+```
+
+4. SPARQL Query for Retrieving all the CIDOC-CRM properties of a dataset
+```sparql
+SELECT ?prop ?triples
+WHERE{
+<DATASET> void:propertyPartition ?o .
+?o void:property ?prop .
+?o void:triples ?triples . filter(regex(str(?prop),'http://www.cidoc-crm.org/cidoc-crm')) }
+ORDER BY DESC(xsd:integer(?triples))
+```
+5. SPARQL Query for Retrieving all the  CIDOC-CRM  classes of a dataset
+```sparql
+SELECT ?class ?triples
+WHERE{
+<DATASET> void:classPartition ?o .
+?o void:class ?class .
+?o void:triples ?triples . filter(regex(str(?class),'http://www.cidoc-crm.org/cidoc-crm')) }
+ORDER BY DESC(xsd:integer(?triples))
+```
+## B2. Global Search Mode
+
+1. SPARQL Query for Retrieving all the datasets for a given property
+```sparql
+select distinct ?s ?triples  FROM <http://www.ics.forth.gr/isl/CIDOC_VoID>
+WHERE {
+?s a void:Dataset .
+?s void:propertyPartition ?p .
+?p void:property <property> .
+?p void:triples ?triples
+} 
+```
+2. SPARQL Query for Retrieving all the datasets for a given class
+```sparql
+select distinct ?s ?triples  FROM <http://www.ics.forth.gr/isl/CIDOC_VoID>
+WHERE {
+?s a void:Dataset .
+?s void:classPartition ?p .
+?p void:class <RDFclassValue> .
+?p void:triples ?triples
+} 
+```
+## B3. Commonalities Mode
+
+1. SPARQL Query for Retrieving all common properties of two datasets
+```sparql
+select ?property <Dataset1> <Dataset2> where
+{
+<Dataset1> void:propertyPartition ?o .
+?o void:property ?property .
+<Dataset2> void:propertyPartition ?o2 .
+?o2 void:property ?property
+} 
+```
+
+2. SPARQL Query for Retrieving all common classes of two datasets
+```sparql
+select ?class <Dataset1> <Dataset2> where
+{
+<Dataset1> void:classPartition ?o .
+?o void:class ?class .
+<Dataset2> void:classPartition ?o2 .
+?o2 void:class ?class
+} 
+```
+
+3. SPARQL Query for Retrieving all common CIDOC-CRM properties of two datasets
+```sparql
+select ?property <Dataset1> <Dataset2> where
+{
+<Dataset1> void:propertyPartition ?o .
+?o void:property ?property .
+<Dataset2> void:propertyPartition ?o2 .
+?o2 void:property ?property .
+. filter(regex(str(?prop),'http://www.cidoc-crm.org/cidoc-crm'))
+} 
+```
+
+4. SPARQL Query for Retrieving all common classes of two datasets
+```sparql
+select ?class <Dataset1> <Dataset2> where
+{
+<Dataset1> void:classPartition ?o .
+?o void:class ?class .
+<Dataset2> void:classPartition ?o2 .
+?o2 void:class ?class
+. filter(regex(str(?class),'http://www.cidoc-crm.org/cidoc-crm'))
+}
+} 
+```
+
+
+
+
+
+
 
 
